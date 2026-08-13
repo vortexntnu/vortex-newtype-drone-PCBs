@@ -17,14 +17,9 @@ This is where all the project files for Newtype-drone PCBs are stored.
 
 ## Boards
 
-| Project | Board | Description | Status |
-|---------|-------|-------------|--------|
-| [Acoustics](Acoustics) | [Filters](Acoustics/acoustics-filters) | Acoustics you know | In development |
-| Adapters | [Peripheral Board](peripheral-adapter) | Adds peripherals to SBC | In development |
-| Adapters | [CAN Adapter](can-adapter) | M.2 CAN adapter for SBC | In development |
-| Power | [Switch Supply](switch-psu) | 12V supply for ethernet switch | In development |
-| Power | [24V Supply](24V-psu) | 24V supply for sonar and SBC | In development |
-| Power | [Power Distribution Board](pdb) | Board for distributing power | In development |
+| Project | Board | Location | Description | Responsible Member | Status |
+|---------|-------|----------|-------------|--------------------|--------|
+| [Acoustics](acoustics) | [Acoustics] | The big brain house | Acoustics you know | Alvar? | In development |
 
 Each board folder contains its own README with schematics, BOM, and fabrication files.
 
