@@ -1,4 +1,4 @@
-# Nautilus AUV PCB Repo
+# Newtype-drone AUV PCB Repo
 
 <p align="center">
   <img src="common/Vortex-Logo-3.png" alt="Logo" width="100%"/>
@@ -11,7 +11,7 @@
 
 ## Overview
 
-This is where all the project files for Nautilus PCBs are stored.
+This is where all the project files for Newtype-drone PCBs are stored.
 
 ---
 
@@ -31,8 +31,8 @@ Each board folder contains its own README with schematics, BOM, and fabrication 
 ## Libraries
 
 We for the most part use Würth's github library since we mostly use Würth's components in our PCBs.
-To ensure you have this when cloning ask chat or google how to use the github package.
-The Würth library does not contain WR-TBL (aka terminal blocks). To get these you must download it from Würth manually and then move the files into the correct Würth library folders.
+Make sure to clone the Würth repo OUTSIDE of this repo.
+The Würth library does not contain WR-TBL (aka terminal blocks). To get these you must download it from Würth manually and then move the files into the correct Würth library folders. The reason these are not included by default is because it's ~3GB in size so make sure to have the Würth library repo OUTSIDE of this one.
 The rest of our component libraries are either self made or downloaded via the impartGUI plugin.
 
 ## License
