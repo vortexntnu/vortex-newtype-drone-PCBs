@@ -252,7 +252,7 @@
 		(uuid "c609ffd2-80a7-4a15-91c9-7dd3f93f7c10")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/TCAN3414DR.stp.gz"
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/TCAN3413DR.stp.gz"
 		(offset
 			(xyz 0 0 0)
 		)
