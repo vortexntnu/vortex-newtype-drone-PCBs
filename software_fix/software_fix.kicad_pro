@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "felles-devboard.kicad_pro",
+    "filename": "software_fix.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -294,7 +294,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -412,18 +411,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "felles-devboard.kicad_sch",
-        "name": "felles-devboard",
-        "uuid": "756ec426-2cce-4562-95fb-d349ef78b381"
+        "filename": "software_fix.kicad_sch",
+        "name": "Rot",
+        "uuid": "7b68dad0-b133-484b-91bb-2f8d021cf735"
       }
     ],
-    "used_designators": "IC1-2,U3",
+    "used_designators": "U1",
     "variants": []
   },
   "sheets": [
     [
-      "756ec426-2cce-4562-95fb-d349ef78b381",
-      "felles-devboard"
+      "7b68dad0-b133-484b-91bb-2f8d021cf735",
+      "Rot"
     ]
   ],
   "text_variables": {},

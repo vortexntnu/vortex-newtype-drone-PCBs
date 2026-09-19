@@ -4247,7 +4247,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:TCAN3413DR"
+		(symbol "Samacsys:TCAN3414DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4264,7 +4264,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "TCAN3413DR"
+			(property "Value" "TCAN3414DR"
 				(at 29.21 5.08 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4275,7 +4275,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOIC127P600X175-8N"
+			(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 				(at 29.21 -94.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4286,7 +4286,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3413.pdf?ts=1704463166829&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FTCAN3413"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf?ts=1713723144569&ref_url=https%253A%252F%252Fwww.mouser.ch%252F"
 				(at 29.21 -194.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4297,7 +4297,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "1/1 Transceiver Half CANbus 8-SOIC"
+			(property "Description" "3.3-V CAN FD transceiver with shut-down and standby mode"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4318,7 +4318,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "595-TCAN3413DR"
+			(property "Mouser Part Number" "595-TCAN3414DR"
 				(at 29.21 -494.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4329,7 +4329,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3413DR?qs=mELouGlnn3eIMT2B6sccyw%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3414DR?qs=mELouGlnn3egF2AojRJddw%3D%3D"
 				(at 29.21 -594.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4351,7 +4351,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TCAN3413DR"
+			(property "Manufacturer_Part_Number" "TCAN3414DR"
 				(at 29.21 -794.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4362,7 +4362,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "TCAN3413DR_1_1"
+			(symbol "TCAN3414DR_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 27.94 -10.16)
@@ -4449,7 +4449,7 @@
 				(pin passive line
 					(at 33.02 -7.62 180)
 					(length 5.08)
-					(name "SHDNV_IO"
+					(name "SHDNVIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7718,159 +7718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:TCAN3413DR")
-		(at 163.83 93.98 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68825785-3f44-41a1-b4dd-e6782216ef20")
-		(property "Reference" "IC1"
-			(at 147.32 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCAN3413DR"
-			(at 147.32 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-8N"
-			(at 147.32 116.84 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3413.pdf?ts=1704463166829&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FTCAN3413"
-			(at 147.32 114.3 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1/1 Transceiver Half CANbus 8-SOIC"
-			(at 147.32 111.76 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.75"
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "595-TCAN3413DR"
-			(at 147.32 106.68 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3413DR?qs=mELouGlnn3eIMT2B6sccyw%3D%3D"
-			(at 147.32 104.14 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 147.32 101.6 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TCAN3413DR"
-			(at 147.32 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2d45d8c5-e6f9-45ac-87cf-ea430657a1b1")
-		)
-		(pin "6"
-			(uuid "d0f1d809-0f8d-48c8-af80-734e9a284b54")
-		)
-		(pin "5"
-			(uuid "19de49b3-e11d-4b37-a733-013200f69568")
-		)
-		(pin "7"
-			(uuid "f8b30662-9542-4c54-b3f5-21aab7b4181b")
-		)
-		(pin "1"
-			(uuid "f7e9c41e-7445-4f5b-91fe-35d6f3651111")
-		)
-		(pin "8"
-			(uuid "05e843f0-ced9-46e1-820e-2b57e1c76a0b")
-		)
-		(pin "3"
-			(uuid "ac693c0d-61b2-4dfe-ae78-e1fc6d43e7b1")
-		)
-		(pin "4"
-			(uuid "bfe642b4-2b3b-4957-b6c2-92bb84139571")
-		)
-		(instances
-			(project "felles-devboard"
-				(path "/756ec426-2cce-4562-95fb-d349ef78b381"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 179.07 146.05 0)
 		(unit 1)
@@ -7893,7 +7740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120R"
 			(at 181.61 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,6 +11586,159 @@
 			(project "felles-devboard"
 				(path "/756ec426-2cce-4562-95fb-d349ef78b381"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:TCAN3414DR")
+		(at 134.62 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f02428a9-a225-48eb-b44c-e7eb14a35d60")
+		(property "Reference" "IC1"
+			(at 151.13 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCAN3414DR"
+			(at 151.13 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf?ts=1713723144569&ref_url=https%253A%252F%252Fwww.mouser.ch%252F"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3-V CAN FD transceiver with shut-down and standby mode"
+			(at 151.13 114.3 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 151.13 116.84 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "595-TCAN3414DR"
+			(at 151.13 119.38 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3414DR?qs=mELouGlnn3egF2AojRJddw%3D%3D"
+			(at 151.13 121.92 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 151.13 124.46 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TCAN3414DR"
+			(at 151.13 127 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "ffd92528-3193-47ab-ada1-244c8ad8386c")
+		)
+		(pin "3"
+			(uuid "cc20fb09-3ba5-4bfc-b7f1-43e199f507fa")
+		)
+		(pin "1"
+			(uuid "1631613e-6c37-499d-a8b0-f104a41cfb20")
+		)
+		(pin "2"
+			(uuid "843e40ee-06ae-418a-88d6-230084d8e82e")
+		)
+		(pin "4"
+			(uuid "2a0899d8-1a71-42df-aeb5-d25074d12640")
+		)
+		(pin "5"
+			(uuid "908ebebf-ad24-4405-a52b-aef61b5a02b4")
+		)
+		(pin "7"
+			(uuid "d761e3ce-8f0b-4141-9e2e-78b81730f184")
+		)
+		(pin "8"
+			(uuid "76383577-8b8e-4a4d-9ab7-d7da0b8fac07")
+		)
+		(instances
+			(project "felles-devboard"
+				(path "/756ec426-2cce-4562-95fb-d349ef78b381"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
