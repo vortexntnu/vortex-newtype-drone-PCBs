@@ -50,7 +50,7 @@
 		)
 		(capping no)
 		(filling no)
-		(grid_origin 250 200)
+		(grid_origin 220 129)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_575555f0)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -92,7 +92,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "b08276af-68bb-4951-8ad3-e592890a2d79")
-		(at 234.25 110.14 180)
+		(at 239.25 109.64 180)
 		(descr "Series 3781 - PCB Header Dual Row - 3.5mm pitch - THT, body 49x11.6x10.8mm, https://www.we-online.com/en/components/products/datasheet/691378140024?ki")
 		(tags "THT Horizontal")
 		(property "Reference" "REF**"
@@ -451,7 +451,7 @@
 			(uuid "1e660d1e-4082-4813-baa8-b54eb4726f23")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Connector_THT_Wurth.3dshapes/J_Wurth_WR-TBL_691378140024.step"
+		(model "C:/Users/yamns/Documents/KiCad/10.0/3dmodels/STP_WR-TBL3_Series 3781 - PCB Header - 6913781400xx_691378140024 (rev1).stp"
 			(hide yes)
 			(offset
 				(xyz 0 0 0)
@@ -475,33 +475,19 @@
 			)
 		)
 	)
-	(gr_poly
-		(pts
-			(xy 160 173) (xy 155 166) (xy 155 93) (xy 159.5 86.5) (xy 160 86)
-		)
+	(gr_line
+		(start 165 172.25)
+		(end 165 85.75)
 		(stroke
-			(width 0)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(fill yes)
 		(layer "F.SilkS")
-		(uuid "b00105a9-2fa0-45e8-9d0b-4acc44b23535")
-	)
-	(gr_poly
-		(pts
-			(xy 270 86) (xy 275 93) (xy 275 166) (xy 270.5 172.5) (xy 270 173)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "f1eb24ca-5c74-4be1-b4dd-3eae278a1d87")
+		(uuid "df581eaf-536a-412e-bd0c-af090436f7a5")
 	)
 	(gr_line
-		(start 190.39 80)
-		(end 194 80)
+		(start 195.39 79.5)
+		(end 198.8 79.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -511,8 +497,8 @@
 		(uuid "969c51ad-0407-49fd-a6e6-f5edcf6c4eaf")
 	)
 	(gr_line
-		(start 190.39 99.53)
-		(end 190.39 80)
+		(start 195.39 99.03)
+		(end 195.39 79.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -522,8 +508,8 @@
 		(uuid "27dda4b8-43a2-47c6-932d-d225f54c97ca")
 	)
 	(gr_line
-		(start 239.61 80)
-		(end 236 80)
+		(start 244.61 79.5)
+		(end 241.2 79.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -533,8 +519,8 @@
 		(uuid "7a16f89e-e412-4110-974f-2b857b8b5fc6")
 	)
 	(gr_line
-		(start 239.61 99.53)
-		(end 239.61 80)
+		(start 244.61 99.03)
+		(end 244.61 79.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -543,77 +529,54 @@
 		(layer "F.SilkS")
 		(uuid "5ab40e25-0830-468a-b2af-1e1a8b486301")
 	)
-	(gr_poly
-		(pts
-			(xy 160 173) (xy 155 166) (xy 155 93) (xy 159.5 86.5) (xy 160 86)
-		)
+	(gr_line
+		(start 275 85.75)
+		(end 275 172.25)
 		(stroke
-			(width 0)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(fill yes)
-		(layer "B.SilkS")
-		(uuid "21c0bf68-73e7-42c2-af5d-2e96acaf59bc")
+		(layer "F.SilkS")
+		(uuid "61dc5798-ca41-4773-99f5-15f8173dc06f")
 	)
-	(gr_poly
-		(pts
-			(xy 270 86) (xy 275 93) (xy 275 166) (xy 270.5 172.5) (xy 270 173)
-		)
+	(gr_circle
+		(center 220 129)
+		(end 290 129)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
-		(fill yes)
-		(layer "B.SilkS")
-		(uuid "cab1b9b3-b551-4135-a4a3-f8c0fac0329b")
+		(fill no)
+		(locked yes)
+		(layer "Cmts.User")
+		(uuid "88f022b6-8b2e-4da8-baa0-fc928ccaf003")
 	)
 	(gr_line
-		(start 135 93.5)
-		(end 155 93.5)
+		(start 159.975495 92.985297)
+		(end 160 165.055512)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "72c707c3-d14f-4215-a902-0a0acfae6ca3")
+		(uuid "1f3732f7-55ce-4f83-b6e8-52437a8f3bed")
 	)
-	(gr_line
-		(start 135 165.5)
-		(end 135 93.5)
+	(gr_arc
+		(start 159.975495 92.985297)
+		(mid 176.666375 74.025488)
+		(end 199 62.224256)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "93b543a5-ae6d-4b9b-97a3-1e6d58d734a6")
+		(uuid "c86b48a4-ac40-4761-a0e2-29e5a34e30cf")
 	)
 	(gr_line
-		(start 155 93.5)
-		(end 155 165.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "5373ffdd-497f-4cfa-a822-318baf889d25")
-	)
-	(gr_line
-		(start 155 165.5)
-		(end 135 165.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "7880f9e2-6d35-46bd-b449-cc5664cf447e")
-	)
-	(gr_line
-		(start 194 62.724256)
-		(end 194 99.5)
+		(start 199 62.224256)
+		(end 199 98.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -623,8 +586,8 @@
 		(uuid "c0162aef-b82f-4274-91d2-6fed63d52122")
 	)
 	(gr_line
-		(start 194 99.5)
-		(end 236 99.5)
+		(start 199 98.8)
+		(end 241 98.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -634,20 +597,20 @@
 		(uuid "51d4a417-4171-497b-9f48-8ee2f93c0adb")
 	)
 	(gr_arc
-		(start 236 62.724256)
-		(mid 215 199.5)
-		(end 194 62.724256)
+		(start 240.975495 62.238959)
+		(mid 263.309119 74.040191)
+		(end 280 93)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "d8770ce0-842e-4b4b-bdda-8d4839fb9b77")
+		(uuid "b38bdd6b-0856-456f-a4dd-b4795c1cc660")
 	)
 	(gr_line
-		(start 236 99.5)
-		(end 236 62.724256)
+		(start 241 98.8)
+		(end 240.975495 62.238959)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -656,22 +619,33 @@
 		(layer "Edge.Cuts")
 		(uuid "56d25caf-ed4f-4ed9-9656-aeb5688601b2")
 	)
-	(gr_rect
-		(start 275 93.5)
-		(end 295 165.5)
+	(gr_arc
+		(start 280.024504 165.014702)
+		(mid 220.0238 198.999995)
+		(end 160 165.05551)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "9f707c4a-2714-4bfb-a7f0-0fd2dfebb939")
+		(uuid "b44599ac-801a-49df-98ee-4d7082514b35")
+	)
+	(gr_line
+		(start 280.024504 165.014702)
+		(end 280 93)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "00785501-38e1-40f7-8f82-e1861973e326")
 	)
 	(zone
-		(layers "F.Cu" "B.Cu")
-		(uuid "3d5c3798-d6c2-4bcb-9703-8fb160e01f9b")
-		(name "no-place right")
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "bc4b7b41-27a3-499b-a480-b86edbdc993c")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -695,14 +669,14 @@
 		)
 		(polygon
 			(pts
-				(xy 160 173) (xy 160 86) (xy 159.5 86.5) (xy 157 90) (xy 155 93) (xy 155 166) (xy 157 169)
+				(xy 280 165) (xy 280 93) (xy 275 85.8) (xy 275 172.2)
 			)
 		)
 	)
 	(zone
-		(layers "F.Cu" "B.Cu")
-		(uuid "85a09427-5f95-4a97-a593-211a597614e0")
-		(name "no-place right")
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "c69b6e8d-4e3f-4a75-8d44-d24da1d6d402")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -726,7 +700,7 @@
 		)
 		(polygon
 			(pts
-				(xy 270 86) (xy 270 173) (xy 270.5 172.5) (xy 273 169) (xy 275 166) (xy 275 93) (xy 273 90)
+				(xy 160 165) (xy 165 172.25) (xy 165 85.75) (xy 160 93)
 			)
 		)
 	)
@@ -757,7 +731,7 @@
 		)
 		(polygon
 			(pts
-				(xy 239.61 99.53) (xy 239.61 80) (xy 190.4 80) (xy 190.4 99.121053)
+				(xy 244.61 99.03) (xy 244.61 79.5) (xy 195.4 79.5) (xy 195.4 98.621053)
 			)
 		)
 	)
