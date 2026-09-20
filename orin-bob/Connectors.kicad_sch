@@ -759,105 +759,115 @@
 		)
 		(uuid "f523c6ce-fc25-4150-8f1a-890873720605")
 	)
-	(label "SCLK"
-		(at 125.73 59.69 180)
+	(hierarchical_label "SDI"
+		(shape output)
+		(at 92.71 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "0eb0cd55-d59d-4573-8f49-b704f4a187bd")
+		(uuid "1d5d2a65-8d15-4841-9faa-ceafa31711ae")
 	)
-	(label "SCL2"
-		(at 125.73 54.61 180)
+	(hierarchical_label "CS"
+		(shape bidirectional)
+		(at 92.71 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "261f7cac-83c8-4bbf-96b0-5d16a9080080")
+		(uuid "321bee82-4d52-49cf-bf6b-1ea85f645ead")
 	)
-	(label "SDA2"
-		(at 92.71 54.61 0)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 92.71 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "29898ee6-e076-4f93-9573-55168b662d84")
+		(uuid "42e12a29-00e0-4b06-96b9-605ff8687fb9")
 	)
-	(label "UART1_TX"
-		(at 92.71 57.15 0)
+	(hierarchical_label "UART1_TX"
+		(shape input)
+		(at 92.71 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "2fcfa73f-b705-4d5c-9fc0-2f02d1e77362")
+		(uuid "598eef3f-cf49-4468-8699-e9d9efef1fd4")
 	)
-	(label "CANH"
-		(at 92.71 64.77 0)
+	(hierarchical_label "SCLK"
+		(shape bidirectional)
+		(at 125.73 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "5cfe3083-6ff1-431b-9ee9-5c9c1fe5fec3")
+		(uuid "6a0382c4-dbba-49a0-b8eb-3e7ec89aa6d7")
 	)
-	(label "UART1_RX"
-		(at 125.73 57.15 180)
+	(hierarchical_label "CANL"
+		(shape bidirectional)
+		(at 125.73 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "969f6135-4dfb-431d-880c-914bc5971e4b")
+		(uuid "6c13a06b-2cb3-4040-8c0c-62663546f032")
 	)
-	(label "CANL"
-		(at 125.73 64.77 180)
+	(hierarchical_label "UART1_RX1"
+		(shape output)
+		(at 125.73 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "9fbf3be6-ec91-484a-bcf1-23dae690cd1f")
+		(uuid "7b3f0bf3-f771-42cd-ac10-4b70347555b5")
 	)
-	(label "CS"
-		(at 92.71 59.69 0)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 125.73 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "b3bc45a9-790e-4c22-909e-f14ddf840628")
+		(uuid "7e67c58b-5ffd-4db4-9f93-1eac014bfc7b")
 	)
-	(label "SDI"
-		(at 92.71 62.23 0)
+	(hierarchical_label "CANH"
+		(shape bidirectional)
+		(at 92.71 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "ba0dfcae-54b1-4680-a148-93570845a3f7")
+		(uuid "a670dda5-e3d2-40d3-a969-d5e869b2df84")
 	)
-	(label "SDO"
-		(at 125.73 62.23 180)
+	(hierarchical_label "SDO"
+		(shape input)
+		(at 125.73 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "e1ae13cf-ca12-4072-a314-8db77ea2d062")
+		(uuid "f696b82d-c80a-4c46-931a-dcb059fd0246")
 	)
 	(symbol
 		(lib_id "61230820621:62501021621")
