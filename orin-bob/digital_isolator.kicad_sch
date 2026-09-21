@@ -2086,16 +2086,121 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "SPI1_MOSI1\n"
-		(exclude_from_sim no)
-		(at 46.99 58.928 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
 			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "15924d4d-bd52-4d76-8c58-0df9f08b8fad")
 	)
 	(text "CAN-config\n"
 		(exclude_from_sim no)
@@ -2148,16 +2253,28 @@
 		(uuid "cec6a693-b27a-4c49-9461-8638105eb6f9")
 	)
 	(junction
+		(at 201.93 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "117d9cfe-51b6-40d6-8777-1165f8ceab6d")
+	)
+	(junction
+		(at 50.8 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1655ce07-2282-40fc-ac64-48cff77932ae")
+	)
+	(junction
+		(at 193.04 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17cdecfa-613f-49bf-8058-d178752d9e54")
+	)
+	(junction
 		(at 104.14 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "208cb209-5cc4-4b30-a16f-4bed045225d4")
-	)
-	(junction
-		(at 201.93 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cfe3c1e-7718-4058-aa31-cbc35291c021")
 	)
 	(junction
 		(at 68.58 154.94)
@@ -2202,12 +2319,6 @@
 		(uuid "5081f2b8-dfe7-428c-a0d5-55311dbd76e7")
 	)
 	(junction
-		(at 201.93 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5588c8ec-e179-4b95-87d3-2d615080f6e5")
-	)
-	(junction
 		(at 71.12 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2232,6 +2343,18 @@
 		(uuid "69edc185-2811-46b1-9911-0c8b8106bd88")
 	)
 	(junction
+		(at 50.8 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "737e63fe-2a94-48c5-b755-c0e16a8d2d68")
+	)
+	(junction
+		(at 223.52 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b9143a-c361-4b31-864f-aa6cc4089710")
+	)
+	(junction
 		(at 189.23 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2248,6 +2371,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7886fcde-5f06-446c-9b97-b10027b34eff")
+	)
+	(junction
+		(at 201.93 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bf02374-6476-4ad9-a3b2-9aec548d60b6")
 	)
 	(junction
 		(at 60.96 34.29)
@@ -2304,12 +2433,6 @@
 		(uuid "aeb2a1fe-6ecc-415c-ad1d-981bafa823ab")
 	)
 	(junction
-		(at 110.49 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b88cce2e-5f3b-49a3-b093-b3b070ebe8dc")
-	)
-	(junction
 		(at 241.3 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2338,6 +2461,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0f870fb-69f3-4686-9f18-3d3e634b5c18")
+	)
+	(junction
+		(at 181.61 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8925d5f-a3a1-404d-a9f6-e9c772622281")
 	)
 	(junction
 		(at 71.12 168.91)
@@ -2370,10 +2499,20 @@
 		(uuid "eeb800a0-d628-4ff7-bb6d-0aef319b2160")
 	)
 	(junction
+		(at 110.49 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f427fe94-81cc-4288-a919-7e93addfbd88")
+	)
+	(junction
 		(at 50.8 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdd86881-63ad-4e05-87eb-79e0205a6ef5")
+	)
+	(no_connect
+		(at 102.87 111.76)
+		(uuid "4bf96695-1de8-4f6d-b53a-5e0e301bbded")
 	)
 	(no_connect
 		(at 233.68 123.19)
@@ -2388,12 +2527,24 @@
 		(uuid "5cf34b43-8518-48a3-8dff-6ecae9936706")
 	)
 	(no_connect
+		(at 102.87 119.38)
+		(uuid "5e36a722-3e7b-47ae-8717-79af6b442020")
+	)
+	(no_connect
 		(at 233.68 130.81)
 		(uuid "771ae5f9-5998-460b-bcfc-5a63b62d8b05")
 	)
 	(no_connect
 		(at 213.36 133.35)
 		(uuid "80267a36-0103-4cbc-9cf6-ea86dca81e91")
+	)
+	(no_connect
+		(at 82.55 119.38)
+		(uuid "83666644-a12e-401d-a187-1c571d5cac14")
+	)
+	(no_connect
+		(at 82.55 111.76)
+		(uuid "909306d0-de32-408e-998f-bcbd0472ebb4")
 	)
 	(no_connect
 		(at 213.36 130.81)
@@ -2721,6 +2872,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 60.96) (xy 223.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c147ef-4b8f-483f-b47d-cb5bde590336")
+	)
+	(wire
+		(pts
 			(xy 201.93 57.15) (xy 200.66 57.15)
 		)
 		(stroke
@@ -2811,7 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 39.37) (xy 198.12 39.37)
+			(xy 189.23 39.37) (xy 193.04 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3088,6 +3249,16 @@
 			(type default)
 		)
 		(uuid "62ca9c45-e3f2-4549-96a4-42e442cb2767")
+	)
+	(wire
+		(pts
+			(xy 50.8 109.22) (xy 50.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6361a8c5-ea8b-402b-b57d-316f194e367b")
 	)
 	(wire
 		(pts
@@ -3441,7 +3612,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 57.15) (xy 223.52 62.23)
+			(xy 223.52 57.15) (xy 223.52 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3561,6 +3732,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 120.65) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e6695c-2edf-4c8c-9078-0ed343a57193")
+	)
+	(wire
+		(pts
 			(xy 201.93 120.65) (xy 213.36 120.65)
 		)
 		(stroke
@@ -3628,6 +3809,16 @@
 			(type default)
 		)
 		(uuid "af09fd74-0e11-40c8-ae11-3261e49c5fe7")
+	)
+	(wire
+		(pts
+			(xy 223.52 60.96) (xy 224.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af42467e-acd9-456a-8a2a-3c1b67cbaa00")
 	)
 	(wire
 		(pts
@@ -3728,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "c64f8f4f-a62e-41a4-a932-5aba8a4fadff")
+	)
+	(wire
+		(pts
+			(xy 50.8 46.99) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c762fa28-00a9-48d3-97e7-f29038efab37")
 	)
 	(wire
 		(pts
@@ -3858,6 +4059,16 @@
 			(type default)
 		)
 		(uuid "e6fb2bac-0047-4ab2-93a3-5244112350dc")
+	)
+	(wire
+		(pts
+			(xy 193.04 39.37) (xy 198.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96cf4e9-0cf3-44f4-b3aa-d65a5ab73da1")
 	)
 	(polyline
 		(pts
@@ -4111,7 +4322,7 @@
 		(uuid "0082fb86-0626-4bb7-b679-1caf504d7280")
 	)
 	(hierarchical_label "3V3_ISO"
-		(shape output)
+		(shape input)
 		(at 247.65 39.37 0)
 		(effects
 			(font
@@ -4132,7 +4343,7 @@
 		)
 		(uuid "11c606a9-ce4b-4ccb-bda4-24087f8cbf90")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "3V3_ISO"
 		(shape input)
 		(at 53.34 154.94 180)
 		(effects
@@ -4276,7 +4487,7 @@
 		(uuid "b49d0360-6a59-4ede-8036-0af09e6b0ab4")
 	)
 	(hierarchical_label "3V3_ISO"
-		(shape output)
+		(shape input)
 		(at 246.38 107.95 0)
 		(effects
 			(font
@@ -4287,7 +4498,7 @@
 		(uuid "ba6294db-5f01-4d0e-a111-0b80581f3d26")
 	)
 	(hierarchical_label "3V3_ISO"
-		(shape output)
+		(shape input)
 		(at 118.11 96.52 0)
 		(effects
 			(font
@@ -4309,7 +4520,7 @@
 		(uuid "ce207601-bef8-437a-8c01-e46747055ae4")
 	)
 	(hierarchical_label "3V3_ISO"
-		(shape output)
+		(shape input)
 		(at 116.84 34.29 0)
 		(effects
 			(font
@@ -4451,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.11 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4500,8 +4711,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 241.3 114.3 0)
+		(lib_id "power:GND")
+		(at 198.12 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4509,20 +4720,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "26dfa14b-5381-4415-b7de-50cf47e81f72")
-		(property "Reference" "C10"
-			(at 243.84 112.776 0)
+		(uuid "0b962a29-46a3-4e35-83e7-4bacc61da61b")
+		(property "Reference" "#PWR09"
+			(at 198.12 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 243.84 114.808 0)
+		(property "Value" "GND"
+			(at 193.802 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4533,6 +4744,165 @@
 			)
 		)
 		(property "Footprint" ""
+			(at 198.12 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be4a89d3-9f76-48ad-b894-58e326f678c6")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 238.76 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0dadc2a2-fbfd-4ed1-ba6a-998c5da61da6")
+		(property "Reference" "R4"
+			(at 240.03 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 239.522 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 238.76 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 238.76 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ffdfd3b-e762-4532-883a-9f3e395ea569")
+		)
+		(pin "2"
+			(uuid "89c49ce3-da87-44cf-8ace-1704912f8d92")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 241.3 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17f89253-35f9-4b92-81cb-71f77c271c8d")
+		(property "Reference" "C19"
+			(at 243.84 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 243.586 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 241.3 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4566,15 +4936,177 @@
 			)
 		)
 		(pin "2"
-			(uuid "8241c3d9-207f-40a5-b937-f6808e9bdbcd")
+			(uuid "b40ad999-ad9f-4aea-abc4-77c20c7a1a86")
 		)
 		(pin "1"
-			(uuid "3dbdc385-b1c8-477a-b3bc-de34b3869328")
+			(uuid "303e4546-cf02-4fc0-8075-154909e0efa9")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C10")
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 60.96 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26668bdd-7fb2-4859-8136-280a2ff56787")
+		(property "Reference" "C12"
+			(at 54.356 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.102 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 60.96 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c90c307-382c-4a1d-9d76-235af815b0c9")
+		)
+		(pin "1"
+			(uuid "cc5e3f3a-5d80-4a22-935c-9f318e0fa7ee")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27e9b31a-ba51-43a5-8635-0a6c380de560")
+		(property "Reference" "C15"
+			(at 61.976 158.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 61.722 160.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 68.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "092c6fa5-a695-4d35-b8d4-15ab4d9560eb")
+		)
+		(pin "1"
+			(uuid "a7b541fc-bdce-4a23-a7ee-98923974be3d")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4612,7 +5144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MagIC_SMD_Wurth:U_Wurth_WPME-CDIP_SOIC-16WB"
+		(property "Footprint" "18024215401H:U_Wurth_WPME-CDIP_SOIC-16WB"
 			(at 167.64 110.236 0)
 			(hide yes)
 			(show_name no)
@@ -4736,8 +5268,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 201.93 114.3 0)
+		(lib_id "power:GND")
+		(at 50.8 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4745,31 +5277,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "29b67ff7-0ede-4f80-8043-85c4050ad3e8")
-		(property "Reference" "C9"
-			(at 195.072 112.776 0)
+		(uuid "2dc849d0-2d8f-4eb3-a182-24098c5d3221")
+		(property "Reference" "#PWR08"
+			(at 50.8 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 194.818 114.554 0)
+		(property "Value" "GND"
+			(at 49.276 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 114.3 0)
+			(at 50.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +5312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 114.3 0)
+			(at 50.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,8 +5322,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 201.93 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4800,17 +5332,95 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "8779bf8e-dffc-4c9e-8787-fdf366954b7b")
 		)
 		(pin "1"
-			(uuid "1c6ad9ba-599b-4118-a4dd-6a21166c63e6")
+			(uuid "1d483d9f-9acb-410c-b273-cefb30ad066e")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C9")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 234.95 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b862220-5490-40fb-93f6-8e6c2153446a")
+		(property "Reference" "R3"
+			(at 231.394 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 230.378 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 234.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 234.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "177b9bf1-3ec9-46f0-8121-2f67e17bb8be")
+		)
+		(pin "2"
+			(uuid "8208a01d-48e2-4fcd-8ff5-961b41b7297e")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4818,7 +5428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 40.64 0)
+		(at 71.12 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4826,9 +5436,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3e4a65bb-661d-4807-af50-ef54f86baa78")
-		(property "Reference" "C2"
-			(at 113.03 39.116 0)
+		(uuid "40d8b5a5-fcc2-4945-ae49-1f27c84da163")
+		(property "Reference" "C13"
+			(at 64.516 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4839,7 +5449,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 113.03 41.148 0)
+			(at 64.262 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4849,8 +5459,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 71.12 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +5471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 40.64 0)
+			(at 71.12 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,7 +5482,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 40.64 0)
+			(at 71.12 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4883,15 +5493,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "86949f41-45f8-4043-b5fa-a47e0be64139")
+			(uuid "5b7b2fcc-1c81-4b5c-83a2-ce7d9ed46e3e")
 		)
 		(pin "1"
-			(uuid "e42c0521-245e-4a79-8a32-53c4e4b955db")
+			(uuid "82347d6b-eb1c-4c60-a5a7-aa8e07a6edaf")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C2")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4919,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Value" "ORIN_GND"
+		(property "Value" "GND"
 			(at 77.216 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,7 +5587,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 191.77 114.3 0)
+		(at 71.12 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4985,9 +5595,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4524e407-1410-4bbe-baa5-a57834485222")
-		(property "Reference" "C8"
-			(at 184.912 112.776 0)
+		(uuid "450cfc8a-5a90-488a-a89b-2eeb5dab21b9")
+		(property "Reference" "C6"
+			(at 64.516 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4998,7 +5608,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 184.658 114.554 0)
+			(at 64.262 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5008,8 +5618,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 191.77 114.3 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 71.12 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,7 +5630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 114.3 0)
+			(at 71.12 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5031,7 +5641,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 114.3 0)
+			(at 71.12 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,15 +5652,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c72b8f1c-3760-43c7-84bf-255a4a4142d7")
+			(uuid "6cb3fe71-39c3-4752-9a0a-b3b9aeb8b7cb")
 		)
 		(pin "1"
-			(uuid "549d33e7-686c-44b0-b758-f5bff687d752")
+			(uuid "c5b8d1c8-98b2-4ae2-bfef-f447d274d197")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5158,8 +5768,7 @@
 			)
 		)
 		(property "Value" "GND_OUT"
-			(at 237.49 123.698 0)
-			(hide yes)
+			(at 237.744 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5215,87 +5824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 227.33 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50ecd860-ba55-4812-bebb-7be4923e467f")
-		(property "Reference" "C4"
-			(at 223.52 41.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 222.758 44.958 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "07b13e99-7d14-4b0a-9656-963697f135f5")
-		)
-		(pin "1"
-			(uuid "d44c39b4-621c-4199-9a80-3e4315fb09b2")
-		)
-		(instances
-			(project "orin-bob"
-				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Snapeda:SOIC-8NB_18032011")
 		(at 212.09 53.34 0)
 		(unit 1)
@@ -5327,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:U_Wurth_WPME-CDI2C-SOIC8NB"
+		(property "Footprint" "18032111:U_Wurth_WPME-CDI2C-SOIC8NB"
 			(at 212.09 1.27 0)
 			(hide yes)
 			(show_name no)
@@ -5559,168 +6087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5dfbdde6-06ce-4674-b62f-30e56703740a")
-		(property "Reference" "C12"
-			(at 54.102 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 53.848 103.124 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bf9558d2-5c4a-4e72-ba03-2cf56bb286dc")
-		)
-		(pin "1"
-			(uuid "1e505615-2ca5-4ec8-aa27-9de5d7c4edf1")
-		)
-		(instances
-			(project "orin-bob"
-				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ae195ea-53b6-4a0d-916e-0b47e1b4a24d")
-		(property "Reference" "C6"
-			(at 64.262 39.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 64.008 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c29925e6-cc58-4043-99cb-13f742462535")
-		)
-		(pin "1"
-			(uuid "56025900-1708-4deb-b8d1-0e678c1c6a71")
-		)
-		(instances
-			(project "orin-bob"
-				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 189.23 45.72 0)
 		(unit 1)
@@ -5753,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5882,7 +6248,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 40.64 0)
+		(at 110.49 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5890,9 +6256,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7c0ab541-4384-4ae5-8cda-33452b18ea96")
-		(property "Reference" "C5"
-			(at 54.102 39.116 0)
+		(uuid "77a3f778-a56f-4ee8-843b-42c1093366f6")
+		(property "Reference" "C14"
+			(at 112.522 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5903,7 +6269,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 53.848 40.894 0)
+			(at 112.268 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5913,8 +6279,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 60.96 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 110.49 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,7 +6291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 40.64 0)
+			(at 110.49 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5936,7 +6302,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 40.64 0)
+			(at 110.49 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5947,15 +6313,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fd0a99e6-b7d7-4cd0-b0c8-2d3aa709d2b8")
+			(uuid "471c3a0e-fb04-427f-b9c7-e8b9e676f3e7")
 		)
 		(pin "1"
-			(uuid "8010f233-d794-47cf-8c56-18cc142de241")
+			(uuid "4860ba7c-0468-4ff9-a355-a8a8c0f859fc")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C5")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5993,7 +6359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MagIC_SMD_Wurth:U_Wurth_WPME-CDIP_SOIC-16WB"
+		(property "Footprint" "18024215401H:U_Wurth_WPME-CDIP_SOIC-16WB"
 			(at 298.45 121.666 0)
 			(hide yes)
 			(show_name no)
@@ -6111,87 +6477,6 @@
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f15d3bc-26f7-4745-8896-6af6532b46a1")
-		(property "Reference" "C15"
-			(at 61.214 159.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 61.214 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 68.58 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1000a2a2-6451-4494-93cf-9ae267e73807")
-		)
-		(pin "1"
-			(uuid "0f7ef87b-79a4-4385-9a9d-ce72521732b2")
-		)
-		(instances
-			(project "orin-bob"
-				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6351,6 +6636,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 191.77 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9726e739-a9bc-422a-843e-ee01c696ea39")
+		(property "Reference" "C17"
+			(at 185.166 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 184.912 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 191.77 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 191.77 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "03cec2e4-91b9-4f97-a081-baeb20acde88")
+		)
+		(pin "1"
+			(uuid "268b0d2b-4286-4f76-8dab-1391071b2765")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 104.14 66.04 0)
 		(unit 1)
@@ -6372,7 +6738,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_OUT"
+		(property "Value" "GND_ISO"
 			(at 100.33 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6429,87 +6795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 234.95 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99c15d3a-649c-45df-ba93-016c5ed040a4")
-		(property "Reference" "R3"
-			(at 232.156 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 230.378 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 234.95 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a5f0ef6-5f54-4883-8d4b-320df68bb197")
-		)
-		(pin "2"
-			(uuid "e70c17f9-32b5-454c-a7d0-c63312ee3db0")
-		)
-		(instances
-			(project "orin-bob"
-				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "18024215401H:18024115401H")
 		(at 92.71 52.07 0)
 		(unit 1)
@@ -6541,7 +6826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MagIC_SMD_Wurth:U_Wurth_WPME-CDIP_SOIC-16WB"
+		(property "Footprint" "18024115401H:WPME-CDIP_SOIC16"
 			(at 167.64 48.006 0)
 			(hide yes)
 			(show_name no)
@@ -6686,7 +6971,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_OUT"
+		(property "Value" "GND_ISO"
 			(at 231.648 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,6 +7028,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab124541-f083-43bf-ba21-a6ffb00e0e57")
+		(property "Reference" "C11"
+			(at 44.196 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 43.942 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cdf27384-724a-4fd4-8ca0-92510ec81a57")
+		)
+		(pin "1"
+			(uuid "2c5f3a80-3dc1-4967-a44a-ac95aeaf5dc5")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 109.22 179.07 0)
 		(unit 1)
@@ -6764,7 +7130,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_OUT"
+		(property "Value" "GND_ISO"
 			(at 105.664 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6822,7 +7188,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 71.12 102.87 0)
+		(at 110.49 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6830,9 +7196,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b9f5778f-d8da-495a-bb6b-f5a767a505f8")
-		(property "Reference" "C13"
-			(at 64.262 101.346 0)
+		(uuid "ac824678-ac57-404f-82da-7f6035cdd182")
+		(property "Reference" "C2"
+			(at 103.886 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6843,7 +7209,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 64.008 103.124 0)
+			(at 103.632 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6853,8 +7219,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 71.12 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +7231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 102.87 0)
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,7 +7242,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 102.87 0)
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,15 +7253,96 @@
 			)
 		)
 		(pin "2"
-			(uuid "996c1bea-fb14-4ac5-be01-95dd49d67c6d")
+			(uuid "854aae58-f65a-4070-8fcb-d7f6d9892f8a")
 		)
 		(pin "1"
-			(uuid "ab82b0b7-55c0-4de4-843f-5a7ac2511045")
+			(uuid "84e1cc7d-b6cc-4e22-a64d-7e507637a901")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C13")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b21af5be-0f0a-4a92-985b-6e5fc2c3096a")
+		(property "Reference" "C18"
+			(at 195.326 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 195.072 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 201.93 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e18eb99-40a8-4612-ab21-a3c8bfab385a")
+		)
+		(pin "1"
+			(uuid "5abcda0a-4bf6-4a70-8a2e-e54df506f099")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6911,30 +7358,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bc40c8ba-a646-408e-907e-9aa5a7dffe65")
+		(uuid "b98b6fdd-1034-4be7-9948-a37f1c4a1f33")
 		(property "Reference" "C3"
-			(at 194.31 42.926 0)
+			(at 193.548 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 193.548 46.228 0)
+			(at 193.294 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6968,15 +7415,96 @@
 			)
 		)
 		(pin "2"
-			(uuid "8560c428-c069-4ce4-b5a7-00f244144cf8")
+			(uuid "a4032361-913b-4a3c-8159-9200287b5b1a")
 		)
 		(pin "1"
-			(uuid "eb9b8dcd-6f22-4f7f-a22e-f1a81a77f072")
+			(uuid "7257a9de-8015-438c-9f93-fd7e4b5f01d1")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 60.96 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bafd8f19-b078-4f51-817f-a5a2acdceed0")
+		(property "Reference" "C5"
+			(at 54.356 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.102 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba69ffb2-17a4-4989-9963-57ce1e10b84e")
+		)
+		(pin "1"
+			(uuid "d350a243-db20-4d1a-ad4e-2d28e143148b")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7004,8 +7532,8 @@
 				)
 			)
 		)
-		(property "Value" "ORIN_GND"
-			(at 76.708 70.358 0)
+		(property "Value" "GND"
+			(at 79.502 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7061,6 +7589,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1ff75af-d817-40e7-8662-ef3769f7bb86")
+		(property "Reference" "#PWR010"
+			(at 181.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.086 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a012b46-60b4-4bbc-b764-3b9c9e43e0dd")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 185.42 45.72 0)
 		(unit 1)
@@ -7093,7 +7699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7142,87 +7748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 50.8 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c61aef41-db26-4743-995a-fe48832376a2")
-		(property "Reference" "C11"
-			(at 44.196 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 43.942 103.124 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c14609ad-20dc-453f-9dfd-8ec36751bb77")
-		)
-		(pin "1"
-			(uuid "bac530fa-cb8e-49e7-8a0b-41f2afa620ac")
-		)
-		(instances
-			(project "orin-bob"
-				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 104.14 128.27 0)
 		(unit 1)
@@ -7244,7 +7769,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_OUT"
+		(property "Value" "GND_ISO"
 			(at 100.584 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7301,8 +7826,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 238.76 44.45 0)
+		(lib_id "power:PWR_FLAG")
+		(at 224.79 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7310,20 +7835,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c9597912-81b3-412e-aaa0-0c59d48fe8a2")
-		(property "Reference" "R4"
-			(at 239.268 41.91 0)
+		(fields_autoplaced yes)
+		(uuid "c7554ed3-561f-4919-977c-2686f8c01a6a")
+		(property "Reference" "#FLG02"
+			(at 226.695 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 239.268 47.498 0)
+		(property "Value" "PWR_FLAG"
+			(at 228.6 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7334,7 +7860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 44.45 0)
+			(at 224.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7345,7 +7871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 44.45 0)
+			(at 224.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,8 +7881,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 238.76 44.45 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7367,15 +7893,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ea6b65a-98aa-4148-972c-648b59fbacfa")
-		)
-		(pin "2"
-			(uuid "93c3c393-7000-4cc2-af92-754e87d36fab")
+			(uuid "df1408c0-f701-4fab-ac89-51ebafcabb8d")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "R4")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7414,7 +7937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7457,6 +7980,165 @@
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 193.04 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd1b693-d626-48ce-9374-76244e2d78d8")
+		(property "Reference" "#FLG03"
+			(at 193.04 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 193.04 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 193.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "827c5ee8-8736-4b96-8a0d-2dd370163052")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 181.61 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4d28301-4622-4682-89ee-88edcaa404a3")
+		(property "Reference" "C16"
+			(at 175.006 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 174.752 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 181.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "930f7747-8e29-43cc-8e41-9139309de259")
+		)
+		(pin "1"
+			(uuid "ec96f395-4d78-48a5-a790-8aaa907c26e6")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7563,8 +8245,8 @@
 				)
 			)
 		)
-		(property "Value" "ORIN_GND"
-			(at 208.534 143.764 0)
+		(property "Value" "GND"
+			(at 210.312 144.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7621,7 +8303,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 102.87 0)
+		(at 227.33 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7629,31 +8311,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e8390660-c3b3-4bdd-82f8-bc9112ad683a")
-		(property "Reference" "C14"
-			(at 113.03 101.346 0)
+		(uuid "dd1acddd-dcbc-4569-bab3-fb296e549a19")
+		(property "Reference" "C4"
+			(at 222.758 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 113.03 103.378 0)
+		(property "Value" "1uF"
+			(at 222.504 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7664,7 +8346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 102.87 0)
+			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7675,7 +8357,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 102.87 0)
+			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7686,15 +8368,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0d96605c-e4b3-4896-94d8-4ac402c869f1")
+			(uuid "0839874e-d808-40ee-b966-49c27ace9d2d")
 		)
 		(pin "1"
-			(uuid "ef3c476d-c8fa-4a34-9d2a-244a16106257")
+			(uuid "45407ab7-13aa-4ea0-8123-4366a415d21e")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C14")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7722,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_OUT"
+		(property "Value" "GND_ISO"
 			(at 219.964 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,7 +8482,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_OUT"
+		(property "Value" "GND_ISO"
 			(at 67.818 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +8540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 46.99 0)
+		(at 50.8 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7866,10 +8548,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5231d6d-47f7-492c-afa5-81f4fc7971a6")
-		(property "Reference" "#PWR09"
-			(at 198.12 53.34 0)
+		(uuid "f3ccffa5-9ad4-4541-8135-d2c429f9d322")
+		(property "Reference" "#PWR06"
+			(at 50.8 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7880,18 +8561,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 52.07 0)
-			(hide yes)
+			(at 49.022 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 46.99 0)
+			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7902,7 +8583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 46.99 0)
+			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7913,7 +8594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 46.99 0)
+			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,93 +8605,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "05da5dc8-8ae7-4245-8beb-f2768c3f96b7")
+			(uuid "f6b05114-c88b-4937-b1bb-cc32189f4c22")
 		)
 		(instances
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f55d9311-4e3a-465d-a63e-cf4d0b18b4ed")
-		(property "Reference" "C7"
-			(at 175.006 112.776 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 174.752 114.554 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f54f4851-0968-4fab-9d6e-73cf7fe85f37")
-		)
-		(pin "1"
-			(uuid "5447549a-509a-426f-8f3f-16343d277bd0")
-		)
-		(instances
-			(project "orin-bob"
-				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c"
-					(reference "C7")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8038,8 +8638,8 @@
 				)
 			)
 		)
-		(property "Value" "ORIN_GND"
-			(at 196.85 66.04 0)
+		(property "Value" "GND"
+			(at 198.882 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -347,7 +347,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_ISO" output
+		(pin "3V3_ISO" input
 			(at 110.49 36.83 90)
 			(uuid "12778a2a-f774-4c8c-8b4b-6c27827be826")
 			(effects

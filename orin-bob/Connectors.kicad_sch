@@ -902,7 +902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-BHD_62501021621"
+		(property "Footprint" "61201021621:61201021621"
 			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
