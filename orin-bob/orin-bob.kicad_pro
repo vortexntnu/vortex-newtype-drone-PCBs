@@ -776,12 +776,192 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "CMTI (kV/us)",
+          "name": "CMTI (kV/us)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Channel Configuration",
+          "name": "Channel Configuration",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Resistance (mohm)",
+          "name": "Contact Resistance (mohm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Created Date",
+          "name": "Created Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Default Outout",
+          "name": "Default Outout",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gender",
+          "name": "Gender",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR (A)",
+          "name": "IR (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (mm)",
+          "name": "L (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pins (pcs)",
+          "name": "Pins (pcs)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch",
+          "name": "Pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch (mm)",
+          "name": "Pitch (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rows",
+          "name": "Rows",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol. R",
+          "name": "Tol. R",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type of Insulation",
+          "name": "Type of Insulation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V CC max. (V)",
+          "name": "V CC max. (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V CC min. (V)",
+          "name": "V CC min. (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V ISO (V (RMS))",
+          "name": "V ISO (V (RMS))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vcc (V)",
+          "name": "Vcc (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Working Voltage (V (AC))",
+          "name": "Working Voltage (V (AC))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "f max (MHz)",
+          "name": "f max (MHz)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Automotive",
+          "name": "Automotive",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -826,7 +1006,7 @@
         "uuid": "6d7a1667-a0e1-4e68-9a43-9a403cb7beab"
       }
     ],
-    "used_designators": "#PWR2-3,#PWR6,#PWR8-10,R3-4,#FLG1-3,C2-6,C11-19",
+    "used_designators": "U1,U6,FB1-2,C7-10,C20-29,#PWR1,#PWR4,#PWR8,#PWR12-14,#PWR18-20,#PWR23,#PWR25-31,R6",
     "variants": []
   },
   "sheets": [

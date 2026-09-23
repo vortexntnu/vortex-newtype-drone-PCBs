@@ -659,6 +659,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CAN + GND"
+		(exclude_from_sim no)
+		(at 149.098 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8162c51-8fbd-43d3-b67f-1ab64318ae57")
+	)
+	(text "WR-MPC3 Male Header Single Row x4\n"
+		(exclude_from_sim no)
+		(at 111.252 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e52e612e-f7b6-4b34-8930-3698f98366a7")
+	)
 	(wire
 		(pts
 			(xy 92.71 62.23) (xy 102.87 62.23)

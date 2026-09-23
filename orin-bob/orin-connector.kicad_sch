@@ -1841,6 +1841,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2135,10 +2413,6 @@
 		(uuid "57cd8cd4-772e-488b-848a-7021e5a649aa")
 	)
 	(no_connect
-		(at 115.57 49.53)
-		(uuid "7b8c4a37-a1fa-4fd2-a9cb-35d715c0f078")
-	)
-	(no_connect
 		(at 102.87 44.45)
 		(uuid "7dc1d4fd-184d-4ddb-b10e-42d8044cb1c2")
 	)
@@ -2155,10 +2429,6 @@
 		(uuid "a340c66c-b420-410f-aa94-187e317defd5")
 	)
 	(no_connect
-		(at 115.57 62.23)
-		(uuid "a7f89838-ec86-4ae1-a979-be58969d9f8f")
-	)
-	(no_connect
 		(at 115.57 57.15)
 		(uuid "b7bef787-23d5-47e1-9e92-d3785d536deb")
 	)
@@ -2167,16 +2437,8 @@
 		(uuid "beb94b76-e6a5-4e39-970d-5fe124214144")
 	)
 	(no_connect
-		(at 102.87 77.47)
-		(uuid "c894c899-7bc0-4894-801b-1eaef44a6a87")
-	)
-	(no_connect
 		(at 115.57 85.09)
 		(uuid "d6dbf8c9-aa8f-49a6-beff-736010888f18")
-	)
-	(no_connect
-		(at 102.87 52.07)
-		(uuid "e8390292-6dd1-4322-b45d-7e34576ffbc5")
 	)
 	(no_connect
 		(at 102.87 80.01)
@@ -2185,6 +2447,10 @@
 	(no_connect
 		(at 115.57 69.85)
 		(uuid "ed5a65bc-1c6f-48c4-b1c3-88f647e55cd1")
+	)
+	(no_connect
+		(at 115.57 62.23)
+		(uuid "f12fec56-fe32-4d8a-9933-476fbe9e0bb8")
 	)
 	(no_connect
 		(at 102.87 54.61)
@@ -2246,6 +2512,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 52.07) (xy 102.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f10ae28-63b2-4596-baea-ea04a9cfbf30")
+	)
+	(wire
+		(pts
 			(xy 115.57 44.45) (xy 124.46 44.45)
 		)
 		(stroke
@@ -2283,6 +2559,16 @@
 			(type default)
 		)
 		(uuid "1e93e87c-9e85-4d5d-9cf7-d81331b61767")
+	)
+	(wire
+		(pts
+			(xy 93.98 77.47) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20df0944-fc2e-4f7d-b4f8-ff281d91c613")
 	)
 	(wire
 		(pts
@@ -2376,16 +2662,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 41.91) (xy 102.87 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2c3cfe-e734-4dab-8640-11e48710d384")
-	)
-	(wire
-		(pts
 			(xy 116.84 39.37) (xy 116.84 36.83)
 		)
 		(stroke
@@ -2433,6 +2709,26 @@
 			(type default)
 		)
 		(uuid "98de9698-77b7-4378-9d6b-7ca665482a7c")
+	)
+	(wire
+		(pts
+			(xy 115.57 49.53) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15b2ab9-32f2-41c1-9b52-a18bcfb4594f")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e51f3f-135c-48ad-b445-8e8b3b7c687b")
 	)
 	(wire
 		(pts
@@ -2576,16 +2872,16 @@
 		)
 		(uuid "4bb432e7-c4e3-4b7e-b75f-50462d91c6f6")
 	)
-	(hierarchical_label "I2C5_CLK1"
-		(shape bidirectional)
-		(at 93.98 41.91 180)
+	(hierarchical_label "GPIOOUT"
+		(shape output)
+		(at 93.98 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "524f1f25-f393-4043-b118-30d2f21180df")
+		(uuid "56186ed0-885e-4e38-8e65-19274f29f0ce")
 	)
 	(hierarchical_label "SPI1_CS1_N1"
 		(shape bidirectional)
@@ -2631,17 +2927,6 @@
 		)
 		(uuid "a0456c73-164e-4498-ae54-fb6781268d30")
 	)
-	(hierarchical_label "3V3"
-		(shape output)
-		(at 99.06 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa9bdd1a-3b51-4a18-912f-e1bbbf79114e")
-	)
 	(hierarchical_label "I2C5_DAT1"
 		(shape bidirectional)
 		(at 93.98 39.37 180)
@@ -2652,17 +2937,6 @@
 			(justify right)
 		)
 		(uuid "b05cdcdb-f18e-4b3c-8025-f8a38258b77c")
-	)
-	(hierarchical_label "5V"
-		(shape output)
-		(at 116.84 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3925231-d596-4db9-beab-37ab256275f2")
 	)
 	(hierarchical_label "UART1_RX1"
 		(shape input)
@@ -2696,6 +2970,39 @@
 			(justify left)
 		)
 		(uuid "e4603426-de2a-4197-9e64-b2da357d8d7f")
+	)
+	(hierarchical_label "PWM01"
+		(shape output)
+		(at 93.98 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f06e8e54-1b42-412f-89bd-9aed65a9de10")
+	)
+	(hierarchical_label "I2C5_CLK1"
+		(shape bidirectional)
+		(at 93.98 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f513072e-23f2-4f97-b0d1-d4fbece06294")
+	)
+	(hierarchical_label "GPIOOUT"
+		(shape input)
+		(at 124.46 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffb86d9f-8e84-4cce-a1d9-15ed197f05c1")
 	)
 	(symbol
 		(lib_id "Snapeda:613040243121")
@@ -3159,6 +3466,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 99.06 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "728092b6-15a9-41d2-b6e3-8573f8e9144a")
+		(property "Reference" "#PWR04"
+			(at 99.06 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 99.06 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfc2c9d7-05dc-4dad-8533-5ba48abecfac")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 91.44 0)
 		(unit 1)
@@ -3231,6 +3616,84 @@
 			(project "orin-bob"
 				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4628a42-63b5-48a2-91a2-2f41a70a64c1")
+		(property "Reference" "#PWR012"
+			(at 116.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 116.84 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f54567a7-d1da-4721-a49f-71fc5ce9f7dc")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
