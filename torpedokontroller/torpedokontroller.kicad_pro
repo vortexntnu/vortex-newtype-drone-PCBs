@@ -661,7 +661,7 @@
         "uuid": "e42df04f-3e58-4415-86e6-9a5d9df63a21"
       }
     ],
-    "used_designators": "J1-2,R1-18,IC1-5,Q1-2,Q4-6,L1-2,#PWR1-34,C1-18,U1-6",
+    "used_designators": "J1-2,R1-25,IC1-7,Q1-2,Q4-9,L1-2,#PWR1-54,C1-20,U1-7",
     "variants": []
   },
   "sheets": [
@@ -670,16 +670,28 @@
       "Root"
     ],
     [
-      "8ac3565c-906a-4cf1-bf9c-86a1dc7862ee",
-      "TCAN_1 (bus)"
+      "11c694e3-9f58-4fcc-ba22-a9abf843962c",
+      "CAN SERVO"
     ],
     [
       "3b49f72e-b0c5-42e1-9ae3-0784163965b2",
-      "tcan_2 (servo)"
+      "CAN BUS"
     ],
     [
-      "598e5b9c-5315-44ce-8c65-60cd73107839",
-      "v-batt_to_3v3"
+      "1f7750b4-a4b3-48e5-bbf9-1af29cb2fb7f",
+      "Microprocessor Power"
+    ],
+    [
+      "224e16d0-e55e-4776-83c5-485c2b451edd",
+      "V-batt to Servo"
+    ],
+    [
+      "946e75c1-b1e8-4c74-aaf7-0a2b3da9052a",
+      "Microprocessor"
+    ],
+    [
+      "f39f496b-0118-4ba6-ade8-c484b3a55cd3",
+      "Telematic (BME280)"
     ]
   ],
   "text_variables": {},
