@@ -2993,7 +2993,7 @@
 		)
 		(uuid "f513072e-23f2-4f97-b0d1-d4fbece06294")
 	)
-	(hierarchical_label "GPIOOUT"
+	(hierarchical_label "GPIOIN"
 		(shape bidirectional)
 		(at 124.46 49.53 0)
 		(effects
