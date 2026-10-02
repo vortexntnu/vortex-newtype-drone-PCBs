@@ -649,7 +649,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://vortex-template-ver-1.0.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -661,7 +661,7 @@
         "uuid": "e42df04f-3e58-4415-86e6-9a5d9df63a21"
       }
     ],
-    "used_designators": "J1-2,R1-25,IC1-7,Q1-2,Q4-9,L1-2,#PWR1-54,C1-20,U1-7",
+    "used_designators": "J1-3,R1-43,IC1-9,Q1-2,Q4-9,L1-4,#PWR1-78,C1-36,U1-13,D1-15",
     "variants": []
   },
   "sheets": [
@@ -670,28 +670,16 @@
       "Root"
     ],
     [
-      "11c694e3-9f58-4fcc-ba22-a9abf843962c",
-      "CAN SERVO"
+      "e120803b-a57e-427e-b241-e167c0d83487",
+      "Input"
     ],
     [
-      "3b49f72e-b0c5-42e1-9ae3-0784163965b2",
-      "CAN BUS"
+      "c6847d26-94ed-4539-97f7-de598ce051b5",
+      "processing"
     ],
     [
-      "1f7750b4-a4b3-48e5-bbf9-1af29cb2fb7f",
-      "Microprocessor Power"
-    ],
-    [
-      "224e16d0-e55e-4776-83c5-485c2b451edd",
-      "V-batt to Servo"
-    ],
-    [
-      "946e75c1-b1e8-4c74-aaf7-0a2b3da9052a",
-      "Microprocessor"
-    ],
-    [
-      "f39f496b-0118-4ba6-ade8-c484b3a55cd3",
-      "Telematic (BME280)"
+      "dee7d489-79d3-42b0-822e-0a7c6f39f6c4",
+      "output"
     ]
   ],
   "text_variables": {},

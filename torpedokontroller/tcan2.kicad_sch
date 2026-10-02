@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d23795a5-dd4d-440b-bb2f-344c3961cc58")
+	(uuid "916823ec-22c8-4e0e-a45e-aa24a4bf2932")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209048"
