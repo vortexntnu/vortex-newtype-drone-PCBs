@@ -5,7 +5,7 @@
 	(uuid "e42df04f-3e58-4415-86e6-9a5d9df63a21")
 	(paper "A5")
 	(title_block
-		(date "2026-10-03")
+		(date "2026-10-07")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols)
@@ -151,16 +151,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 80.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6538168-aa32-4e04-b880-2eada9e0d4e9")
-	)
-	(wire
-		(pts
 			(xy 116.84 59.69) (xy 129.54 59.69)
 		)
 		(stroke
@@ -168,16 +158,6 @@
 			(type default)
 		)
 		(uuid "cddc05cd-25e1-4e44-b928-d2bde2bb17cc")
-	)
-	(wire
-		(pts
-			(xy 66.04 72.39) (xy 80.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8304091-f488-4eda-9fa9-f22bcc27ad59")
 	)
 	(wire
 		(pts
@@ -200,7 +180,7 @@
 		(uuid "fcf9e386-d7e9-4eca-970a-0dd5638d31e8")
 	)
 	(label "Check resistor values for LEDs"
-		(at 33.02 115.57 0)
+		(at 33.02 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -230,16 +210,6 @@
 			(justify left bottom)
 		)
 		(uuid "9ed986fb-63c6-4858-b81e-74ba6c882e3b")
-	)
-	(label "New MCU package"
-		(at 33.02 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0a15537-6a5e-4559-bc9b-816f3b635a41")
 	)
 	(label "BMS pogopads"
 		(at 33.02 110.49 0)
@@ -271,7 +241,7 @@
 		)
 		(uuid "de120bd3-0d95-42ac-86e6-6361768a795b")
 	)
-	(label "Boot, reset, and clock MCU pins?"
+	(label "Oscillator"
 		(at 33.02 107.95 0)
 		(effects
 			(font
@@ -321,7 +291,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN2_RX" input
+		(pin "CAN2_RX" output
 			(at 80.01 41.91 180)
 			(uuid "ce953faa-71da-4029-a064-3c4f0fff2627")
 			(effects
@@ -341,7 +311,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN1_RX" input
+		(pin "CAN1_RX" output
 			(at 116.84 41.91 0)
 			(uuid "a9aedd17-f811-43d4-8841-5dd95ddb5996")
 			(effects
@@ -414,26 +384,6 @@
 		(pin "SPI1_MOSI" output
 			(at 80.01 63.5 180)
 			(uuid "c8ee63fb-d97b-4f4e-be2a-575d2b0a1729")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_D+" input
-			(at 80.01 72.39 180)
-			(uuid "a114d537-2c8b-4d7f-bcbf-95ac7c265e14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_D-" input
-			(at 80.01 76.2 180)
-			(uuid "5148ca01-eaa0-40c9-abaa-a56e015462f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,26 +620,6 @@
 		(pin "CSB" input
 			(at 66.04 52.07 0)
 			(uuid "86dd66dd-4d3b-442f-b914-ac7cb54c9fd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_D+" output
-			(at 66.04 72.39 0)
-			(uuid "f6aa2c0b-16d5-43ba-902f-5144ce7f979c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_D-" output
-			(at 66.04 76.2 0)
-			(uuid "e6fd27e6-86b5-4352-8536-c744c983f83c")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,7 +5,7 @@
 	(uuid "609a7ca3-1c99-497a-aaf0-6c82596325f9")
 	(paper "A4")
 	(title_block
-		(date "2026-10-03")
+		(date "2026-10-07")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols
@@ -4638,7 +4638,7 @@
 		(uuid "e0577694-2677-4e18-b3b4-27f292d1a4ac")
 	)
 	(junction
-		(at 146.05 74.93)
+		(at 147.32 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02f3e8d4-354a-43c0-9030-effd1720b469")
@@ -5031,7 +5031,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 74.93) (xy 146.05 74.93)
+			(xy 143.51 74.93) (xy 156.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5311,7 +5311,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 149.86 105.41)
+			(xy 149.86 104.14) (xy 149.86 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5331,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 71.12) (xy 149.86 71.12)
+			(xy 147.32 71.12) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5368,16 +5368,6 @@
 			(type default)
 		)
 		(uuid "6b0a7d54-b799-47a0-8e21-18a2e1017e32")
-	)
-	(wire
-		(pts
-			(xy 146.05 74.93) (xy 156.21 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "733724c3-1321-4e63-b5bc-6af601fe9385")
 	)
 	(wire
 		(pts
@@ -5701,16 +5691,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 41.91 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5f18abb-3e23-47f0-88f1-f9ac8e1d6d6a")
-	)
-	(wire
-		(pts
 			(xy 91.44 41.91) (xy 92.71 41.91)
 		)
 		(stroke
@@ -5821,7 +5801,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 71.12) (xy 146.05 74.93)
+			(xy 147.32 71.12) (xy 147.32 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5991,6 +5971,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 53.34) (xy 41.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deddd04e-7cc2-41b9-912c-a33850376e74")
+	)
+	(wire
+		(pts
 			(xy 78.74 39.37) (xy 91.44 39.37)
 		)
 		(stroke
@@ -6139,7 +6129,7 @@
 		)
 		(uuid "4a0df434-d279-485f-9bac-03ddcb472bf5")
 	)
-	(label "Values from datasheet or claude"
+	(label "Values from datasheet and claude"
 		(at 19.05 128.27 0)
 		(effects
 			(font
@@ -6246,7 +6236,7 @@
 		)
 		(uuid "41e7aacd-71b6-4af5-a61d-43fb50c57787")
 	)
-	(hierarchical_label "DOC"
+	(hierarchical_label "D_OC"
 		(shape output)
 		(at 82.55 85.09 180)
 		(effects
@@ -6259,7 +6249,7 @@
 	)
 	(hierarchical_label "IMON"
 		(shape output)
-		(at 149.86 71.12 0)
+		(at 151.13 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6505,7 +6495,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "2k"
 			(at 161.544 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7190,7 +7180,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 41.91 54.61 0)
+		(at 41.91 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7201,7 +7191,7 @@
 		(fields_autoplaced yes)
 		(uuid "217063f4-4303-41dd-87c2-76abdd26171c")
 		(property "Reference" "#PWR025"
-			(at 41.91 60.96 0)
+			(at 41.91 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,7 +7202,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 41.91 59.69 0)
+			(at 41.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7223,7 +7213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 54.61 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7234,7 +7224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 54.61 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7235,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 41.91 54.61 0)
+			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +7932,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 149.86 105.41 0)
+		(at 149.86 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7953,7 +7943,7 @@
 		(fields_autoplaced yes)
 		(uuid "41bcb20b-e4e1-44a2-8c41-202038ac36f4")
 		(property "Reference" "#PWR037"
-			(at 149.86 111.76 0)
+			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +7954,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 149.86 110.49 0)
+			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7975,7 +7965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 105.41 0)
+			(at 149.86 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7986,7 +7976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 105.41 0)
+			(at 149.86 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7997,7 +7987,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 149.86 105.41 0)
+			(at 149.86 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11182,7 +11172,7 @@
 		(dnp no)
 		(uuid "fe29f236-5339-46a3-b008-9e8edd9622a9")
 		(property "Reference" "C38"
-			(at 161.036 86.36 90)
+			(at 161.544 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11193,7 +11183,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 161.036 88.9 90)
+			(at 161.544 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
