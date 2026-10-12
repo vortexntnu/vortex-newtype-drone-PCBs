@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "5b2a8a8c-b9cc-449b-8eca-973b81fea657")
 	(paper "A5")
+	(title_block
+		(title "ORIN-BOB")
+		(date "2026-10-12")
+		(rev "1.0")
+		(company "Vortex NTNU")
+		(comment 1 "Yamn Sultan Salim")
+	)
 	(lib_symbols
 		(symbol "Wurth_WR-WTB:653104131822"
 			(pin_names
@@ -1533,26 +1540,6 @@
 		)
 		(uuid "a179af1f-6f10-430c-b934-17c04456f07e")
 	)
-	(text "CAN + GND"
-		(exclude_from_sim no)
-		(at 235.204 87.122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c8162c51-8fbd-43d3-b67f-1ab64318ae57")
-	)
-	(text "WR-MPC3 Male Header Single Row x4\n"
-		(exclude_from_sim no)
-		(at 232.664 79.502 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e52e612e-f7b6-4b34-8930-3698f98366a7")
-	)
 	(wire
 		(pts
 			(xy 146.05 82.55) (xy 158.75 82.55)
@@ -1864,7 +1851,7 @@
 		(uuid "fe5f6c3a-e288-45b6-bfb1-98a9b1b1426c")
 	)
 	(hierarchical_label "UART1_RX"
-		(shape input)
+		(shape output)
 		(at 146.05 82.55 180)
 		(effects
 			(font
@@ -1875,7 +1862,7 @@
 		(uuid "16d0ae96-ae56-4961-a057-069926ed7b3e")
 	)
 	(hierarchical_label "SDO"
-		(shape output)
+		(shape input)
 		(at 152.4 38.1 180)
 		(effects
 			(font
@@ -1886,7 +1873,7 @@
 		(uuid "1f146020-cdd6-41af-95c9-b7fc77e79b96")
 	)
 	(hierarchical_label "PWM"
-		(shape output)
+		(shape input)
 		(at 146.05 87.63 180)
 		(effects
 			(font
@@ -1897,7 +1884,7 @@
 		(uuid "243a3acc-176f-40d8-b02e-1c8940f4f02a")
 	)
 	(hierarchical_label "GPIOOUT_ISO"
-		(shape output)
+		(shape input)
 		(at 146.05 80.01 180)
 		(effects
 			(font
@@ -1930,7 +1917,7 @@
 		(uuid "66b2fd85-c76e-443b-b93f-bc5fff9577d3")
 	)
 	(hierarchical_label "UART1_TX"
-		(shape output)
+		(shape input)
 		(at 146.05 85.09 180)
 		(effects
 			(font
@@ -1952,7 +1939,7 @@
 		(uuid "7cc0a85f-ca21-489a-9872-9a5ed2bc3a83")
 	)
 	(hierarchical_label "SDI"
-		(shape input)
+		(shape output)
 		(at 152.4 35.56 180)
 		(effects
 			(font
@@ -1963,7 +1950,7 @@
 		(uuid "c279889a-6ec0-4ad3-ac32-28f8a15738bf")
 	)
 	(hierarchical_label "CS"
-		(shape bidirectional)
+		(shape input)
 		(at 152.4 43.18 180)
 		(effects
 			(font
@@ -1985,7 +1972,7 @@
 		(uuid "d9e4091f-3733-4dbe-873d-20f99e8f70f7")
 	)
 	(hierarchical_label "SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 57.15 36.83 180)
 		(effects
 			(font
@@ -1996,7 +1983,7 @@
 		(uuid "dfd3fad2-eec9-4746-9f8e-4979bc5b12a9")
 	)
 	(hierarchical_label "SCLK"
-		(shape bidirectional)
+		(shape input)
 		(at 152.4 40.64 180)
 		(effects
 			(font

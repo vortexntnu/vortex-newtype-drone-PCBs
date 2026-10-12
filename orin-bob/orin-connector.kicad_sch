@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "baa269fd-456e-49fb-92ef-5255304a71d8")
 	(paper "A5")
+	(title_block
+		(title "ORIN-BOB")
+		(date "2026-10-12")
+		(rev "1.0")
+		(company "Vortex NTNU")
+		(comment 1 "Yamn Sultan Salim")
+	)
 	(lib_symbols
 		(symbol "Snapeda:613040243121"
 			(pin_names
@@ -2851,7 +2858,7 @@
 		(uuid "fcd36dd0-5d83-4277-a644-d505ad032d6a")
 	)
 	(hierarchical_label "SPI1_SCK1"
-		(shape bidirectional)
+		(shape output)
 		(at 93.98 64.77 180)
 		(effects
 			(font
@@ -2873,7 +2880,7 @@
 		(uuid "4bb432e7-c4e3-4b7e-b75f-50462d91c6f6")
 	)
 	(hierarchical_label "GPIOOUT"
-		(shape bidirectional)
+		(shape output)
 		(at 93.98 77.47 180)
 		(effects
 			(font
@@ -2917,7 +2924,7 @@
 		(uuid "8d22507f-8b78-46be-b6fb-d1c9e41fd837")
 	)
 	(hierarchical_label "SPI1_CS0_N1"
-		(shape bidirectional)
+		(shape output)
 		(at 124.46 64.77 0)
 		(effects
 			(font
@@ -2994,7 +3001,7 @@
 		(uuid "f513072e-23f2-4f97-b0d1-d4fbece06294")
 	)
 	(hierarchical_label "GPIOIN"
-		(shape bidirectional)
+		(shape input)
 		(at 124.46 49.53 0)
 		(effects
 			(font

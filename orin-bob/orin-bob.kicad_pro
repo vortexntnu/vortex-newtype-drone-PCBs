@@ -245,7 +245,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -994,7 +994,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://vortex-template-ver-1.0.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -1016,11 +1016,11 @@
     ],
     [
       "e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a",
-      "orin-connector"
+      "ORIN-connector"
     ],
     [
       "1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c",
-      "digital_isolator"
+      "Digital-isolator"
     ],
     [
       "abf82d22-e1c1-46aa-b91c-e3b15213749e",

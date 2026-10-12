@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "b9907904-8daf-405e-bbab-892cc62c58a2")
 	(paper "A4")
+	(title_block
+		(title "ORIN-BOB")
+		(date "2026-10-12")
+		(rev "1.0")
+		(company "Vortex NTNU")
+		(comment 1 "Yamn Sultan Salim")
+	)
 	(lib_symbols
 		(symbol "18024215401H:18024115401H"
 			(exclude_from_sim no)
@@ -5165,7 +5172,7 @@
 		(uuid "3a09f1dc-cc4f-4459-b718-38c5caeea8ac")
 	)
 	(hierarchical_label "CS"
-		(shape bidirectional)
+		(shape output)
 		(at 107.95 49.53 0)
 		(effects
 			(font
@@ -5231,7 +5238,7 @@
 		(uuid "7ad847e6-8c28-4e0f-9411-3869d60adc40")
 	)
 	(hierarchical_label "SPI1_CS0_N1"
-		(shape bidirectional)
+		(shape input)
 		(at 78.74 49.53 180)
 		(effects
 			(font
@@ -5264,7 +5271,7 @@
 		(uuid "a817a401-f5ab-412a-ab85-f480e6d6b71b")
 	)
 	(hierarchical_label "SPI1_SCK1"
-		(shape bidirectional)
+		(shape input)
 		(at 78.74 52.07 180)
 		(effects
 			(font
@@ -5385,7 +5392,7 @@
 		(uuid "e3dfd3ed-8780-4ff3-b63b-3f5bb832581e")
 	)
 	(hierarchical_label "GPIOIN_ISO"
-		(shape output)
+		(shape input)
 		(at 241.3 134.62 0)
 		(effects
 			(font
@@ -5396,7 +5403,7 @@
 		(uuid "e52b17b5-c882-4624-b5ea-ae6aba124889")
 	)
 	(hierarchical_label "SCLK"
-		(shape bidirectional)
+		(shape output)
 		(at 107.95 52.07 0)
 		(effects
 			(font
@@ -5407,7 +5414,7 @@
 		(uuid "e7e3c68a-c7d0-4db2-a5a9-50e821d78839")
 	)
 	(hierarchical_label "SCL"
-		(shape bidirectional)
+		(shape output)
 		(at 247.65 54.61 0)
 		(effects
 			(font
