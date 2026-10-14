@@ -1,0 +1,348 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "56298e1f-050c-4e5b-9187-559c43f80be0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "GigaBlox Connector"
+		(exclude_from_sim no)
+		(at 48.514 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d2e1609-9dce-4c76-bd6a-17ec382d1e5c")
+	)
+	(text "Rugged GigaBlox Connector"
+		(exclude_from_sim no)
+		(at 61.214 23.114 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "9cd44e90-e4f9-4321-bd6a-037f91b80cb1")
+	)
+	(text "Power connectors\n\n"
+		(exclude_from_sim no)
+		(at 33.528 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e69152bc-6eb7-4dc0-89b2-673aa39a8f36")
+	)
+	(junction
+		(at 26.67 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bb97300-ae6d-4ec7-822a-d2b651923a5e")
+	)
+	(junction
+		(at 26.67 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1482e25a-a382-4963-9c77-5fced55cc62b")
+	)
+	(wire
+		(pts
+			(xy 26.67 49.53) (xy 36.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26baffe0-b9a4-4ff7-ac8c-3fbbc9a5fd44")
+	)
+	(wire
+		(pts
+			(xy 26.67 38.1) (xy 26.67 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373c1c9a-52c0-4133-9cc4-32974c036eb3")
+	)
+	(wire
+		(pts
+			(xy 26.67 35.56) (xy 26.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55467a17-439e-4bc5-86db-80c6bcc21b35")
+	)
+	(wire
+		(pts
+			(xy 26.67 41.91) (xy 36.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd277ba-5d64-4301-b5c3-c5efdd135933")
+	)
+	(wire
+		(pts
+			(xy 26.67 45.72) (xy 36.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06229ef-fd38-4651-8650-336f6e4ee533")
+	)
+	(wire
+		(pts
+			(xy 26.67 38.1) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52358d4-4ee6-466e-9f2c-93c9bbd7c1ad")
+	)
+	(wire
+		(pts
+			(xy 26.67 49.53) (xy 26.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6ac89b-1f61-400a-9ab8-4e9fd3115254")
+	)
+	(wire
+		(pts
+			(xy 26.67 45.72) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33c1ea7-a218-4bf5-b98d-12887b2adf80")
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 261.62 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3695296a-d789-49b1-96b8-ee82d6ebe154")
+		(property "Reference" "#PWR01"
+			(at 261.62 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 261.62 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 261.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b768f56-4ab3-4382-b600-3f8a9ab78bca")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3/e622af57-593d-4a64-83cb-d21dfa8b1b40"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
