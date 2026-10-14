@@ -1,7 +1,7 @@
 # Newtype-drone AUV PCB Repo
 
 <p align="center">
-  <img src="common/Vortex-Logo-3.png" alt="Logo" width="100%"/>
+  <img src="common/Vortex Logo/Vortex-Logo-3.png" alt="Logo" width="100%"/>
 </p>
 
 ![KiCad Version](https://img.shields.io/badge/KiCad-10.0-blue)
