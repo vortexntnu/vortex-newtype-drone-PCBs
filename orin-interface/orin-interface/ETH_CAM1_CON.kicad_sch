@@ -1467,7 +1467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN08_530470810_MOL"
+		(property "Footprint" "530470810:CONN08_530470810_MOL"
 			(at 119.38 57.15 0)
 			(hide yes)
 			(show_name no)

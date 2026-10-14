@@ -549,6 +549,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 59.69) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f632664-02fd-4392-abab-230789ff34ea")
+	)
+	(wire
+		(pts
 			(xy 93.98 57.15) (xy 104.14 57.15)
 		)
 		(stroke
@@ -569,23 +579,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 104.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a87c75f-e81c-4b00-bc9c-44e823b81bc0")
-	)
-	(wire
-		(pts
 			(xy 93.98 62.23) (xy 104.14 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9907c90e-a74a-4bf0-8a7f-bc1e0685f54a")
+		(uuid "6f60c085-5880-485a-83c0-fae27e7245c7")
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
