@@ -28,7 +28,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 64.77) (xy 80.01 64.77)
+			(xy 68.58 64.77) (xy 80.01 64.77)
 		)
 		(stroke
 			(width 0)
@@ -38,7 +38,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 69.85) (xy 80.01 69.85)
+			(xy 68.58 69.85) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -58,7 +58,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 85.09) (xy 80.01 85.09)
+			(xy 68.58 85.09) (xy 80.01 85.09)
 		)
 		(stroke
 			(width 0)
@@ -78,7 +78,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 77.47) (xy 80.01 77.47)
+			(xy 68.58 77.47) (xy 80.01 77.47)
 		)
 		(stroke
 			(width 0)
@@ -108,7 +108,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 82.55) (xy 80.01 82.55)
+			(xy 68.58 82.55) (xy 80.01 82.55)
 		)
 		(stroke
 			(width 0)
@@ -118,7 +118,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 87.63) (xy 73.025 87.63)
+			(xy 68.58 87.63) (xy 73.025 87.63)
 		)
 		(stroke
 			(width 0)
@@ -128,7 +128,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 52.07) (xy 80.01 52.07)
+			(xy 68.58 52.07) (xy 80.01 52.07)
 		)
 		(stroke
 			(width 0)
@@ -178,7 +178,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 80.01) (xy 80.01 80.01)
+			(xy 68.58 80.01) (xy 80.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -188,7 +188,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 41.91) (xy 80.01 41.91)
+			(xy 68.58 41.91) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -208,7 +208,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 49.53) (xy 80.01 49.53)
+			(xy 68.58 49.53) (xy 80.01 49.53)
 		)
 		(stroke
 			(width 0)
@@ -228,7 +228,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 57.15) (xy 80.01 57.15)
+			(xy 68.58 57.15) (xy 80.01 57.15)
 		)
 		(stroke
 			(width 0)
@@ -248,7 +248,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 62.23) (xy 80.01 62.23)
+			(xy 68.58 62.23) (xy 80.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -258,7 +258,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 72.39) (xy 80.01 72.39)
+			(xy 68.58 72.39) (xy 80.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -268,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 44.45) (xy 80.01 44.45)
+			(xy 68.58 44.45) (xy 80.01 44.45)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +770,7 @@
 		)
 	)
 	(sheet
-		(at 48.895 31.75)
+		(at 45.72 31.75)
 		(size 22.86 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -785,7 +785,7 @@
 		)
 		(uuid "e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a")
 		(property "Sheetname" "ORIN-connector"
-			(at 49.53 30.48 0)
+			(at 46.355 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -796,7 +796,7 @@
 			)
 		)
 		(property "Sheetfile" "orin-connector.kicad_sch"
-			(at 48.895 66.3706 0)
+			(at 45.72 66.3706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -808,7 +808,7 @@
 			)
 		)
 		(pin "CAN0_DIN1" input
-			(at 71.755 62.23 0)
+			(at 68.58 62.23 0)
 			(uuid "380617fe-5146-4280-bf0a-f58b7667937f")
 			(effects
 				(font
@@ -818,7 +818,7 @@
 			)
 		)
 		(pin "CAN0_DOUT1" output
-			(at 71.755 64.77 0)
+			(at 68.58 64.77 0)
 			(uuid "87306d15-d69a-4152-9eb5-c856c4a4fb64")
 			(effects
 				(font
@@ -828,7 +828,7 @@
 			)
 		)
 		(pin "I2C5_CLK1" bidirectional
-			(at 71.755 41.91 0)
+			(at 68.58 41.91 0)
 			(uuid "9c4aef45-8647-425b-a4c9-be8a06d4d346")
 			(effects
 				(font
@@ -838,7 +838,7 @@
 			)
 		)
 		(pin "I2C5_DAT1" bidirectional
-			(at 71.755 44.45 0)
+			(at 68.58 44.45 0)
 			(uuid "5306cc50-200a-46e5-b942-79bf8dd0f282")
 			(effects
 				(font
@@ -848,7 +848,7 @@
 			)
 		)
 		(pin "SPI1_CS0_N1" output
-			(at 71.755 85.09 0)
+			(at 68.58 85.09 0)
 			(uuid "6c1ac475-e97b-4434-bed4-391e83df6063")
 			(effects
 				(font
@@ -858,7 +858,7 @@
 			)
 		)
 		(pin "SPI1_CS1_N1" bidirectional
-			(at 71.755 87.63 0)
+			(at 68.58 87.63 0)
 			(uuid "c4b74224-9f96-402f-9d08-c8bb78325c01")
 			(effects
 				(font
@@ -868,7 +868,7 @@
 			)
 		)
 		(pin "SPI1_MISO1" input
-			(at 71.755 82.55 0)
+			(at 68.58 82.55 0)
 			(uuid "daac0a96-6022-4d3b-8101-d3941773a50c")
 			(effects
 				(font
@@ -878,7 +878,7 @@
 			)
 		)
 		(pin "SPI1_MOSI1" output
-			(at 71.755 80.01 0)
+			(at 68.58 80.01 0)
 			(uuid "80037977-68df-42ca-a469-615040a27732")
 			(effects
 				(font
@@ -888,7 +888,7 @@
 			)
 		)
 		(pin "SPI1_SCK1" output
-			(at 71.755 77.47 0)
+			(at 68.58 77.47 0)
 			(uuid "6ee943fa-3393-43ab-b2e4-92433de17db0")
 			(effects
 				(font
@@ -898,7 +898,7 @@
 			)
 		)
 		(pin "UART1_RX1" input
-			(at 71.755 69.85 0)
+			(at 68.58 69.85 0)
 			(uuid "7ceed551-2d22-4a15-a64d-ab43b6e2efb0")
 			(effects
 				(font
@@ -908,7 +908,7 @@
 			)
 		)
 		(pin "UART1_TX1" output
-			(at 71.755 72.39 0)
+			(at 68.58 72.39 0)
 			(uuid "d1aad057-f270-4319-b547-c39a068f04db")
 			(effects
 				(font
@@ -918,7 +918,7 @@
 			)
 		)
 		(pin "GPIOOUT" output
-			(at 71.755 49.53 0)
+			(at 68.58 49.53 0)
 			(uuid "d7b6f916-a79d-4472-96af-91c8e07163bb")
 			(effects
 				(font
@@ -928,7 +928,7 @@
 			)
 		)
 		(pin "PWM01" output
-			(at 71.755 57.15 0)
+			(at 68.58 57.15 0)
 			(uuid "8eec1cde-583f-44ac-b6bb-bd5e3c58a4c0")
 			(effects
 				(font
@@ -938,7 +938,7 @@
 			)
 		)
 		(pin "GPIOIN" input
-			(at 71.755 52.07 0)
+			(at 68.58 52.07 0)
 			(uuid "2ebf36f3-9efb-45a8-994b-13e9ae9f282d")
 			(effects
 				(font

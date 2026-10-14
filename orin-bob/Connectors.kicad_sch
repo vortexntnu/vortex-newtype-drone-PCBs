@@ -1201,6 +1201,16 @@
 		)
 		(uuid "2eb5d007-16df-4d80-90b4-39845eba9941")
 	)
+	(wire
+		(pts
+			(xy 146.05 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1f5834-d065-4a12-969c-7a85e26a94e5")
+	)
 	(polyline
 		(pts
 			(xy 109.855 10.16) (xy 109.855 104.14)
@@ -1253,16 +1263,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 85.09) (xy 63.5 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "645ea4bb-2fb9-4eb1-9a68-b228d2c0728f")
-	)
-	(wire
-		(pts
 			(xy 158.75 30.48) (xy 158.75 33.02)
 		)
 		(stroke
@@ -1270,6 +1270,16 @@
 			(type default)
 		)
 		(uuid "7531e904-467e-49c1-9d3b-89d25f000936")
+	)
+	(wire
+		(pts
+			(xy 53.34 85.09) (xy 63.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b45825-89de-47f6-b58f-1039ce129b5f")
 	)
 	(wire
 		(pts
@@ -1350,16 +1360,6 @@
 			(type default)
 		)
 		(uuid "b3c0eb55-3174-4513-870f-9b1dcea8703a")
-	)
-	(wire
-		(pts
-			(xy 146.05 87.63) (xy 158.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82707a5-4e3f-4df3-aa2c-d3a791bb357f")
 	)
 	(wire
 		(pts
@@ -1455,7 +1455,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 146.05 87.63 180)
+		(at 53.34 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1510,7 +1510,7 @@
 	)
 	(hierarchical_label "GPIOIN_ISO"
 		(shape output)
-		(at 53.34 85.09 180)
+		(at 146.05 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)

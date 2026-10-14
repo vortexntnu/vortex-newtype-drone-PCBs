@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "b1bd989f-d720-4b6a-970e-13526453b9ed")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "530470810:530470810"
 			(body_styles demorgan)

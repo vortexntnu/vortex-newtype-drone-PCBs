@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "c36d0384-b338-4f7c-a871-d67300a32f8a")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "749022310:749022310"
 			(exclude_from_sim no)
@@ -1162,6 +1162,12 @@
 		(uuid "a63d7390-72e9-4113-a831-d59a5123da6b")
 	)
 	(junction
+		(at 132.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9501903-095a-4760-9e48-798f64e45b11")
+	)
+	(junction
 		(at 90.17 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1172,12 +1178,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4badbea-8ab8-4d2c-af5c-289f145967ce")
-	)
-	(junction
-		(at 134.62 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7c344ab-e6c2-498a-8bec-9973d7aa3702")
 	)
 	(bus_entry
 		(at 59.69 48.26)
@@ -1455,16 +1455,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 36.83) (xy 134.62 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35cfce2f-b349-4397-8ca7-1f813cce9e13")
-	)
-	(wire
-		(pts
 			(xy 124.46 69.85) (xy 152.4 69.85)
 		)
 		(stroke
@@ -1585,13 +1575,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 52.07) (xy 135.89 52.07)
+			(xy 132.08 52.07) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fe2cf3b-b15a-4218-bf4c-9018f34793e0")
+		(uuid "64a723a7-c3ff-413c-85d9-0dd12380fe72")
 	)
 	(wire
 		(pts
@@ -1692,6 +1682,16 @@
 			(type default)
 		)
 		(uuid "863d0964-4494-4949-a387-0803349f1686")
+	)
+	(wire
+		(pts
+			(xy 132.08 36.83) (xy 135.89 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3c09ef-6283-448b-8849-0edeeccf1baf")
 	)
 	(wire
 		(pts
@@ -1915,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 52.07) (xy 134.62 52.07)
+			(xy 124.46 52.07) (xy 132.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 36.83) (xy 134.62 52.07)
+			(xy 132.08 36.83) (xy 132.08 52.07)
 		)
 		(stroke
 			(width 0)

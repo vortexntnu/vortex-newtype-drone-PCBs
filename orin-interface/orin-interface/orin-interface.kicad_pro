@@ -653,7 +653,7 @@
         "uuid": "18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J6,#PWR3-5,#PWR40,#PWR51-52,U1,C22",
     "variants": []
   },
   "sheets": [
@@ -736,6 +736,10 @@
     [
       "510789d6-7dad-455b-9ae1-5c404d31a377",
       "POE_CH4 – ACOUSTICS"
+    ],
+    [
+      "be0ca79a-104a-45dc-920c-2d31e103c726",
+      "Step_Down_Conv"
     ]
   ],
   "text_variables": {},

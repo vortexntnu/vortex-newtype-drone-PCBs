@@ -3370,6 +3370,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 148.59) (xy 97.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033a628a-ad0f-4b9b-b7e4-1026dd84cacc")
+	)
+	(wire
+		(pts
 			(xy 50.8 111.76) (xy 58.42 111.76)
 		)
 		(stroke
@@ -3457,16 +3467,6 @@
 			(type default)
 		)
 		(uuid "0b38ebd2-7978-484b-ad2c-1f447895a0c6")
-	)
-	(wire
-		(pts
-			(xy 208.28 127) (xy 214.63 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d7fc8f7-da57-4500-a312-000ed924caa7")
 	)
 	(wire
 		(pts
@@ -3737,16 +3737,6 @@
 			(type default)
 		)
 		(uuid "38f3d900-c01d-498e-8aa0-30fc8a167e0b")
-	)
-	(wire
-		(pts
-			(xy 49.53 148.59) (xy 55.88 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c332f0e-8bf5-4839-ad08-57db5fffbac1")
 	)
 	(wire
 		(pts
@@ -4157,26 +4147,6 @@
 			(type default)
 		)
 		(uuid "7769599c-51cb-4c2f-8a2a-6d9d242cfb9d")
-	)
-	(wire
-		(pts
-			(xy 97.79 148.59) (xy 86.36 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77f5ecb9-a79c-4011-a36c-3829991f46b3")
-	)
-	(wire
-		(pts
-			(xy 234.95 127) (xy 241.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "781fc875-3bf8-41cf-83c1-77fd7bd34940")
 	)
 	(wire
 		(pts
@@ -4750,6 +4720,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 127) (xy 241.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be28d4ba-9e9b-4f9e-af9a-76ec5c860e9d")
+	)
+	(wire
+		(pts
 			(xy 86.36 143.51) (xy 88.9 143.51)
 		)
 		(stroke
@@ -4867,6 +4847,16 @@
 			(type default)
 		)
 		(uuid "d5066728-7205-4fa1-9c17-79208f86fbcf")
+	)
+	(wire
+		(pts
+			(xy 49.53 148.59) (xy 55.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7204532-d3ec-4d02-83f5-73b79a9e612c")
 	)
 	(wire
 		(pts
@@ -5090,6 +5080,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 127) (xy 214.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c60631-84bd-41ac-811c-30d46d62e811")
+	)
+	(wire
+		(pts
 			(xy 182.88 124.46) (xy 193.04 124.46)
 		)
 		(stroke
@@ -5151,7 +5151,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape output)
-		(at 241.3 127 0)
+		(at 97.79 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5261,7 +5261,7 @@
 	)
 	(hierarchical_label "PWM01"
 		(shape input)
-		(at 208.28 127 180)
+		(at 49.53 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5316,7 +5316,7 @@
 	)
 	(hierarchical_label "GPIOOUT_ISO"
 		(shape output)
-		(at 97.79 148.59 0)
+		(at 241.3 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5327,7 +5327,7 @@
 	)
 	(hierarchical_label "GPIOOUT"
 		(shape bidirectional)
-		(at 49.53 148.59 180)
+		(at 208.28 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)

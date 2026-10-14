@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "0125888f-17ed-4d9e-882d-4a036e8a80ce")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "691378140024:691378140024"
 			(pin_names
@@ -1542,7 +1542,7 @@
 	)
 	(text "Standard - Connector"
 		(exclude_from_sim no)
-		(at 146.304 66.802 0)
+		(at 105.664 32.512 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1551,14 +1551,14 @@
 		(uuid "379cc91e-5756-4b6c-a696-5d7aaec51b82")
 	)
 	(junction
-		(at 154.94 77.47)
+		(at 114.3 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff5fcce4-294d-40f6-ab62-6978ffeec8b7")
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 154.94 82.55)
+			(xy 111.76 48.26) (xy 114.3 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1568,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 154.94 77.47)
+			(xy 114.3 41.91) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 107.95) (xy 139.7 107.95)
+			(xy 93.98 73.66) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 80.01) (xy 152.4 80.01)
+			(xy 114.3 45.72) (xy 111.76 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1598,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 82.55) (xy 154.94 114.3)
+			(xy 93.98 68.58) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59db638c-716a-4348-abf8-5f3d2d3ac76e")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 154.94 80.01)
+			(xy 114.3 43.18) (xy 114.3 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 158.75 105.41)
+			(xy 111.76 71.12) (xy 118.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 82.55) (xy 137.16 114.3)
+			(xy 96.52 48.26) (xy 96.52 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 158.75 107.95)
+			(xy 111.76 73.66) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 105.41) (xy 139.7 105.41)
+			(xy 93.98 71.12) (xy 99.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 80.01) (xy 139.7 80.01)
+			(xy 96.52 45.72) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 82.55) (xy 137.16 82.55)
+			(xy 99.06 48.26) (xy 96.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 80.01) (xy 137.16 76.2)
+			(xy 96.52 45.72) (xy 96.52 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 156.21 77.47)
+			(xy 114.3 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1696,9 +1706,19 @@
 		)
 		(uuid "f6424c4a-e223-4180-94ac-571650232725")
 	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1aeb0a-5363-4231-b9fa-a47ea758d1c7")
+	)
 	(hierarchical_label "+BATT"
 		(shape input)
-		(at 156.21 77.47 0)
+		(at 115.57 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,7 +1729,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 134.62 105.41 180)
+		(at 93.98 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,7 +1740,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 158.75 105.41 0)
+		(at 118.11 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,7 +1751,7 @@
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 158.75 107.95 0)
+		(at 118.11 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1740,9 +1760,31 @@
 		)
 		(uuid "ab03fb40-0aef-44da-8907-538df187d767")
 	)
+	(hierarchical_label "PWM"
+		(shape bidirectional)
+		(at 93.98 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af71bb36-cfa7-4a28-983f-81979969c2e2")
+	)
+	(hierarchical_label "PWM"
+		(shape bidirectional)
+		(at 118.11 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c897433d-b995-4fdf-b056-1f907a3d16a1")
+	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 134.62 107.95 180)
+		(at 93.98 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1753,7 +1795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 114.3 0)
+		(at 96.52 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1764,7 +1806,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d2986b2-44de-431e-9c07-328cd5ef78aa")
 		(property "Reference" "#PWR011"
-			(at 137.16 120.65 0)
+			(at 96.52 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1775,7 +1817,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 119.38 0)
+			(at 96.52 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1785,7 +1827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 114.3 0)
+			(at 96.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +1838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 114.3 0)
+			(at 96.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +1849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 114.3 0)
+			(at 96.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1831,7 +1873,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 154.94 76.2 0)
+		(at 114.3 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1841,7 +1883,7 @@
 		(dnp no)
 		(uuid "64fea955-f18c-4640-b0d4-99defe100c7b")
 		(property "Reference" "#PWR012"
-			(at 154.94 80.01 0)
+			(at 114.3 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +1894,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 155.194 71.882 0)
+			(at 114.554 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1862,7 +1904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 76.2 0)
+			(at 114.3 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1873,7 +1915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 76.2 0)
+			(at 114.3 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1884,7 +1926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 154.94 76.2 0)
+			(at 114.3 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1908,7 +1950,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 114.3 0)
+		(at 114.3 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1919,7 +1961,7 @@
 		(fields_autoplaced yes)
 		(uuid "8654d78c-427b-4c92-b551-602ed85d95bf")
 		(property "Reference" "#PWR013"
-			(at 154.94 120.65 0)
+			(at 114.3 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,7 +1972,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 119.38 0)
+			(at 114.3 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1940,7 +1982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 114.3 0)
+			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,7 +1993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 114.3 0)
+			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +2004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 114.3 0)
+			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +2028,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 137.16 76.2 0)
+		(at 96.52 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1996,7 +2038,7 @@
 		(dnp no)
 		(uuid "b1ddda03-4d06-4ec9-aafb-ff18a76b0758")
 		(property "Reference" "#PWR010"
-			(at 137.16 80.01 0)
+			(at 96.52 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2007,7 +2049,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 137.16 72.136 0)
+			(at 96.52 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2017,7 +2059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 76.2 0)
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2028,7 +2070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 76.2 0)
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2081,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 137.16 76.2 0)
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2063,7 +2105,7 @@
 	)
 	(symbol
 		(lib_id "691378140024:691378140024")
-		(at 146.05 93.98 270)
+		(at 105.41 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2073,7 +2115,7 @@
 		(dnp no)
 		(uuid "c275df4d-49b1-4425-9a74-e6449fed5131")
 		(property "Reference" "J10"
-			(at 146.05 110.744 90)
+			(at 105.41 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2083,7 +2125,7 @@
 			)
 		)
 		(property "Value" "691378140024"
-			(at 168.91 106.68 0)
+			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,7 +2137,7 @@
 			)
 		)
 		(property "Footprint" "691378140024-2:J_Wurth_WR-TBL_691378140024"
-			(at 166.37 106.68 0)
+			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2107,7 +2149,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691378140024.pdf?ki"
-			(at 163.83 106.68 0)
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2119,7 +2161,7 @@
 			)
 		)
 		(property "Description" "Terminal Blocks - PCB Header Dual Row - 3.5mm pitch - THT  NEW"
-			(at 146.05 93.98 0)
+			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2130,7 +2172,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 161.29 106.68 0)
+			(at 120.65 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2142,7 +2184,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 158.75 106.68 0)
+			(at 118.11 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2154,7 +2196,7 @@
 			)
 		)
 		(property "Created Date" "20260401"
-			(at 156.21 106.68 0)
+			(at 115.57 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2208,7 @@
 			)
 		)
 		(property "Series" "WR-TBL"
-			(at 153.67 106.68 0)
+			(at 113.03 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2178,7 +2220,7 @@
 			)
 		)
 		(property "Part Number" "691378140024"
-			(at 151.13 106.68 0)
+			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2190,7 +2232,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 148.59 106.68 0)
+			(at 107.95 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2202,7 +2244,7 @@
 			)
 		)
 		(property "Automotive" "No"
-			(at 146.05 106.68 0)
+			(at 105.41 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2214,7 +2256,7 @@
 			)
 		)
 		(property "IR (A)" "8"
-			(at 143.51 106.68 0)
+			(at 102.87 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2226,7 +2268,7 @@
 			)
 		)
 		(property "Pins (pcs)" "24"
-			(at 140.97 106.68 0)
+			(at 100.33 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2238,7 +2280,7 @@
 			)
 		)
 		(property "Pitch (mm)" "3.5"
-			(at 138.43 106.68 0)
+			(at 97.79 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2250,7 +2292,7 @@
 			)
 		)
 		(property "Type" "Horizontal"
-			(at 135.89 106.68 0)
+			(at 95.25 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2304,7 @@
 			)
 		)
 		(property "Polarity" "24.0"
-			(at 133.35 106.68 0)
+			(at 92.71 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2274,7 +2316,7 @@
 			)
 		)
 		(property "Insulator Material" "PA66"
-			(at 130.81 106.68 0)
+			(at 90.17 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2328,7 @@
 			)
 		)
 		(property "Working Voltage (V (AC))" "150.0"
-			(at 128.27 106.68 0)
+			(at 87.63 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2298,7 +2340,7 @@
 			)
 		)
 		(property "Withstanding Voltage (V (AC))" "1300.0"
-			(at 125.73 106.68 0)
+			(at 85.09 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2310,7 +2352,7 @@
 			)
 		)
 		(property "Critical Parameter" "8A 24pins 3.5mm"
-			(at 146.05 76.2 90)
+			(at 105.41 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
