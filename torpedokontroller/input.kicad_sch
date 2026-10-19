@@ -5703,9 +5703,19 @@
 		)
 		(uuid "14e2b892-12b3-49ae-88ca-a59c16075ea3")
 	)
-	(text "LED Resistor values calculated from (Vf - 3v3) / 8mA, as it gives ca 250mcd"
+	(text "Switch used in testing to simulate tcan being last in chain"
 		(exclude_from_sim no)
-		(at 59.69 76.2 0)
+		(at 50.292 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d6f8a01-cca0-4721-a27f-ff28ccee8ac9")
+	)
+	(text "Values from datasheet, LED resistors calculated for 10mcd"
+		(exclude_from_sim no)
+		(at 50.292 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5732,6 +5742,26 @@
 			)
 		)
 		(uuid "d9f40f60-6b2c-4e94-8a8c-13de851afe24")
+	)
+	(text "Values from datasheet"
+		(exclude_from_sim no)
+		(at 32.004 154.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc74b386-c0b4-46ae-b4ac-9abc52216030")
+	)
+	(text "Values from datasheet"
+		(exclude_from_sim no)
+		(at 185.928 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e62d17b9-d7f5-46ba-bb89-6d5f31fc9eb5")
 	)
 	(junction
 		(at 168.91 33.02)
@@ -5914,7 +5944,7 @@
 		(uuid "d9a680b2-6690-4e2b-aafb-1ac72f66d658")
 	)
 	(junction
-		(at 57.15 33.02)
+		(at 55.88 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de493b69-e405-4461-b666-59d5b7ff30bf")
@@ -6000,16 +6030,6 @@
 			(type default)
 		)
 		(uuid "045d76f5-6ddc-45f8-8efc-880b8577f785")
-	)
-	(wire
-		(pts
-			(xy 57.15 33.02) (xy 72.39 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f1ca69-0c4a-47c4-9905-238a3e8c1001")
 	)
 	(wire
 		(pts
@@ -6343,7 +6363,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 57.15 34.29)
+			(xy 55.88 33.02) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6973,6 +6993,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 33.02) (xy 72.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1614994-3d02-404e-8b30-2e92c5c1d756")
+	)
+	(wire
+		(pts
 			(xy 231.14 71.12) (xy 231.14 68.58)
 		)
 		(stroke
@@ -7060,16 +7090,6 @@
 			(type default)
 		)
 		(uuid "c955277b-e992-47ce-8250-08653655e321")
-	)
-	(wire
-		(pts
-			(xy 40.64 33.02) (xy 57.15 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c972ebea-a5f7-4afb-b172-5ed0b2f67410")
 	)
 	(wire
 		(pts
@@ -7343,7 +7363,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 57.15 49.53)
+			(xy 55.88 45.72) (xy 55.88 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8288,7 +8308,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 57.15 49.53 0)
+		(at 55.88 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8299,7 +8319,7 @@
 		(fields_autoplaced yes)
 		(uuid "175ccd0c-3381-4d34-82df-e3523defde4d")
 		(property "Reference" "#PWR016"
-			(at 57.15 55.88 0)
+			(at 55.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,7 +8330,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 57.15 54.61 0)
+			(at 55.88 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8321,7 +8341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 49.53 0)
+			(at 55.88 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,7 +8352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 49.53 0)
+			(at 55.88 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8343,7 +8363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 57.15 49.53 0)
+			(at 55.88 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17021,7 +17041,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ18A")
-		(at 57.15 38.1 270)
+		(at 55.88 41.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17032,7 +17052,7 @@
 		(fields_autoplaced yes)
 		(uuid "da3ff129-1b3a-40ce-9015-1f95ec200207")
 		(property "Reference" "D1"
-			(at 59.69 36.8299 90)
+			(at 58.42 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17043,7 +17063,7 @@
 			)
 		)
 		(property "Value" "18V"
-			(at 59.69 39.3699 90)
+			(at 58.42 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17054,7 +17074,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 52.07 38.1 0)
+			(at 50.8 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17065,7 +17085,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 57.15 36.83 0)
+			(at 55.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17076,7 +17096,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
-			(at 57.15 38.1 0)
+			(at 55.88 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
