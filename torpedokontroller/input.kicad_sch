@@ -8521,7 +8521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 156.21 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8877,7 +8877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 123.952 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -9027,7 +9027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24,9k"
+		(property "Value" "24k9"
 			(at 85.09 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9038,7 +9038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 80.772 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -9277,7 +9277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 201.93 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -9631,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 265.43 31.242 90)
 			(hide yes)
 			(show_name no)
@@ -9951,7 +9951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10565,7 +10565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 247.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10921,7 +10921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 68.072 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -11302,7 +11302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 64.262 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -11383,7 +11383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 168.6052 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11545,7 +11545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 233.68 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -11902,7 +11902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 156.21 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -12854,7 +12854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13291,7 +13291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 171.45 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -13886,7 +13886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMCD-0603"
+		(property "Footprint" "WL-LED:D_Wurth_WL-SMCD-0603"
 			(at 248.92 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14150,7 +14150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 186.69 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14779,7 +14779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 180.0352 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14940,7 +14940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 80.772 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -15448,7 +15448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 131.572 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -15608,7 +15608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 117.8052 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15848,7 +15848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMCD-0603"
+		(property "Footprint" "WL-LED:D_Wurth_WL-SMCD-0603"
 			(at 49.53 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16191,7 +16191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 233.68 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -17008,7 +17008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 115.57 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17366,7 +17366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 186.69 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -17805,7 +17805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 80.772 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -17886,7 +17886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVS-SOT23-3L"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 67.31 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -18442,7 +18442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
 			(at 247.65 17.78 0)
 			(hide yes)
 			(show_name no)
