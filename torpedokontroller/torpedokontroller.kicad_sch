@@ -169,7 +169,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN2_RX" output
+		(pin "CAN2_RX" input
 			(at 80.01 36.83 180)
 			(uuid "ce953faa-71da-4029-a064-3c4f0fff2627")
 			(effects
@@ -189,7 +189,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN1_RX" output
+		(pin "CAN1_RX" input
 			(at 116.84 36.83 0)
 			(uuid "a9aedd17-f811-43d4-8841-5dd95ddb5996")
 			(effects
