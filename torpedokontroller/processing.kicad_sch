@@ -5,7 +5,7 @@
 	(uuid "9babeba3-1355-4920-9e6e-8b0d3b645509")
 	(paper "A4")
 	(title_block
-		(date "2026-10-14")
+		(date "2026-10-21")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols
@@ -4222,7 +4222,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SWD-Header:62701021621"
+		(symbol "SWD-Header:62701020621"
 			(pin_names
 				(hide yes)
 			)
@@ -4241,7 +4241,7 @@
 					)
 				)
 			)
-			(property "Value" "62701021621"
+			(property "Value" "62701020621"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4252,7 +4252,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-BHD_62701021621"
+			(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-BHD_62701020621"
 				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4263,7 +4263,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/62701021621?ki"
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/62701020621?ki"
 				(at 45.72 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4274,7 +4274,7 @@
 					)
 				)
 			)
-			(property "Description" "1.27 mm Male Box Header"
+			(property "Description" "1.27 mm Male SMT Box Header"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4362,7 +4362,7 @@
 					)
 				)
 			)
-			(property "Mounting Technology" "THT"
+			(property "Mounting Technology" "SMT"
 				(at 45.72 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4428,7 +4428,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "THT"
+			(property "ki_keywords" "SMT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4450,10 +4450,10 @@
 					)
 				)
 			)
-			(symbol "62701021621_1_1"
+			(symbol "62701020621_1_1"
 				(rectangle
-					(start -7.62 2.54)
-					(end 7.62 -2.54)
+					(start -6.35 2.54)
+					(end 6.35 -2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4462,21 +4462,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 1.778) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 1.27)
-					(radius 0.508)
+				(rectangle
+					(start -5.588 2.54)
+					(end -4.572 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4485,9 +4473,9 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center -5.08 -1.27)
-					(radius 0.508)
+				(rectangle
+					(start -5.588 -0.508)
+					(end -4.572 -2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4496,33 +4484,9 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 -1.778) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.778) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.27)
-					(radius 0.508)
+				(rectangle
+					(start -3.048 2.54)
+					(end -2.032 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4531,9 +4495,9 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.508)
+				(rectangle
+					(start -3.048 -0.508)
+					(end -2.032 -2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4542,33 +4506,9 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -1.778) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.27)
-					(radius 0.508)
+				(rectangle
+					(start -0.508 2.54)
+					(end 0.508 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4577,9 +4517,9 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.508)
+				(rectangle
+					(start -0.508 -0.508)
+					(end 0.508 -2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4588,33 +4528,9 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.778) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.27)
-					(radius 0.508)
+				(rectangle
+					(start 2.032 2.54)
+					(end 3.048 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4623,9 +4539,9 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 2.54 -1.27)
-					(radius 0.508)
+				(rectangle
+					(start 2.032 -0.508)
+					(end 3.048 -2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4634,33 +4550,9 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.778) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 1.27)
-					(radius 0.508)
+				(rectangle
+					(start 4.572 2.54)
+					(end 5.588 0.508)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -4669,27 +4561,15 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 5.08 -1.27)
-					(radius 0.508)
+				(rectangle
+					(start 4.572 -0.508)
+					(end 5.588 -2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.778) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin passive line
@@ -9701,7 +9581,7 @@
 		(uuid "281486f3-25f0-48e8-a8a4-054c09c3b796")
 	)
 	(rectangle
-		(start 198.755 63.5)
+		(start 198.755 64.135)
 		(end 278.765 100.965)
 		(stroke
 			(width 0.254)
@@ -9714,7 +9594,7 @@
 	)
 	(rectangle
 		(start 198.755 17.78)
-		(end 278.765 59.055)
+		(end 234.315 58.42)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -9770,9 +9650,9 @@
 		)
 		(uuid "21d05c24-9994-44d2-81c5-f9777ad79584")
 	)
-	(text "RESET /  BOOT"
+	(text "RESET"
 		(exclude_from_sim no)
-		(at 213.868 21.59 0)
+		(at 205.486 21.336 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -9822,7 +9702,7 @@
 	)
 	(text "SWD"
 		(exclude_from_sim no)
-		(at 222.25 123.698 0)
+		(at 222.25 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9860,7 +9740,7 @@
 		)
 		(uuid "cd71a4ed-4b86-4bed-9105-8d89023657d8")
 	)
-	(text "RGB_LED"
+	(text "RGB LED"
 		(exclude_from_sim no)
 		(at 208.28 67.31 0)
 		(effects
@@ -9872,7 +9752,7 @@
 	)
 	(text "Oscillator"
 		(exclude_from_sim no)
-		(at 124.46 161.29 0)
+		(at 124.206 160.782 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -10007,12 +9887,6 @@
 		(uuid "5d76ace9-7838-41dc-bc74-31f7ca2e26ea")
 	)
 	(junction
-		(at 252.73 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "619540ee-8bfd-40d3-b8ba-1e0689930528")
-	)
-	(junction
 		(at 77.47 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10023,18 +9897,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71af76b6-e423-49c5-a9c6-b65e2c75b1b2")
-	)
-	(junction
-		(at 262.89 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b4901e1-742e-4459-9a1d-141a10c42e7a")
-	)
-	(junction
-		(at 252.73 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7df660a4-882a-4245-a415-ee88f1db55d6")
 	)
 	(junction
 		(at 156.21 114.3)
@@ -10582,16 +10444,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 52.07) (xy 240.03 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2018cd8c-1fee-4ebb-8fa3-c36bcdd63bee")
-	)
-	(wire
-		(pts
 			(xy 132.08 93.98) (xy 134.62 93.98)
 		)
 		(stroke
@@ -10649,16 +10501,6 @@
 			(type default)
 		)
 		(uuid "297b6e32-e081-431e-81be-b702ae8c3da6")
-	)
-	(wire
-		(pts
-			(xy 240.03 29.21) (xy 240.03 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ac6c740-136c-4829-8981-117ee480b6ac")
 	)
 	(wire
 		(pts
@@ -10822,16 +10664,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 48.26) (xy 262.89 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5bcd43-9cdf-45eb-b0ad-a04b5d3922d8")
-	)
-	(wire
-		(pts
 			(xy 172.72 88.9) (xy 172.72 93.98)
 		)
 		(stroke
@@ -10899,16 +10731,6 @@
 			(type default)
 		)
 		(uuid "40201bb7-37a0-4e6f-aae8-5d05db14a99a")
-	)
-	(wire
-		(pts
-			(xy 252.73 48.26) (xy 262.89 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a48b9d-5145-4a86-9e56-dba5849fd01e")
 	)
 	(wire
 		(pts
@@ -11232,16 +11054,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 33.02) (xy 270.51 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a21d46-d566-442f-aac6-2ee368f4cc41")
-	)
-	(wire
-		(pts
 			(xy 142.24 93.98) (xy 144.78 93.98)
 		)
 		(stroke
@@ -11422,16 +11234,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 33.02) (xy 252.73 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80141a95-8054-4a4d-882b-a4401a2c805c")
-	)
-	(wire
-		(pts
 			(xy 29.21 162.56) (xy 29.21 163.83)
 		)
 		(stroke
@@ -11552,16 +11354,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 48.26) (xy 252.73 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92de9981-087e-4b8a-a1e8-a0ad97b6bd70")
-	)
-	(wire
-		(pts
 			(xy 227.33 91.44) (xy 227.33 93.98)
 		)
 		(stroke
@@ -11589,16 +11381,6 @@
 			(type default)
 		)
 		(uuid "93ff8414-7779-490c-b6dd-23c72e23cf7c")
-	)
-	(wire
-		(pts
-			(xy 262.89 33.02) (xy 262.89 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "949ec49a-7045-40df-af7b-2561b2544018")
 	)
 	(wire
 		(pts
@@ -11772,16 +11554,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 33.02) (xy 252.73 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a494bb4b-b208-4b17-812f-ac6294cc1d76")
-	)
-	(wire
-		(pts
 			(xy 39.37 129.54) (xy 46.99 129.54)
 		)
 		(stroke
@@ -11889,16 +11661,6 @@
 			(type default)
 		)
 		(uuid "b09c079c-3730-4cd5-b460-7343004ac91e")
-	)
-	(wire
-		(pts
-			(xy 252.73 33.02) (xy 262.89 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a63660-0d3e-4be3-b342-6d32070a0bb3")
 	)
 	(wire
 		(pts
@@ -12062,16 +11824,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 45.72) (xy 252.73 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c82ed0fe-c10c-401a-afe0-fb31739bb49b")
-	)
-	(wire
-		(pts
 			(xy 156.21 114.3) (xy 162.56 114.3)
 		)
 		(stroke
@@ -12172,16 +11924,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 33.02) (xy 241.3 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d304dc67-c567-4b7e-98b2-38a7426a2c1d")
-	)
-	(wire
-		(pts
 			(xy 261.62 83.82) (xy 261.62 92.71)
 		)
 		(stroke
@@ -12249,16 +11991,6 @@
 			(type default)
 		)
 		(uuid "da72f53a-fe67-4afd-939c-cde49c8fc745")
-	)
-	(wire
-		(pts
-			(xy 240.03 48.26) (xy 241.3 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dad3adde-4905-4d4c-a4fe-e24344cae5b7")
 	)
 	(wire
 		(pts
@@ -12529,16 +12261,6 @@
 			(justify right bottom)
 		)
 		(uuid "012c7956-36b5-4e8c-8e37-5cd8eb4b78d6")
-	)
-	(label "BOOT0"
-		(at 264.16 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02bb2f3d-1e4f-4583-b6ac-deea81ba4356")
 	)
 	(label "SWDIO"
 		(at 273.05 115.57 180)
@@ -14530,253 +14252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SWD-Header:62701021621")
-		(at 222.25 132.08 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22fc9d8b-5548-44f0-bf54-92186b155bef")
-		(property "Reference" "J5"
-			(at 221.996 125.476 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "62701021621"
-			(at 209.55 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-BHD_62701021621"
-			(at 237.49 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/62701021621?ki"
-			(at 240.03 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.27 mm Male Box Header"
-			(at 222.25 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 237.49 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 234.95 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-BHD"
-			(at 232.41 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pins (pcs)" "10"
-			(at 229.87 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch (mm)" "1.27"
-			(at 227.33 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gender" "Male"
-			(at 224.79 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Straight"
-			(at 222.25 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "THT"
-			(at 219.71 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "12.7"
-			(at 217.17 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR (A)" "1"
-			(at 214.63 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Working Voltage (V (AC))" "50"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Resistance (mohm)" "20"
-			(at 209.55 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "max."
-			(at 207.01 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "3f0e949c-3f51-42ed-87fa-2820581dc816")
-		)
-		(pin "6"
-			(uuid "d7437026-6552-46e3-a80d-8ac7d5485af7")
-		)
-		(pin "8"
-			(uuid "d29d65f8-2b9a-4162-8f27-b5483242346b")
-		)
-		(pin "7"
-			(uuid "44030b71-5c7f-4469-80f0-7ade9b99b916")
-		)
-		(pin "1"
-			(uuid "7bc4237a-56a5-4cc8-8f7c-9727e872c069")
-		)
-		(pin "9"
-			(uuid "6ceb9cf8-d418-4b14-b0f1-5f3abede1e78")
-		)
-		(pin "2"
-			(uuid "c46d45ae-0210-4889-b2be-f085464348f7")
-		)
-		(pin "3"
-			(uuid "f48a1cef-eb10-4eab-860c-341a42d31c55")
-		)
-		(pin "10"
-			(uuid "3697e541-6e17-4d26-b143-800126837e30")
-		)
-		(pin "4"
-			(uuid "1ce31770-9d60-4414-9ddf-d6c77cf14fac")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 62.23 166.37 0)
 		(unit 1)
@@ -14966,7 +14441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Switch_SMD_Wurth:SW_Wurth_WS-TASV_434123025826"
+		(property "Footprint" "Switch:SW_Wurth_WS-TASV_434123025826"
 			(at 236.22 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15265,7 +14740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300311021"
+		(property "Footprint" "Connectors_tht:J_Wurth_WR-PHD_61300311021"
 			(at 128.27 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16233,87 +15708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 245.11 48.26 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "503e1432-08e8-4e7b-96fa-c06929801d66")
-		(property "Reference" "R39"
-			(at 245.11 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 245.11 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
-			(at 245.11 50.038 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 245.11 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5b1ee70-c19e-4d83-aa88-0c98eb701e91")
-		)
-		(pin "2"
-			(uuid "e9e2c992-7f38-440c-b286-37c0fbcb479d")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 127 185.42 0)
 		(unit 1)
@@ -16387,6 +15781,253 @@
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SWD-Header:62701020621")
+		(at 222.25 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59c8f74a-74e5-4619-a1c1-1c6bb83c3625")
+		(property "Reference" "J5"
+			(at 222.25 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "62701020621"
+			(at 209.55 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-BHD_62701020621"
+			(at 237.49 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/62701020621?ki"
+			(at 240.03 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.27 mm Male SMT Box Header"
+			(at 222.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 237.49 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 234.95 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-BHD"
+			(at 232.41 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pins (pcs)" "10"
+			(at 229.87 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 227.33 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gender" "Male"
+			(at 224.79 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Straight"
+			(at 222.25 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 219.71 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (mm)" "12.7"
+			(at 217.17 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IR (A)" "1"
+			(at 214.63 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Working Voltage (V (AC))" "50"
+			(at 212.09 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Resistance (mohm)" "20"
+			(at 209.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol. R" "max."
+			(at 207.01 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0d30494e-5e9a-458b-bd03-a6347fc64706")
+		)
+		(pin "5"
+			(uuid "24a94b6d-0d33-456b-84f0-b3f2d3929bdd")
+		)
+		(pin "3"
+			(uuid "79e69d4f-5b87-4285-afb4-d579e77eb811")
+		)
+		(pin "1"
+			(uuid "e24d5864-3c12-4e47-a06f-28237aa1821f")
+		)
+		(pin "8"
+			(uuid "82423f00-7bb5-4990-a75a-3a7ba010f3bf")
+		)
+		(pin "4"
+			(uuid "3fb956e5-c9a5-4868-92c4-da341d49da1e")
+		)
+		(pin "10"
+			(uuid "e73fcc03-bd6c-4a1f-926c-0f0369bf92a3")
+		)
+		(pin "6"
+			(uuid "874ae455-98ce-416b-a118-be4dda02f066")
+		)
+		(pin "9"
+			(uuid "6c723e13-bfbb-4300-8c4b-2c477a19db0b")
+		)
+		(pin "7"
+			(uuid "bfca7027-3549-46a2-b5c5-ddb764ac2d45")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -18353,389 +17994,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.11 33.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a54dc71-b419-407a-b8a0-4873a2bf5807")
-		(property "Reference" "R38"
-			(at 245.11 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 245.11 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
-			(at 245.11 31.242 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 245.11 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14c9fb6b-a17b-47b8-a9df-58fba6cf1f35")
-		)
-		(pin "2"
-			(uuid "1059ab3d-6c25-430a-b327-16ee56826921")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "434123025826_1")
-		(lib_id "WS-TASV:434123025826")
-		(at 257.81 40.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7bdc65b5-166c-47b7-b269-70c7dc992e7e")
-		(property "Reference" "SW2"
-			(at 255.778 49.784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "434123025826"
-			(at 245.11 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Switch_SMD_Wurth:SW_Wurth_WS-TASV_434123025826"
-			(at 245.11 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/434123025826.pdf?ki"
-			(at 245.11 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "J-Bend SMT Tact Switch 4.2x3.2 mm"
-			(at 257.81 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 245.11 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 245.11 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260204"
-			(at 245.11 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WS-TASV"
-			(at 245.11 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "434123025826"
-			(at 245.11 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 245.11 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "H (mm)" "2.5"
-			(at 245.11 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Operation Force (g)" "260.0"
-			(at 245.11 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Electrical Life (Cycles)" "50000"
-			(at 245.11 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Actuator Color" "White"
-			(at 245.11 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Vaporphase process" "not specified"
-			(at 245.11 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "9b847508-75a9-4f99-830f-c225dea61a82")
-		)
-		(pin "1"
-			(uuid "f9c29612-a91d-4086-9a1c-7a9ca9e635cb")
-		)
-		(pin "3"
-			(uuid "9f0a1340-b249-4f99-ab82-4d9ce9922608")
-		)
-		(pin "4"
-			(uuid "a74dc16c-5100-4fcf-9d24-89dd08c7c674")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 240.03 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cf5454d-97da-4a47-9204-579bd2b0ba93")
-		(property "Reference" "#PWR03"
-			(at 240.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 240.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_SMD_Wurth:SW_Wurth_WS-TASV_434123025826"
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59644e3e-8cdc-4854-92d9-3dbb13b9affb")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 41.91 158.75 180)
 		(unit 1)
 		(body_style 1)
@@ -19067,6 +18325,10 @@
 					(reference "Y1")
 					(unit 1)
 				)
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "Y1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19144,83 +18406,6 @@
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 240.03 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d92b638-9d70-4590-9f9b-00585cc772be")
-		(property "Reference" "#PWR071"
-			(at 240.03 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 239.776 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24a49c18-28bd-4cf3-b8bf-2d9afcd1122f")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -19498,7 +18683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-WTB_653104124022"
+		(property "Footprint" "Connectors_tht:J_Wurth_WR-MPC4_64900411122"
 			(at 276.86 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -20732,7 +19917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2cdb157-6d7a-420e-9391-899ee31dda2a")
-		(property "Reference" "U5"
+		(property "Reference" "U15"
 			(at 182.118 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20809,7 +19994,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "U5")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -21163,7 +20348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-USB_629722000214"
+		(property "Footprint" "Conectors:J_Wurth_WR-USB_629722000214"
 			(at 152.908 101.092 0)
 			(hide yes)
 			(show_name no)

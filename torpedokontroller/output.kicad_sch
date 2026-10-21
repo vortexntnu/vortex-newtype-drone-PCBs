@@ -5,272 +5,10 @@
 	(uuid "609a7ca3-1c99-497a-aaf0-6c82596325f9")
 	(paper "A4")
 	(title_block
-		(date "2026-10-16")
+		(date "2026-10-21")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols
-		(symbol "BZT52C10:BZT52C10"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Z1"
-				(at 6.3499 3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BZT52C10"
-				(at 8.8899 3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SOD3716X125N"
-				(at 10.16 -93.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/3006306.pdf"
-				(at 10.16 -193.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "MULTICOMP PRO - BZT52C10 - Zener Single Diode, 10 V, 500 mW, SOD-123, 2 Pins, Surface Mount"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.25"
-				(at 10.16 -393.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Multicomp Pro"
-				(at 10.16 -493.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BZT52C10"
-				(at 10.16 -593.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 10.16 -693.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 10.16 -793.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 10.16 -893.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 10.16 -993.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "BZT52C10_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.905) (xy 5.08 -1.397)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.397) (xy 5.715 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 1.27) (xy 7.62 -1.27) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 1.27 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209048"
 			(pin_numbers
 				(hide yes)
@@ -1507,6 +1245,438 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode_Wurth_WE-TVSP:DFN1610-2L_824045817"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DFN1610-2L_824045817"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVS-DFN1610-2L"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824045817.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "TVS Diode  Standard Series"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20260409"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WE-TVS"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "824045817"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "DFN1610-2L"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Automotive" "No"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Channels" "Channels1"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Polarity" "Unidirectional"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VCh max.(V)" "7 V"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VBR min.(V)" "7.8 V"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "CCh typ.(pF)" "830 pF"
+				(at 12.7 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "IPeak(A)" "60 A"
+				(at 12.7 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VCh Clamp ESD typ.(V)" "10 V"
+				(at 12.7 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VESD Contact(kV)" "30 kV"
+				(at 12.7 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WE-TVS*DFN1610-2L*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DFN1610-2L_824045817_1_0"
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy -1.143 1.143)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -0.635 0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy -0.127 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "I/O"
+					(at -4.3942 -0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "GND"
+					(at 5.7658 -0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "DFN1610-2L_824045817_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy -0.635 0) (xy -0.635 0) (xy 0.635 0.635) (xy 0.635 0.635) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3053,351 +3223,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WE-TVSP:DO214-AA-600W_BI_824521261"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DO214-AA-600W_BI_824521261"
-				(at 12.7 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_BI"
-				(at 12.7 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824521261.pdf?ki"
-				(at 12.7 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Power TVS Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 12.7 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 12.7 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Created Date" "20250721"
-				(at 12.7 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Series" "WE-TVSP"
-				(at 12.7 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "824521261"
-				(at 12.7 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Size" "DO214-AA-600W_BI"
-				(at 12.7 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 12.7 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Technical Reference" "SMBJ26CA"
-				(at 12.7 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VDC (V)" "26.0"
-				(at 12.7 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VBR (V)" "30.4"
-				(at 12.7 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "IPeak (A)" "14.3"
-				(at 12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "PDiss (W)" "600"
-				(at 12.7 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VClamp max. (V)" "42.1"
-				(at 12.7 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Critical Parameter" "26.0 V"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WE-TVSP*DO214-AA-600W_BI*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DO214-AA-600W_BI_824521261_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DO214-AA-600W_BI_824521261_1_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.27 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6072,6 +5897,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V0"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V0"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -6882,7 +6846,7 @@
 	)
 	(text "V-BAT TO VCC SERVO\n\n"
 		(exclude_from_sim no)
-		(at 38.862 22.098 0)
+		(at 45.212 22.098 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -6910,6 +6874,16 @@
 		)
 		(uuid "ee515ef4-6b3b-400a-9be5-fa2a6160aae3")
 	)
+	(text "Values from datasheet and claude"
+		(exclude_from_sim no)
+		(at 260.096 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1c42af0-5ac2-4bd9-91f4-a7274431362a")
+	)
 	(junction
 		(at 146.05 58.42)
 		(diameter 0)
@@ -6927,18 +6901,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "134cc172-5c3b-4caa-a5db-6109f49e8e78")
-	)
-	(junction
-		(at 39.37 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16e93e74-06df-4b1e-9f51-4608616acc30")
-	)
-	(junction
-		(at 41.91 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b5afbdd-400b-43a3-89e1-5e3e2ee5a4e2")
 	)
 	(junction
 		(at 146.05 45.72)
@@ -6983,7 +6945,7 @@
 		(uuid "47d433ec-9857-4389-bde3-b8e0e4f3f103")
 	)
 	(junction
-		(at 54.61 52.07)
+		(at 54.61 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48f8374f-7889-43af-95d6-522683b95a66")
@@ -6993,12 +6955,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50104846-3373-458c-9fda-c1686e393686")
-	)
-	(junction
-		(at 217.17 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ec2c3ee-878a-4d91-89ba-931e134514e2")
 	)
 	(junction
 		(at 146.05 43.18)
@@ -7043,6 +6999,12 @@
 		(uuid "6f48b129-2a8f-4ccc-aca6-9cf9d016fdd0")
 	)
 	(junction
+		(at 72.39 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70e07deb-5589-47ee-b569-fae7e94e0e0d")
+	)
+	(junction
 		(at 71.12 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7065,12 +7027,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "784130d3-d92c-4826-94f0-ac8a8d2a84c2")
-	)
-	(junction
-		(at 39.37 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c926973-4152-4749-b97e-771b8eb78123")
 	)
 	(junction
 		(at 260.35 102.87)
@@ -7121,12 +7077,6 @@
 		(uuid "a2c4ebda-8122-4995-88f2-cd54f673882f")
 	)
 	(junction
-		(at 41.91 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b22a9e71-5202-41e7-a91c-1dcdf875b593")
-	)
-	(junction
 		(at 62.23 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7155,12 +7105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b6f1b9-5027-42e0-b251-7f3ca4887f1d")
-	)
-	(junction
-		(at 54.61 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de2e7575-cb60-46b9-8496-69650cf03c8c")
 	)
 	(junction
 		(at 91.44 39.37)
@@ -7276,16 +7220,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 41.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0719e561-eaaf-4de6-8d38-909b7d15c828")
-	)
-	(wire
-		(pts
 			(xy 250.19 52.07) (xy 250.19 55.88)
 		)
 		(stroke
@@ -7366,16 +7300,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 36.83) (xy 35.56 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a7b33f-8594-4ea5-800c-95933281fc48")
-	)
-	(wire
-		(pts
 			(xy 146.05 43.18) (xy 180.34 43.18)
 		)
 		(stroke
@@ -7383,6 +7307,16 @@
 			(type default)
 		)
 		(uuid "1c800354-7094-455a-be82-41c9fb9537d8")
+	)
+	(wire
+		(pts
+			(xy 203.2 102.87) (xy 262.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc2a53f-3cba-452b-b143-58c377dd621a")
 	)
 	(wire
 		(pts
@@ -7466,16 +7400,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 91.44) (xy 203.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a878989-e0d1-4d90-884d-728ad6dfd7dc")
-	)
-	(wire
-		(pts
 			(xy 180.34 87.63) (xy 180.34 95.25)
 		)
 		(stroke
@@ -7493,16 +7417,6 @@
 			(type default)
 		)
 		(uuid "2d2f197e-da36-48a8-a71b-467a3099bb3e")
-	)
-	(wire
-		(pts
-			(xy 41.91 39.37) (xy 49.53 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd7c06f-959c-4c04-b63e-da474e9e6e35")
 	)
 	(wire
 		(pts
@@ -7593,16 +7507,6 @@
 			(type default)
 		)
 		(uuid "43a18c5b-13ab-42d6-9068-3c517cadb572")
-	)
-	(wire
-		(pts
-			(xy 41.91 39.37) (xy 41.91 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44af5967-4168-4f71-a415-468d1f171a0b")
 	)
 	(wire
 		(pts
@@ -7766,6 +7670,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 39.37) (xy 49.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2c2aa6-c309-4986-acac-fc61d5345cda")
+	)
+	(wire
+		(pts
 			(xy 167.64 82.55) (xy 180.34 82.55)
 		)
 		(stroke
@@ -7773,6 +7687,16 @@
 			(type default)
 		)
 		(uuid "5b85c47c-05e2-4d68-b639-30172af7d6de")
+	)
+	(wire
+		(pts
+			(xy 30.48 39.37) (xy 30.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e69c88d-6b53-439a-8561-ad1c5139afb0")
 	)
 	(wire
 		(pts
@@ -7866,13 +7790,33 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 25.4) (xy 180.34 43.18)
+			(xy 180.34 33.02) (xy 180.34 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ba7300f-948d-45ef-9f8a-ea086e69cdc5")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802cda26-fbf0-423d-860a-bafcf546553d")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 203.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808f5943-d771-46ab-8246-76203817ff33")
 	)
 	(wire
 		(pts
@@ -7913,16 +7857,6 @@
 			(type default)
 		)
 		(uuid "86345aeb-0ea1-4b85-aba9-0ecaf8091a3f")
-	)
-	(wire
-		(pts
-			(xy 41.91 63.5) (xy 41.91 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "867d1b2c-2740-4ba8-8d8d-01aa3c599535")
 	)
 	(wire
 		(pts
@@ -8016,16 +7950,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 46.99) (xy 35.56 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "940d690e-2574-4284-8636-466d0bf13bf6")
-	)
-	(wire
-		(pts
 			(xy 91.44 49.53) (xy 91.44 52.07)
 		)
 		(stroke
@@ -8033,16 +7957,6 @@
 			(type default)
 		)
 		(uuid "950e2445-1783-4138-99f8-646f141b2219")
-	)
-	(wire
-		(pts
-			(xy 31.75 90.17) (xy 39.37 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c16ea9-6b12-42b2-9565-d951fae59b3c")
 	)
 	(wire
 		(pts
@@ -8286,7 +8200,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 95.25) (xy 39.37 95.25)
+			(xy 31.75 95.25) (xy 71.12 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8306,16 +8220,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 102.87) (xy 217.17 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e8e997-32c8-4f7c-b214-5f49745f4ce5")
-	)
-	(wire
-		(pts
 			(xy 237.49 124.46) (xy 237.49 125.73)
 		)
 		(stroke
@@ -8326,7 +8230,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 90.17) (xy 48.26 90.17)
+			(xy 31.75 90.17) (xy 48.26 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8396,23 +8300,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 52.07) (xy 62.23 52.07)
+			(xy 54.61 53.34) (xy 62.23 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be9dbddd-893f-4473-a618-134299c46cf7")
-	)
-	(wire
-		(pts
-			(xy 39.37 95.25) (xy 71.12 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfdda3f1-44af-4ee7-84e5-25c5900fce39")
 	)
 	(wire
 		(pts
@@ -8426,7 +8320,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 62.23 52.07)
+			(xy 62.23 50.8) (xy 62.23 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8453,16 +8347,6 @@
 			(type default)
 		)
 		(uuid "c51ea7e1-a927-488b-953b-6c55ce1971d5")
-	)
-	(wire
-		(pts
-			(xy 217.17 102.87) (xy 217.17 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ae327a-7492-4350-a9dc-fbda601fac1e")
 	)
 	(wire
 		(pts
@@ -8526,16 +8410,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 114.3) (xy 217.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1b1a34-0c35-4515-96f2-ad0de83ada8b")
-	)
-	(wire
-		(pts
 			(xy 38.1 176.53) (xy 39.37 176.53)
 		)
 		(stroke
@@ -8543,16 +8417,6 @@
 			(type default)
 		)
 		(uuid "d0abe4df-3c5e-4ff3-b9eb-3f27cbec4a3c")
-	)
-	(wire
-		(pts
-			(xy 54.61 63.5) (xy 41.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a205c2-c66a-4968-b858-a45fe6586df6")
 	)
 	(wire
 		(pts
@@ -8686,16 +8550,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 102.87) (xy 262.89 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f344c5e5-9cc6-4f48-a5ef-809524ebb655")
-	)
-	(wire
-		(pts
 			(xy 262.89 110.49) (xy 261.62 110.49)
 		)
 		(stroke
@@ -8733,16 +8587,6 @@
 			(type default)
 		)
 		(uuid "f83bfb98-d2ca-4e88-b63e-c735e48ca6ec")
-	)
-	(wire
-		(pts
-			(xy 35.56 39.37) (xy 41.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98c6ec7-d57c-48a3-ab75-cb85f8806338")
 	)
 	(wire
 		(pts
@@ -8834,16 +8678,6 @@
 		)
 		(uuid "67c62e5b-7da3-4a27-b297-59951dab3e59")
 	)
-	(label "VDD_servo"
-		(at 180.34 25.4 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "713743cd-3130-42aa-bfe2-9f70a3e748ca")
-	)
 	(label "killswitch"
 		(at 83.82 83.82 0)
 		(effects
@@ -8873,16 +8707,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8f8d54e-3330-4274-ac3b-9cf48eb1b231")
-	)
-	(label "VDD_servo"
-		(at 203.2 91.44 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba412020-629e-46e7-90a7-f620d1a1b80e")
 	)
 	(global_label "KILLSWITCH"
 		(shape input)
@@ -8973,85 +8797,6 @@
 			(justify left)
 		)
 		(uuid "c444d99e-1f63-4baa-b83a-78ac91e8fc73")
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 217.17 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01b61617-796e-4d09-9bc8-b5c0f9e53d27")
-		(property "Reference" "#PWR040"
-			(at 217.17 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 217.17 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 217.17 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f88bbd08-5ab7-4730-b654-6d3df63d130a")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9235,7 +8980,7 @@
 				)
 			)
 		)
-		(property "Value" "+VBATT"
+		(property "Value" "+VBAT"
 			(at 67.31 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9451,7 +9196,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 41.91 64.77 0)
+		(at 72.39 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9462,7 +9207,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aade32b-ffe5-4d64-97bc-08dbef8ceb2d")
 		(property "Reference" "#PWR028"
-			(at 41.91 71.12 0)
+			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9473,7 +9218,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 41.91 69.85 0)
+			(at 72.39 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9484,7 +9229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 64.77 0)
+			(at 72.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9495,7 +9240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 64.77 0)
+			(at 72.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 41.91 64.77 0)
+			(at 72.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9641,7 +9386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-MPC4_64900411122"
+		(property "Footprint" "Connectors_tht:J_Wurth_WR-MPC4_64900411122"
 			(at 275.59 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10651,7 +10396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300111121"
+		(property "Footprint" "Connectors_tht:J_Wurth_WR-PHD_61300111121"
 			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10907,7 +10652,7 @@
 				)
 			)
 		)
-		(property "Value" "+VBATT"
+		(property "Value" "+VBAT"
 			(at 223.52 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,6 +11201,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 180.34 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "612670de-362e-4524-ae59-4e7df73d678a")
+		(property "Reference" "#PWR03"
+			(at 180.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VDD_servo"
+			(at 180.34 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61302021121"
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfbac7da-a1ee-4b72-ad19-2cb691eadcce")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209048")
 		(at 124.46 106.68 0)
 		(unit 1)
@@ -11896,258 +11718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WE-TVSP:DO214-AA-600W_BI_824521261")
-		(at 41.91 48.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "662ea76f-5fc0-4022-b837-d6f2b5ab6410")
-		(property "Reference" "D2"
-			(at 45.72 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DO214-AA-600W_BI_824521261"
-			(at 19.05 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 21.59 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824521261.pdf?ki"
-			(at 24.13 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Power TVS Diode"
-			(at 41.91 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 26.67 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 29.21 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20250721"
-			(at 31.75 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WE-TVSP"
-			(at 34.29 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "824521261"
-			(at 36.83 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "DO214-AA-600W_BI"
-			(at 39.37 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 41.91 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Technical Reference" "SMBJ26CA"
-			(at 44.45 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VDC (V)" "26.0"
-			(at 46.99 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VBR (V)" "30.4"
-			(at 49.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IPeak (A)" "14.3"
-			(at 52.07 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "PDiss (W)" "600"
-			(at 54.61 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VClamp max. (V)" "42.1"
-			(at 57.15 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" "26.0 V"
-			(at 45.72 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "f6a08e0e-a483-45f6-b1bd-b983feff2061")
-		)
-		(pin "1"
-			(uuid "42924119-dacd-400b-a4c2-ef6babf415a6")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 148.59 97.79 0)
 		(unit 1)
@@ -12259,7 +11829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61300111121"
+		(property "Footprint" "Connectors_tht:J_Wurth_WR-PHD_61300111121"
 			(at 252.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12409,84 +11979,6 @@
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 35.56 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69d36a4d-8a1f-421e-bbe7-b27be7e4ed2a")
-		(property "Reference" "TP5"
-			(at 34.544 29.464 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V-BAT POGO"
-			(at 28.702 31.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Optocoupler_SMD_Wurth:Q_Wurth_WL-OCPT_SOP4-STANDARD"
-			(at 40.64 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 35.56 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbcc3496-6454-4a14-b80f-a3abe0c3d002")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12656,84 +12148,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 39.37 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86f1dce4-26e5-47e0-9ec6-336576d6d4fa")
-		(property "Reference" "TP10"
-			(at 34.29 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 41.91 93.2179 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 44.45 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "D_OC"
-			(at 42.164 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "107ee775-ca50-4707-ab96-f8218463fb33")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 180.34 64.77 0)
 		(unit 1)
@@ -12843,7 +12257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "big_efuse:QFN50P500X500X140-33N"
 			(at 124.46 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -13943,173 +13357,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BZT52C10:BZT52C10")
-		(at 62.23 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "993573ac-ab43-446e-8382-85185c9e6c3e")
-		(property "Reference" "Z1"
-			(at 64.008 45.212 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 63.754 47.244 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -31.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3006306.pdf"
-			(at -131.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MULTICOMP PRO - BZT52C10 - Zener Single Diode, 10 V, 500 mW, SOD-123, 2 Pins, Surface Mount"
-			(at 62.23 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.25"
-			(at -331.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Multicomp Pro"
-			(at -431.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BZT52C10"
-			(at -531.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -631.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -731.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -831.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -931.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "9e7c1433-b7de-4ae0-9004-e579d1961c2b")
-		)
-		(pin "2"
-			(uuid "6cea1737-c436-48ff-a1b3-9b2080306c7d")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "Z1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 173.99 270)
 		(unit 1)
@@ -14221,7 +13468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" ""
 			(at 247.65 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14453,84 +13700,6 @@
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
 					(reference "IC9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 35.56 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d3f469f-f5b2-4b3d-8dba-97a3b6b0e8c9")
-		(property "Reference" "TP6"
-			(at 29.464 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND POGO"
-			(at 22.86 44.958 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Optocoupler_SMD_Wurth:Q_Wurth_WL-OCPT_SOP4-STANDARD"
-			(at 40.64 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 35.56 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd5811a0-2ff2-4ab0-bc6e-4b9bd260eb4b")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14986,8 +14155,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 35.56 48.26 0)
+		(lib_id "power:+1V0")
+		(at 203.2 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14995,10 +14164,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4772d11-aa70-4911-a58b-4eed2a63a543")
-		(property "Reference" "#PWR019"
-			(at 35.56 54.61 0)
+		(uuid "b25d2e61-c6aa-4b66-bd1a-a038b7932f7a")
+		(property "Reference" "#PWR015"
+			(at 203.2 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15008,9 +14176,8 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
-			(at 35.56 53.34 0)
-			(hide yes)
+		(property "Value" "+VDD_servo"
+			(at 203.2 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15019,8 +14186,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 35.56 48.26 0)
+		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-PHD_61302021121"
+			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15031,7 +14198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 48.26 0)
+			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15041,8 +14208,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 35.56 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15053,12 +14220,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f0f9b37-2c3c-4ffe-9d46-215121ff2686")
+			(uuid "ca887d5f-4573-4edb-9a72-bd57633d0749")
 		)
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15538,6 +14705,361 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode_Wurth_WE-TVSP:DFN1610-2L_824045817")
+		(at 62.23 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf4c500-ddca-4d83-aef2-e6521aabdbf9")
+		(property "Reference" "D5"
+			(at 64.77 46.4662 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DFN1610-2L_824045817"
+			(at 57.15 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVS-DFN1610-2L"
+			(at 82.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824045817.pdf?ki"
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "TVS Diode  Standard Series"
+			(at 62.23 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 77.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 74.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260409"
+			(at 72.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WE-TVS"
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "824045817"
+			(at 67.31 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "DFN1610-2L"
+			(at 64.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Automotive" "No"
+			(at 59.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Channels" "Channels1"
+			(at 57.15 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Polarity" "Unidirectional"
+			(at 54.61 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VCh max.(V)" "7 V"
+			(at 52.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VBR min.(V)" "7.8 V"
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "CCh typ.(pF)" "830 pF"
+			(at 44.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPeak(A)" "60 A"
+			(at 41.91 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VCh Clamp ESD typ.(V)" "10 V"
+			(at 39.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VESD Contact(kV)" "30 kV"
+			(at 36.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c389649c-8aeb-4113-8ebc-3cb2c39caa00")
+		)
+		(pin "2"
+			(uuid "b7a0c84d-aab7-4ba6-b3c7-7b68e23b99a4")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 30.48 38.1 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df2a0f7b-0f96-4cbb-bdfe-e1a00ea60db3")
+		(property "Reference" "#PWR059"
+			(at 30.48 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT-CON"
+			(at 30.226 25.146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 30.48 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ef2744f-ddf3-49c7-96c5-12855845cc8c")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 250.19 66.04 0)
 		(unit 1)
@@ -15689,84 +15211,6 @@
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 39.37 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e64f0da6-9e7e-41da-aeb1-4063220cdae9")
-		(property "Reference" "TP9"
-			(at 35.052 89.154 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 41.91 88.1379 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 44.45 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GOK"
-			(at 42.164 89.154 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4d7fe25-8728-402e-a100-8e9fc2a51c7e")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -15925,257 +15369,6 @@
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WE-TVSP:DO214-AA-600W_BI_824521261")
-		(at 217.17 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6762e79-2ef4-4032-97ef-146fb108b823")
-		(property "Reference" "D8"
-			(at 208.534 107.696 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DO214-AA-600W_BI_824521261"
-			(at 194.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 196.85 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824521261.pdf?ki"
-			(at 199.39 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Power TVS Diode"
-			(at 217.17 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 201.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 204.47 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20250721"
-			(at 207.01 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WE-TVSP"
-			(at 209.55 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "824521261"
-			(at 212.09 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "DO214-AA-600W_BI"
-			(at 214.63 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 217.17 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Technical Reference" "SMBJ26CA"
-			(at 219.71 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VDC (V)" "26.0"
-			(at 222.25 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VBR (V)" "30.4"
-			(at 224.79 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IPeak (A)" "14.3"
-			(at 227.33 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "PDiss (W)" "600"
-			(at 229.87 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VClamp max. (V)" "42.1"
-			(at 232.41 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" "26.0 V"
-			(at 208.534 110.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "2dd39579-9a55-48f1-a839-dcc4a5ebc439")
-		)
-		(pin "1"
-			(uuid "d89b3dff-3a10-4b67-a43b-6fcc5a985ed5")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D8")
 					(unit 1)
 				)
 			)
