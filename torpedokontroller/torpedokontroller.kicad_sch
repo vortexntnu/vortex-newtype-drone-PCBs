@@ -5,7 +5,7 @@
 	(uuid "e42df04f-3e58-4415-86e6-9a5d9df63a21")
 	(paper "A5")
 	(title_block
-		(date "2026-10-21")
+		(date "2026-10-23")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols)
@@ -31,16 +31,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 58.42) (xy 80.01 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a9631d9-2f69-4bd6-bb1f-31550df42dab")
-	)
-	(wire
-		(pts
 			(xy 116.84 58.42) (xy 129.54 58.42)
 		)
 		(stroke
@@ -58,6 +48,16 @@
 			(type default)
 		)
 		(uuid "616771b2-305b-45d5-b71b-b5064b774fca")
+	)
+	(wire
+		(pts
+			(xy 66.04 58.42) (xy 80.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf3310b-4936-4494-acc8-269c0b74430c")
 	)
 	(wire
 		(pts
@@ -108,16 +108,6 @@
 			(type default)
 		)
 		(uuid "cddc05cd-25e1-4e44-b928-d2bde2bb17cc")
-	)
-	(wire
-		(pts
-			(xy 66.04 54.61) (xy 80.01 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e29c1580-187b-4dfc-b04e-f586a9e76e25")
 	)
 	(wire
 		(pts
@@ -209,7 +199,7 @@
 				(justify right)
 			)
 		)
-		(pin "CSB" output
+		(pin "SDI" input
 			(at 80.01 46.99 180)
 			(uuid "fb1d9fdd-43c3-409c-a090-3b5644115c8c")
 			(effects
@@ -239,26 +229,6 @@
 				(justify left)
 			)
 		)
-		(pin "SPI1_MISO" input
-			(at 80.01 54.61 180)
-			(uuid "e05a28fc-6eb3-4d1e-a2a5-64a033135141")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_MOSI" output
-			(at 80.01 58.42 180)
-			(uuid "c8ee63fb-d97b-4f4e-be2a-575d2b0a1729")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "D_OC" input
 			(at 116.84 50.8 0)
 			(uuid "1dcf1ee2-3112-417c-a92a-e4de15e61654")
@@ -279,7 +249,7 @@
 				(justify right)
 			)
 		)
-		(pin "IMON" input
+		(pin "IMON_BIG" input
 			(at 116.84 58.42 0)
 			(uuid "8ac71236-936c-40e1-9c2c-2748df63dc26")
 			(effects
@@ -287,6 +257,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IMON_SMALL" input
+			(at 80.01 58.42 180)
+			(uuid "fb05d5ee-3d27-48b1-98b5-1668be73192f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -387,7 +367,7 @@
 				(justify left)
 			)
 		)
-		(pin "IMON" output
+		(pin "IMON_BIG" output
 			(at 129.54 58.42 180)
 			(uuid "11d65548-4b77-4734-b09e-3196f6ec09e8")
 			(effects
@@ -445,7 +425,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CSB" input
+		(pin "SDI" output
 			(at 66.04 46.99 0)
 			(uuid "86dd66dd-4d3b-442f-b914-ac7cb54c9fd6")
 			(effects
@@ -458,26 +438,6 @@
 		(pin "SCK" input
 			(at 66.04 50.8 0)
 			(uuid "6d3a9ccf-8d15-407d-9a18-0f211cacf76e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_MISO" output
-			(at 66.04 54.61 0)
-			(uuid "4b940818-3d09-4f94-a2ba-9e65dc7d0630")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_MOIS" input
-			(at 66.04 58.42 0)
-			(uuid "49c1bb2e-b173-462a-9727-e8af3689da8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,6 +458,16 @@
 		(pin "CAN2_TX" input
 			(at 66.04 33.02 0)
 			(uuid "8da2c464-c45e-4ccc-8256-c9ee1cf4262e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMON_SMALL" output
+			(at 66.04 58.42 0)
+			(uuid "85dc43d1-749e-446d-b86b-5322b7fe7622")
 			(effects
 				(font
 					(size 1.27 1.27)
