@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -511,6 +511,64 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 3, 255)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 124, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(155, 147, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "VBAT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 1)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "VIKINGFARGE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 66, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -518,7 +576,52 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "Earth"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*3V3*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*6V7"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*VBUS*"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "*VBAT*"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "*CAN*"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "*VDD*"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "*V_S*"
+      },
+      {
+        "netclass": "VIKINGFARGE",
+        "pattern": "*SERVO_PWR"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*UAR*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -1261,7 +1364,7 @@
         "uuid": "e42df04f-3e58-4415-86e6-9a5d9df63a21"
       }
     ],
-    "used_designators": "J1-11,R1-59,IC1-9,Q1-9,L1-4,#PWR1-86,C1-46,U1-17,D1-21,S1-2,TP1-15,SW1-6,Y1,Z1",
+    "used_designators": "J1-11,R1-59,IC1-9,Q1-9,L1-4,#PWR1-86,C1-50,U1-18,D1-21,S1-2,TP1-17,SW1-6,Y1,Z1",
     "variants": []
   },
   "sheets": [

@@ -5,7 +5,7 @@
 	(uuid "d3498bf8-d934-41df-91d0-bd36cdae09fa")
 	(paper "A4")
 	(title_block
-		(date "2026-10-23")
+		(date "2026-10-26")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols
@@ -6094,12 +6094,6 @@
 		(uuid "396d304a-8650-4168-a1e9-15334af776b2")
 	)
 	(junction
-		(at 121.92 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e3f9abf-2d75-4403-89a4-2fcd09283a14")
-	)
-	(junction
 		(at 175.26 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6302,6 +6296,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea4eca1e-aafa-4383-b153-a5d7f54097f3")
+	)
+	(junction
+		(at 120.65 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4746196-e9a4-4c5c-8b12-f01bd10c8ab5")
 	)
 	(junction
 		(at 67.31 149.86)
@@ -6751,6 +6751,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 88.9) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4228e28f-faa4-4b86-bcda-3a9473701083")
+	)
+	(wire
+		(pts
 			(xy 110.49 39.37) (xy 110.49 41.91)
 		)
 		(stroke
@@ -7051,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 90.17) (xy 121.92 90.17)
+			(xy 107.95 90.17) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7151,16 +7161,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 86.36) (xy 121.92 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82610334-e6ed-4ffa-8dc5-0f9ac5947f8c")
-	)
-	(wire
-		(pts
 			(xy 222.25 90.17) (xy 236.22 90.17)
 		)
 		(stroke
@@ -7188,16 +7188,6 @@
 			(type default)
 		)
 		(uuid "84f74e73-9a13-46c8-8f81-a96826cc1209")
-	)
-	(wire
-		(pts
-			(xy 175.26 90.17) (xy 190.5 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ffba04-21a4-4bab-849e-a6289ade8799")
 	)
 	(wire
 		(pts
@@ -7581,16 +7571,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 90.17) (xy 124.46 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1a1382-6bb2-4d19-a121-1c7805cd368d")
-	)
-	(wire
-		(pts
 			(xy 160.02 116.84) (xy 163.83 116.84)
 		)
 		(stroke
@@ -7608,6 +7588,16 @@
 			(type default)
 		)
 		(uuid "bf044f30-cc15-42f2-bf13-5255d81d2207")
+	)
+	(wire
+		(pts
+			(xy 175.26 90.17) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa328c9-13da-4d70-8c22-b5d7286516ab")
 	)
 	(wire
 		(pts
@@ -7861,6 +7851,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62dc12a-6155-44c3-8568-5ae36edc8de9")
+	)
+	(wire
+		(pts
 			(xy 43.18 39.37) (xy 48.26 39.37)
 		)
 		(stroke
@@ -8079,15 +8079,15 @@
 		)
 		(uuid "4ab63142-8b6a-4065-a107-1432fa7259df")
 	)
-	(label "+VBUS"
-		(at 177.8 90.17 0)
+	(label "+VBUS_OUT"
+		(at 134.62 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "54f48491-5b6b-4d8a-b805-b6018b70a4b9")
+		(uuid "5e184bfb-f28d-40b3-b1fc-03d998043c62")
 	)
 	(label "CAN2_L"
 		(at 160.02 54.61 0)
@@ -8098,6 +8098,26 @@
 			(justify left bottom)
 		)
 		(uuid "6b63c3b6-af59-4efd-8aef-ddb890196ee3")
+	)
+	(label "+VBUS_OUT_INDUCTOR"
+		(at 175.26 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab3f2cfd-4c0b-4f57-8d1f-d9a8d1774176")
+	)
+	(label "+VBUS_OUT_INDUCTOR"
+		(at 175.26 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4384809-aa7d-4041-9bd7-8b8fac77ac73")
 	)
 	(label "CAN2_H"
 		(at 161.29 33.02 0)
@@ -8118,30 +8138,6 @@
 			(justify left bottom)
 		)
 		(uuid "e865b262-6da9-48c7-82f4-33f0778fa129")
-	)
-	(global_label "+VBUS"
-		(shape input)
-		(at 121.92 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "035ba778-6c12-4b07-ab42-099c201415ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 76.9038 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "KILLSWITCH"
 		(shape input)
@@ -17428,6 +17424,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 110.49 120.65 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17437,7 +17434,7 @@
 		(dnp no)
 		(uuid "a7533718-8446-45b3-aee3-b9372512a23d")
 		(property "Reference" "C23"
-			(at 104.14 120.65 0)
+			(at 107.696 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17448,7 +17445,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 104.648 122.428 0)
+			(at 107.188 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17459,7 +17456,7 @@
 			)
 		)
 		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
-			(at 111.4552 124.46 0)
+			(at 109.5248 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18870,6 +18867,83 @@
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/e120803b-a57e-427e-b241-e167c0d83487"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 120.65 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c84824db-f190-4a7a-8280-9cd4318906d8")
+		(property "Reference" "#PWR081"
+			(at 120.65 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBUS"
+			(at 120.396 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 120.65 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98f8d4cf-3c89-40c2-a5e2-72b7906f4593")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/e120803b-a57e-427e-b241-e167c0d83487"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
