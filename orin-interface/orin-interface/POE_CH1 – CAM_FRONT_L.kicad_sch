@@ -5,7 +5,7 @@
 	(uuid "f4f1277d-2ce1-4584-ab14-8745c5a4349f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Wurth_WR-WTB:653108124022"
+		(symbol "WR-MJ:634008138121"
 			(pin_names
 				(hide yes)
 			)
@@ -15,7 +15,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -24,19 +24,8 @@
 					)
 				)
 			)
-			(property "Value" "653108124022"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-WTB_653108124022"
-				(at 0 7.62 0)
+			(property "Value" "634008138121"
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -46,8 +35,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/653108124022?ki"
-				(at 45.72 17.78 0)
+			(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-MJ_634008138121"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -57,7 +46,18 @@
 					)
 				)
 			)
-			(property "Description" "1.25 mm SMT Male Vertical Shrouded Header"
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/634008138121?ki"
+				(at 63.5 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Modular Jack SMT Vertical Plastic 8P8C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -69,7 +69,7 @@
 				)
 			)
 			(property "Manufacturer" "Wurth Elektronik"
-				(at 45.72 15.24 0)
+				(at 63.5 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -80,7 +80,7 @@
 				)
 			)
 			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 45.72 12.7 0)
+				(at 63.5 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -90,8 +90,8 @@
 					)
 				)
 			)
-			(property "Series" "WR-WTB"
-				(at 45.72 10.16 0)
+			(property "Series" "WR-MJ"
+				(at 63.5 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -101,8 +101,8 @@
 					)
 				)
 			)
-			(property "Pins (pcs)" "8"
-				(at 45.72 7.62 0)
+			(property "xPxC" "8P8C"
+				(at 63.5 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -112,8 +112,8 @@
 					)
 				)
 			)
-			(property "Pitch (mm)" "1.25"
-				(at 45.72 5.08 0)
+			(property "EMI" "No"
+				(at 63.5 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -123,8 +123,8 @@
 					)
 				)
 			)
-			(property "Gender" "Male"
-				(at 45.72 2.54 0)
+			(property "Mount" "SMT"
+				(at 63.5 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -134,85 +134,8 @@
 					)
 				)
 			)
-			(property "Type" "Vertical"
-				(at 45.72 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 45.72 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IR (A)" "1"
-				(at 45.72 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Working Voltage (V (AC))" "125"
-				(at 45.72 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PCB/Cable/Panel" "PCB"
-				(at 45.72 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Contact Resistance (mohm)" "20"
-				(at 45.72 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tol. R" "max."
-				(at 45.72 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "L (mm)" "14.75"
-				(at 45.72 -17.78 0)
+			(property "Application System" "CAT 3"
+				(at 63.5 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -233,7 +156,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WR-WTB*"
+			(property "ki_fp_filters" "*WR-MJ*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -244,10 +167,11 @@
 					)
 				)
 			)
-			(symbol "653108124022_1_1"
-				(rectangle
-					(start -10.16 1.27)
-					(end 10.16 -1.27)
+			(symbol "634008138121_1_0"
+				(polyline
+					(pts
+						(xy -12.065 5.08) (xy 9.525 5.08)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -256,96 +180,380 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -8.382 0.762)
-					(end -9.398 -1.27)
+				(polyline
+					(pts
+						(xy -12.065 -5.08) (xy -12.065 5.08)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start -5.842 0.762)
-					(end -6.858 -1.27)
+				(polyline
+					(pts
+						(xy -10.795 0.635) (xy -7.62 0.635)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start -3.302 0.762)
-					(end -4.318 -1.27)
+				(polyline
+					(pts
+						(xy -10.795 -3.81) (xy -10.795 0.635)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start -0.762 0.762)
-					(end -1.778 -1.27)
+				(polyline
+					(pts
+						(xy -10.16 -3.81) (xy -10.795 -3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 1.778 0.762)
-					(end 0.762 -1.27)
+				(polyline
+					(pts
+						(xy -10.16 -3.81) (xy -10.16 -3.175)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 4.318 0.762)
-					(end 3.302 -1.27)
+				(polyline
+					(pts
+						(xy -7.62 1.905) (xy -6.35 1.905)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 6.858 0.762)
-					(end 5.842 -1.27)
+				(polyline
+					(pts
+						(xy -7.62 0.635) (xy -7.62 1.905)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 9.398 0.762)
-					(end 8.382 -1.27)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -10.16 -3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -7.62 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 1.905) (xy -6.35 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -5.08 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.175) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.905) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.635) (xy 5.08 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.175) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.175) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 5.08 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 8.255 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -3.81) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 5.08) (xy 9.525 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -5.08) (xy -12.065 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at -8.89 -5.08 90)
+					(at 7.62 -8.89 90)
 					(length 3.81)
 					(name "1"
 						(effects
@@ -363,7 +571,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -5.08 90)
+					(at 5.08 -8.89 90)
 					(length 3.81)
 					(name "2"
 						(effects
@@ -381,7 +589,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -5.08 90)
+					(at 2.54 -8.89 90)
 					(length 3.81)
 					(name "3"
 						(effects
@@ -399,7 +607,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -5.08 90)
+					(at 0 -8.89 90)
 					(length 3.81)
 					(name "4"
 						(effects
@@ -417,7 +625,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -5.08 90)
+					(at -2.54 -8.89 90)
 					(length 3.81)
 					(name "5"
 						(effects
@@ -435,7 +643,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -5.08 90)
+					(at -5.08 -8.89 90)
 					(length 3.81)
 					(name "6"
 						(effects
@@ -453,7 +661,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -5.08 90)
+					(at -7.62 -8.89 90)
 					(length 3.81)
 					(name "7"
 						(effects
@@ -471,7 +679,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -5.08 90)
+					(at -10.16 -8.89 90)
 					(length 3.81)
 					(name "8"
 						(effects
@@ -586,13 +794,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 165.1 99.06)
+			(xy 165.1 106.68) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05307cab-2d68-4cfe-b147-7f79af886939")
+		(uuid "0d5af8eb-7a8e-4cbc-a577-402ebc66d9c0")
 	)
 	(bus
 		(pts
@@ -606,23 +814,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 165.1 96.52)
+			(xy 165.1 93.98) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28772988-1f99-4330-8ea4-962c7ed0bdc7")
-	)
-	(wire
-		(pts
-			(xy 172.72 104.14) (xy 165.1 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3b094f-1df4-468a-a94b-5b18bbbc227e")
+		(uuid "2d9af61b-49e2-4e89-9d15-8d2ad7d4fa25")
 	)
 	(bus
 		(pts
@@ -636,53 +834,63 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 165.1 88.9)
+			(xy 165.1 96.52) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76f8b5b5-b9d9-46d9-b1c2-48e979bb6734")
+		(uuid "982eaf07-8804-42d8-858b-7992f3fd91b5")
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 165.1 91.44)
+			(xy 165.1 101.6) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77042c28-292d-42ab-9f90-57eedcf8ad6f")
+		(uuid "a5be6e05-7f5c-4d8d-9ab2-0165b6da8196")
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 165.1 101.6)
+			(xy 165.1 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd2f82a4-ea1e-4919-b5bd-8a70a66c315a")
+		(uuid "a7747db0-34fd-46ad-9e92-5d30b00844c6")
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 165.1 106.68)
+			(xy 165.1 99.06) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c62720b4-3fd6-4565-ac57-1f53316ac5eb")
+		(uuid "a954ccc5-09d0-4602-b203-138f9b07f092")
 	)
 	(wire
 		(pts
-			(xy 172.72 93.98) (xy 165.1 93.98)
+			(xy 165.1 91.44) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e21cbde6-e386-426e-b47f-34e54c11d615")
+		(uuid "bf2eee97-bdba-4e0f-844c-c90e1c96e18c")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e20db8-0f97-4db1-a4d9-022fc87cbfb5")
 	)
 	(image
 		(at 62.865 100.33)
@@ -6533,8 +6741,8 @@
 			"AHUsgavH/O59AAAAAElFTkSuQmCC"
 		)
 	)
-	(label "D3+"
-		(at 172.72 91.44 180)
+	(label "ETH.D3+"
+		(at 172.72 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6553,8 +6761,8 @@
 		)
 		(uuid "304465c8-2601-4441-8c65-2f2227301052")
 	)
-	(label "D2+"
-		(at 172.72 99.06 180)
+	(label "ETH.D2+"
+		(at 172.72 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6563,8 +6771,8 @@
 		)
 		(uuid "51585b5a-7a7b-4f3a-bfda-2f47974cd115")
 	)
-	(label "D3-"
-		(at 172.72 88.9 180)
+	(label "ETH.D3-"
+		(at 172.72 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6573,8 +6781,8 @@
 		)
 		(uuid "51d7b02d-f45e-48b7-b0a0-7787afd2c8aa")
 	)
-	(label "D4-"
-		(at 172.72 96.52 180)
+	(label "ETH.D4-"
+		(at 172.72 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6583,8 +6791,8 @@
 		)
 		(uuid "7e95779f-ef71-4ad1-9edd-73462b90c1fa")
 	)
-	(label "D1+"
-		(at 172.72 104.14 180)
+	(label "ETH.D1+"
+		(at 172.72 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6593,8 +6801,8 @@
 		)
 		(uuid "83ecec60-5e91-42c6-b0c2-ff0ac5969ea1")
 	)
-	(label "D2-"
-		(at 172.72 101.6 180)
+	(label "ETH.D2-"
+		(at 172.72 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6603,8 +6811,8 @@
 		)
 		(uuid "b8758f37-03bf-4f32-80da-e51386cec4be")
 	)
-	(label "D1-"
-		(at 172.72 106.68 180)
+	(label "ETH.D1-"
+		(at 172.72 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6613,8 +6821,8 @@
 		)
 		(uuid "dcba3038-e174-4865-9a57-af245b4b6131")
 	)
-	(label "D4+"
-		(at 172.72 93.98 180)
+	(label "ETH.D4+"
+		(at 172.72 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6635,9 +6843,8 @@
 		(uuid "ec19a3cf-2b09-4a61-b1c6-2d4e23daa94c")
 	)
 	(symbol
-		(lib_id "Wurth_WR-WTB:653108124022")
-		(at 160.02 97.79 90)
-		(mirror x)
+		(lib_id "WR-MJ:634008138121")
+		(at 156.21 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6645,20 +6852,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a78790f1-e5a7-4f62-a77e-17415e7bce49")
-		(property "Reference" "J2"
-			(at 156.21 97.79 90)
+		(fields_autoplaced yes)
+		(uuid "963c8714-07ac-4868-912c-cc259715ef10")
+		(property "Reference" "J14"
+			(at 156.21 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "653108124022"
-			(at 172.72 97.79 0)
+		(property "Value" "634008138121"
+			(at 172.72 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,8 +6875,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-WTB_653108124022"
-			(at 152.4 97.79 0)
+		(property "Footprint" "615008138021:J_Wurth_WR-MJ_634008138121"
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6679,8 +6886,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/653108124022?ki"
-			(at 142.24 143.51 0)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/634008138121?ki"
+			(at 148.59 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6690,8 +6897,8 @@
 				)
 			)
 		)
-		(property "Description" "1.25 mm SMT Male Vertical Shrouded Header"
-			(at 160.02 97.79 0)
+		(property "Description" "Modular Jack SMT Vertical Plastic 8P8C"
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +6909,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 144.78 143.51 0)
+			(at 151.13 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,7 +6920,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 147.32 143.51 0)
+			(at 153.67 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,8 +6930,8 @@
 				)
 			)
 		)
-		(property "Series" "WR-WTB"
-			(at 149.86 143.51 0)
+		(property "Series" "WR-MJ"
+			(at 156.21 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,8 +6941,8 @@
 				)
 			)
 		)
-		(property "Pins (pcs)" "8"
-			(at 152.4 143.51 0)
+		(property "xPxC" "8P8C"
+			(at 158.75 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6745,8 +6952,8 @@
 				)
 			)
 		)
-		(property "Pitch (mm)" "1.25"
-			(at 154.94 143.51 0)
+		(property "EMI" "No"
+			(at 161.29 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,8 +6963,8 @@
 				)
 			)
 		)
-		(property "Gender" "Male"
-			(at 157.48 143.51 0)
+		(property "Mount" "SMT"
+			(at 163.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,85 +6974,8 @@
 				)
 			)
 		)
-		(property "Type" "Vertical"
-			(at 160.02 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 162.56 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR (A)" "1"
-			(at 165.1 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Working Voltage (V (AC))" "125"
-			(at 167.64 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PCB/Cable/Panel" "PCB"
-			(at 170.18 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Resistance (mohm)" "20"
-			(at 172.72 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "max."
-			(at 175.26 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "14.75"
-			(at 177.8 143.51 0)
+		(property "Application System" "CAT 3"
+			(at 166.37 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,45 +6986,45 @@
 			)
 		)
 		(pin "3"
-			(uuid "cef46c03-f844-439c-a610-4471385ad167")
-		)
-		(pin "4"
-			(uuid "b8565201-9d55-4be3-bad5-7583cb39c525")
-		)
-		(pin "2"
-			(uuid "89175b05-03ac-484d-a9c3-44df4d977e20")
-		)
-		(pin "5"
-			(uuid "f89a2017-bcc5-4d5b-b2a5-6032b15d8a28")
-		)
-		(pin "6"
-			(uuid "b2cd6b3b-2365-4cb3-8ce3-d267681d5662")
+			(uuid "8730bb6f-35c4-485e-8ff8-41ab8096c125")
 		)
 		(pin "1"
-			(uuid "dbbcf22a-6653-469e-bfcd-24822f2c78fc")
+			(uuid "cf0152ee-1fb5-47bb-bede-79d6d50cadd5")
+		)
+		(pin "2"
+			(uuid "6a114e14-1664-4647-8acb-c05a55a8acab")
+		)
+		(pin "4"
+			(uuid "33bc961b-a55f-4727-9a9b-5d239f736f49")
 		)
 		(pin "8"
-			(uuid "fda05263-3e13-4ffe-8b77-2a8c84c528d7")
+			(uuid "c5594941-8832-4fbb-9290-be007784ab3f")
+		)
+		(pin "6"
+			(uuid "19ddc2ce-daca-4bef-bbd5-41af36699e10")
+		)
+		(pin "5"
+			(uuid "640d38a7-0b25-41a1-8811-7dcf55f6dcc1")
 		)
 		(pin "7"
-			(uuid "29a71524-d801-4b6e-ab96-b1131be64b14")
+			(uuid "70da33ec-07e4-4732-a2a5-154f28013230")
 		)
 		(instances
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3/25e0c24f-6778-4b98-8756-5687bd49895d"
-					(reference "J2")
+					(reference "J14")
 					(unit 1)
 				)
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3/510789d6-7dad-455b-9ae1-5c404d31a377"
-					(reference "J5")
+					(reference "J17")
 					(unit 1)
 				)
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3/8c4b4be0-2998-432c-8cd0-24d3943584e4"
-					(reference "J3")
+					(reference "J15")
 					(unit 1)
 				)
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3/b5cdc6e0-2ea3-411d-a845-6945aa78fc6c"
-					(reference "J4")
+					(reference "J16")
 					(unit 1)
 				)
 			)

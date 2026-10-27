@@ -12,6 +12,147 @@
 		(comment 1 "Yamn Sultan Salim")
 	)
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Snapeda:613040243121"
 			(pin_names
 				(hide yes)
@@ -2499,16 +2640,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 72.39) (xy 102.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aba78c7-68d6-4a52-bc5c-6784ccb9c29b")
-	)
-	(wire
-		(pts
 			(xy 115.57 72.39) (xy 116.84 72.39)
 		)
 		(stroke
@@ -2629,13 +2760,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 102.87 74.93)
+			(xy 80.01 74.93) (xy 92.71 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54c757ce-54de-4e0c-8180-d6eecb4e1891")
+		(uuid "4d11e7bb-f0c8-444f-b1c0-f1eb1967c2ad")
 	)
 	(wire
 		(pts
@@ -2799,6 +2930,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 72.39) (xy 92.71 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7111e07-3180-462a-82cc-284834a0239d")
+	)
+	(wire
+		(pts
 			(xy 93.98 62.23) (xy 102.87 62.23)
 		)
 		(stroke
@@ -2819,6 +2960,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 72.39) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2888478-86a2-4c3d-ac79-56b06c6ee80b")
+	)
+	(wire
+		(pts
 			(xy 115.57 52.07) (xy 116.84 52.07)
 		)
 		(stroke
@@ -2826,6 +2977,16 @@
 			(type default)
 		)
 		(uuid "e6d4e55f-f403-44f9-9911-db74b0f8f900")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e875af9e-f47c-438a-a639-c4504763412d")
 	)
 	(wire
 		(pts
@@ -2903,7 +3064,7 @@
 	)
 	(hierarchical_label "CAN0_DIN1"
 		(shape input)
-		(at 93.98 72.39 180)
+		(at 80.01 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2914,7 +3075,7 @@
 	)
 	(hierarchical_label "CAN0_DOUT1"
 		(shape output)
-		(at 93.98 74.93 180)
+		(at 80.01 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3010,6 +3171,164 @@
 			(justify left)
 		)
 		(uuid "ffb86d9f-8e84-4cce-a1d9-15ed197f05c1")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a766726-b513-400e-9a54-1c11dfcc0d3c")
+		(property "Reference" "R7"
+			(at 92.202 74.168 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 98.552 74.168 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "18065de8-b070-4595-ac4f-21064ab2bf0b")
+		)
+		(pin "1"
+			(uuid "2e748449-facf-453d-bed2-1c52aa3adc61")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e14e427-b978-4c09-a9b7-0f84cba00916")
+		(property "Reference" "R5"
+			(at 92.202 71.628 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 98.552 71.628 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46248994-b364-4d56-9987-fd3fc4fcda5c")
+		)
+		(pin "1"
+			(uuid "496ef001-7298-4565-b712-44ae893f90b1")
+		)
+		(instances
+			(project "orin-bob"
+				(path "/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Snapeda:613040243121")

@@ -1110,6 +1110,286 @@
 		)
 		(uuid "fbc7743a-2361-46c6-9338-591b57011392")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 187.96 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a911322-318d-45b7-b66b-3024c80c5fbf")
+		(property "Net Class" "ETH_100R"
+			(at 188.6585 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 187.96 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30bf97ab-c4f6-4ec6-8217-dbbb81d61dc1")
+		(property "Net Class" "ETH_100R"
+			(at 188.6585 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 140.97 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75cff0d5-4d60-4cef-8d26-3cdbae41cc89")
+		(property "Net Class" "ETH_100R"
+			(at 141.6685 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 29.21 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 140.97 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b85c1ab4-27ce-4c32-9ead-58e807202ec5")
+		(property "Net Class" "ETH_100R"
+			(at 141.6685 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 29.21 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 140.97 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da040ae6-6bb9-44c8-aee1-efc06a8dbf91")
+		(property "Net Class" "ETH_100R"
+			(at 141.6685 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 29.21 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 187.96 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbc8e8c8-d5ac-4087-bb82-702a38353b2f")
+		(property "Net Class" "ETH_100R"
+			(at 188.6585 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 187.96 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edc9b018-0d54-4c9e-b71a-35b839edf2e1")
+		(property "Net Class" "ETH_100R"
+			(at 188.6585 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 140.97 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb07d4be-847d-4c13-b1b7-97af38f07dde")
+		(property "Net Class" "ETH_100R"
+			(at 141.6685 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 29.21 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+BATT")
 		(at 179.07 50.8 0)
@@ -1368,7 +1648,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ETH_CAM1_CON.kicad_sch"
+		(property "Sheetfile" "ETH_CAM_FRONT_R.kicad_sch"
 			(at 195.58 96.4696 0)
 			(hide yes)
 			(show_name no)
@@ -1612,7 +1892,7 @@
 			(type solid)
 		)
 		(fill
-			(color 213 231 255 1)
+			(color 255 173 186 1)
 		)
 		(uuid "20583298-77c4-4850-98ea-6d3ace102595")
 		(property "Sheetname" "Barrel-jack_CON"
@@ -1739,7 +2019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ETH_CAM1_CON.kicad_sch"
+		(property "Sheetfile" "ETH_ACOUSTICS_CON.kicad_sch"
 			(at 195.58 119.3296 0)
 			(hide yes)
 			(show_name no)
@@ -1796,7 +2076,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ETH_CAM1_CON.kicad_sch"
+		(property "Sheetfile" "ETH_CAM_FRONT_O.kicad_sch"
 			(at 195.58 84.4046 0)
 			(hide yes)
 			(show_name no)
@@ -1853,7 +2133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ETH_CAM1_CON.kicad_sch"
+		(property "Sheetfile" "ETH_CAM_DOWN_CON.kicad_sch"
 			(at 195.58 107.8996 0)
 			(hide yes)
 			(show_name no)

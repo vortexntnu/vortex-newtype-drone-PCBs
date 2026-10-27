@@ -2093,7 +2093,7 @@
 		)
 		(uuid "f5eee6a7-c2f4-452b-8945-890a4bf7f12c")
 	)
-	(label "X3-"
+	(label "ETH.X3-"
 		(at 144.78 66.04 0)
 		(effects
 			(font
@@ -2103,7 +2103,7 @@
 		)
 		(uuid "2297e9fb-a284-402e-b6d2-6493cf564a67")
 	)
-	(label "X2-"
+	(label "ETH.X2-"
 		(at 144.78 58.42 0)
 		(effects
 			(font
@@ -2113,7 +2113,7 @@
 		)
 		(uuid "2e18aa4f-c03f-4b06-91a8-d3a4d95bf5d4")
 	)
-	(label "X2+"
+	(label "ETH.X2+"
 		(at 144.78 53.34 0)
 		(effects
 			(font
@@ -2143,7 +2143,7 @@
 		)
 		(uuid "4c976d68-6615-43c6-91a2-1fc498e1696a")
 	)
-	(label "X4+"
+	(label "ETH.X4+"
 		(at 144.78 68.58 0)
 		(effects
 			(font
@@ -2163,7 +2163,7 @@
 		)
 		(uuid "6bd9f3bb-c348-473c-b66d-3d1bdfd920b6")
 	)
-	(label "X3+"
+	(label "ETH.X3+"
 		(at 144.78 60.96 0)
 		(effects
 			(font
@@ -2183,7 +2183,7 @@
 		)
 		(uuid "7d99bb43-eb2a-474a-83f9-c007cf417670")
 	)
-	(label "X4-"
+	(label "ETH.X4-"
 		(at 144.78 73.66 0)
 		(effects
 			(font
@@ -2193,7 +2193,7 @@
 		)
 		(uuid "973e9d1e-c1a9-4837-8485-bab9f7c9387d")
 	)
-	(label "X1-"
+	(label "ETH.X1-"
 		(at 144.78 50.8 0)
 		(effects
 			(font
@@ -2213,7 +2213,7 @@
 		)
 		(uuid "a5bbd33f-5a05-414e-8181-f440cd6d2e11")
 	)
-	(label "X1+"
+	(label "ETH.X1+"
 		(at 144.78 45.72 0)
 		(effects
 			(font
@@ -2223,7 +2223,7 @@
 		)
 		(uuid "b5d3f0ff-4b98-4766-a2bd-51c81cf43623")
 	)
-	(label "ETH.D3+"
+	(label "ETH.D3-"
 		(at 74.93 66.04 0)
 		(effects
 			(font

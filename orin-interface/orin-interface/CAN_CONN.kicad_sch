@@ -529,7 +529,7 @@
 	)
 	(text "CAN\n"
 		(exclude_from_sim no)
-		(at 105.41 50.546 0)
+		(at 110.49 50.546 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -539,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 64.77) (xy 101.6 68.58)
+			(xy 106.68 64.77) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -549,17 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 104.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f632664-02fd-4392-abab-230789ff34ea")
-	)
-	(wire
-		(pts
-			(xy 93.98 57.15) (xy 104.14 57.15)
+			(xy 99.06 57.15) (xy 109.22 57.15)
 		)
 		(stroke
 			(width 0)
@@ -569,7 +559,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 64.77) (xy 101.6 64.77)
+			(xy 109.22 64.77) (xy 106.68 64.77)
 		)
 		(stroke
 			(width 0)
@@ -579,17 +569,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 104.14 62.23)
+			(xy 99.06 62.23) (xy 109.22 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f60c085-5880-485a-83c0-fae27e7245c7")
+		(uuid "568d5e30-2d19-4857-b514-682fb8e7e52d")
+	)
+	(wire
+		(pts
+			(xy 99.06 59.69) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ec4efd-1e75-4516-9cad-e5ad2bdb6ca5")
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 93.98 59.69 180)
+		(at 99.06 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -600,7 +600,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape bidirectional)
-		(at 93.98 57.15 180)
+		(at 99.06 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -611,7 +611,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 93.98 62.23 180)
+		(at 99.06 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -622,7 +622,7 @@
 	)
 	(symbol
 		(lib_id "Wurth_WR-WTB:653104131822")
-		(at 109.22 60.96 270)
+		(at 114.3 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -633,7 +633,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ea317eb-41a1-4a69-ae74-7ffb3c411176")
 		(property "Reference" "J6"
-			(at 111.76 60.9599 90)
+			(at 116.84 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -644,7 +644,7 @@
 			)
 		)
 		(property "Value" "653104131822"
-			(at 96.52 60.96 0)
+			(at 101.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -655,7 +655,7 @@
 			)
 		)
 		(property "Footprint" "Wurth_WR-WTB:J_Wurth_WR-WTB_653104131822"
-			(at 116.84 60.96 0)
+			(at 121.92 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -666,7 +666,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/653104131822?ki"
-			(at 127 106.68 0)
+			(at 132.08 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -677,7 +677,7 @@
 			)
 		)
 		(property "Description" "1.25 mm SMT Male Horizontal Shrouded Header"
-			(at 109.22 60.96 0)
+			(at 114.3 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -688,7 +688,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 124.46 106.68 0)
+			(at 129.54 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -699,7 +699,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 121.92 106.68 0)
+			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -710,7 +710,7 @@
 			)
 		)
 		(property "Series" "WR-WTB"
-			(at 119.38 106.68 0)
+			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -721,7 +721,7 @@
 			)
 		)
 		(property "Pins (pcs)" "4"
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -732,7 +732,7 @@
 			)
 		)
 		(property "Pitch (mm)" "1.25"
-			(at 114.3 106.68 0)
+			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -743,7 +743,7 @@
 			)
 		)
 		(property "Gender" "Male"
-			(at 111.76 106.68 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -754,7 +754,7 @@
 			)
 		)
 		(property "Type" "Horizontal"
-			(at 109.22 106.68 0)
+			(at 114.3 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -765,7 +765,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 106.68 106.68 0)
+			(at 111.76 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -776,7 +776,7 @@
 			)
 		)
 		(property "IR (A)" "1"
-			(at 104.14 106.68 0)
+			(at 109.22 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +787,7 @@
 			)
 		)
 		(property "Working Voltage (V (AC))" "125"
-			(at 101.6 106.68 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -798,7 +798,7 @@
 			)
 		)
 		(property "PCB/Cable/Panel" "PCB"
-			(at 99.06 106.68 0)
+			(at 104.14 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -809,7 +809,7 @@
 			)
 		)
 		(property "Contact Resistance (mohm)" "20"
-			(at 96.52 106.68 0)
+			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -820,7 +820,7 @@
 			)
 		)
 		(property "Tol. R" "max."
-			(at 93.98 106.68 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -831,7 +831,7 @@
 			)
 		)
 		(property "L (mm)" "9.75"
-			(at 91.44 106.68 0)
+			(at 96.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -864,7 +864,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 101.6 68.58 0)
+		(at 106.68 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -874,7 +874,7 @@
 		(dnp no)
 		(uuid "60705a8e-5a40-4c2f-aa84-4df7ee68cfa1")
 		(property "Reference" "#PWR041"
-			(at 101.6 74.93 0)
+			(at 106.68 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -885,7 +885,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 72.644 0)
+			(at 105.41 72.644 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -897,7 +897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 68.58 0)
+			(at 106.68 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -908,7 +908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 68.58 0)
+			(at 106.68 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -919,7 +919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 101.6 68.58 0)
+			(at 106.68 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
