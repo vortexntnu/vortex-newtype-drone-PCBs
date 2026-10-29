@@ -544,6 +544,54 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ETH.D1+": [
+        "ETH_100R"
+      ],
+      "/ETH.D1-": [
+        "ETH_100R"
+      ],
+      "/ETH.D2+": [
+        "ETH_100R"
+      ],
+      "/ETH.D2-": [
+        "ETH_100R"
+      ],
+      "/ETH.D3+": [
+        "ETH_100R"
+      ],
+      "/ETH.D3-": [
+        "ETH_100R"
+      ],
+      "/ETH.D4+": [
+        "ETH_100R"
+      ],
+      "/ETH.D4-": [
+        "ETH_100R"
+      ],
+      "/ETH.X1+": [
+        "ETH_100R"
+      ],
+      "/ETH.X1-": [
+        "ETH_100R"
+      ],
+      "/ETH.X2+": [
+        "ETH_100R"
+      ],
+      "/ETH.X2-": [
+        "ETH_100R"
+      ],
+      "/ETH.X3+": [
+        "ETH_100R"
+      ],
+      "/ETH.X3-": [
+        "ETH_100R"
+      ],
+      "/ETH.X4+": [
+        "ETH_100R"
+      ],
+      "/ETH.X4-": [
+        "ETH_100R"
+      ],
       "/ETH_ACOUSTICS_CON/ETH.X1+": [
         "ETH_100R"
       ],
@@ -596,6 +644,12 @@
         "ETH_100R"
       ],
       "/ETH_CAM_DOWN_CON/ETH{CBE}": [
+        "ETH_100R"
+      ],
+      "/ETH{CBE}": [
+        "ETH_100R"
+      ],
+      "/ETH{GBE}": [
         "ETH_100R"
       ],
       "/M_ACOUSTICS/ETH.X1+": [
@@ -1239,7 +1293,7 @@
         "uuid": "18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG6,J9-10,J12-21,C23-25,C62-63,#PWR15,#PWR40-41,#PWR46,#PWR51,#PWR54-57,L1,L3,U4",
     "variants": []
   },
   "sheets": [
@@ -1248,28 +1302,12 @@
       "Root"
     ],
     [
-      "d332138a-662a-41c6-a06b-5a06068ee3cb",
-      "Standard_CONN"
-    ],
-    [
-      "20583298-77c4-4850-98ea-6d3ace102595",
-      "Barrel-jack_CON"
-    ],
-    [
       "ab54efb3-df6b-49b1-840e-385379031211",
       "M_CAM_FRONT_L"
     ],
     [
-      "25e0c24f-6778-4b98-8756-5687bd49895d",
-      "POE_CH1 – CAM_FRONT_L"
-    ],
-    [
       "854e6725-7577-4f39-ac5c-b29c5dbf90aa",
       "Boost_CONV"
-    ],
-    [
-      "7549beec-e218-4e69-aab7-c3497a3b6be5",
-      "CAN_CONN"
     ],
     [
       "639e2752-c0b8-4ac0-8933-938ec1fe1665",
@@ -1290,42 +1328,6 @@
     [
       "94eeda84-5c40-48c1-9298-9cee76b12749",
       "M_ACOUSTICS"
-    ],
-    [
-      "0ea5c54d-4e07-4517-89bc-4c7873ad0534",
-      "Power_CON"
-    ],
-    [
-      "42eae71b-5509-482a-8024-fc1c5fe279a1",
-      "ETH_CAM_FRONT_L_CON"
-    ],
-    [
-      "06398709-0678-40cb-8726-e2fa5fac0dd2",
-      "ETH_CAM_FRONT_R_CON"
-    ],
-    [
-      "44e1a5b3-6b0c-4b35-ac21-5c2711270b2b",
-      "ETH_CAM_DOWN_CON"
-    ],
-    [
-      "3d6ef560-5024-49ac-87c6-7c41061956b8",
-      "ETH_ACOUSTICS_CON"
-    ],
-    [
-      "8c4b4be0-2998-432c-8cd0-24d3943584e4",
-      "POE_CH2 – CAM_FRONT_R"
-    ],
-    [
-      "b5cdc6e0-2ea3-411d-a845-6945aa78fc6c",
-      "POE_CH3 – CAM_DOWN"
-    ],
-    [
-      "510789d6-7dad-455b-9ae1-5c404d31a377",
-      "POE_CH4 – ACOUSTICS"
-    ],
-    [
-      "be0ca79a-104a-45dc-920c-2d31e103c726",
-      "Step_Down_Conv"
     ]
   ],
   "text_variables": {},

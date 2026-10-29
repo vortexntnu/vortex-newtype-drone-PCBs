@@ -2263,7 +2263,7 @@
 		)
 		(uuid "fedbb3f3-7470-47a6-8497-09a3902ec5bd")
 	)
-	(hierarchical_label "POE2_N"
+	(hierarchical_label "POE4_N"
 		(shape input)
 		(at 128.27 38.1 0)
 		(effects
@@ -2285,7 +2285,7 @@
 		)
 		(uuid "d6b22065-1054-432a-bfbd-db2a15c85540")
 	)
-	(hierarchical_label "POE2_P"
+	(hierarchical_label "POE4_P"
 		(shape input)
 		(at 128.27 35.56 0)
 		(effects
