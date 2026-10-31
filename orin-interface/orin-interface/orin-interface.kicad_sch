@@ -193,6 +193,1902 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "615008160421:615008160421"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "615008160421"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-MJ_615008160421"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160421?ki"
+				(at 63.5 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Modular Jack THT Vertical Shielded 8P8C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 63.5 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 63.5 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Series" "WR-MJ"
+				(at 63.5 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "xPxC" "8P8C"
+				(at 63.5 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "EMI" "No"
+				(at 63.5 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mount" "THT"
+				(at 63.5 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Application System" "CAT 6"
+				(at 63.5 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "THT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WR-MJ*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "615008160421_1_0"
+				(polyline
+					(pts
+						(xy -12.065 5.715) (xy 10.16 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.065 5.08) (xy 9.525 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.065 -5.08) (xy -12.065 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 0.635) (xy -7.62 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 -3.81) (xy -10.795 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -3.81) (xy -10.795 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -3.81) (xy -10.16 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 1.905) (xy -6.35 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0.635) (xy -7.62 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -7.62 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 1.905) (xy -6.35 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -5.08 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.905) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.635) (xy 5.08 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 7.62 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 5.08 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 8.255 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -3.81) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 5.08) (xy 9.525 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -5.08) (xy -12.065 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.715) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 -8.89 90)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 90)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -8.89 90)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -8.89 90)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -8.89 90)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -8.89 90)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 90)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 90)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 90)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Z2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "615008160421_1_1"
+				(text "shield"
+					(at 5.08 6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "615008160721:615008160721"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "615008160721"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-MJ_615008160721"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160721?ki"
+				(at 63.5 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Modular Jack THT 47,5° Shielded 8P8C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 63.5 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 63.5 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Series" "WR-MJ"
+				(at 63.5 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "xPxC" "8P8C"
+				(at 63.5 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "EMI" "No"
+				(at 63.5 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mount" "THT"
+				(at 63.5 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Application System" "CAT 6"
+				(at 63.5 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "THT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WR-MJ*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "615008160721_1_0"
+				(polyline
+					(pts
+						(xy -12.065 5.715) (xy 10.16 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.065 5.08) (xy 9.525 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.065 -5.08) (xy -12.065 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 0.635) (xy -7.62 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 -3.81) (xy -10.795 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -3.81) (xy -10.795 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -3.81) (xy -10.16 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 1.905) (xy -6.35 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0.635) (xy -7.62 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -7.62 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 1.905) (xy -6.35 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -5.08 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.905) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.635) (xy 5.08 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 7.62 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 5.08 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 8.255 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -3.81) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 5.08) (xy 9.525 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -5.08) (xy -12.065 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.715) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 90)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -8.89 90)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -8.89 90)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -8.89 90)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -8.89 90)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 90)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -8.89 90)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 90)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 90)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "615008160721_1_1"
+				(text "shield"
+					(at 5.08 6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "691323100002:691323100002"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "691323100002"
+				(at 12.7 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-TBL_691323100002"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691323100002.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Series 3231 - 3.50 mm Vertical PCB Header with Flanges"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20260401"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WR-TBL"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "691323100002"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "THT"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Automotive" "No"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "IR (A)" "10"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Pins (pcs)" "2"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Pitch (mm)" "3.5"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Type" "Vertical"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Application" "PCB Header"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "PCB/Cable/Panel" "Cable"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Modularity" "No"
+				(at 12.7 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Critical Parameter" "10A 2pins 3.5mm"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "THT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WR-TBL*691323100002*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "691323100002_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.508) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "691323100002_1_1"
+				(pin passive line
+					(at -1.27 -5.08 90)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "694106402002:694106402002"
 			(pin_names
 				(hide yes)
@@ -979,1394 +2875,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WR-MJ:615008142521"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "615008142521"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-MJ_615008142521"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008142521?ki"
-				(at 63.5 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Modular Jack 45° Plastic 8P8C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 63.5 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 63.5 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Series" "WR-MJ"
-				(at 63.5 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "xPxC" "8P8C"
-				(at 63.5 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "EMI" "No"
-				(at 63.5 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mount" "THT"
-				(at 63.5 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Application System" "CAT 3"
-				(at 63.5 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "THT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WR-MJ*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "615008142521_1_0"
-				(polyline
-					(pts
-						(xy -12.065 5.08) (xy 9.525 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.065 -5.08) (xy -12.065 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.795 0.635) (xy -7.62 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.795 -3.81) (xy -10.795 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -3.81) (xy -10.795 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -3.81) (xy -10.16 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 1.905) (xy -6.35 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0.635) (xy -7.62 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -3.81) (xy -10.16 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -3.81) (xy -7.62 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 3.81) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 1.905) (xy -6.35 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy -7.62 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy -5.08 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.54 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.175) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.905) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.905) (xy 3.81 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.635) (xy 5.08 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.175) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -3.175) (xy 7.62 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -3.81) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0.635) (xy 5.08 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0.635) (xy 8.255 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -3.81) (xy 7.62 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 5.08) (xy 9.525 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -5.08) (xy -12.065 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 -8.89 90)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -8.89 90)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -8.89 90)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -8.89 90)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -8.89 90)
-					(length 3.81)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -8.89 90)
-					(length 3.81)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -8.89 90)
-					(length 3.81)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -8.89 90)
-					(length 3.81)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WR-MJ:634008138121"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "634008138121"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-MJ_634008138121"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/634008138121?ki"
-				(at 63.5 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Modular Jack SMT Vertical Plastic 8P8C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 63.5 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 63.5 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Series" "WR-MJ"
-				(at 63.5 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "xPxC" "8P8C"
-				(at 63.5 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "EMI" "No"
-				(at 63.5 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mount" "SMT"
-				(at 63.5 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Application System" "CAT 3"
-				(at 63.5 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WR-MJ*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "634008138121_1_0"
-				(polyline
-					(pts
-						(xy -12.065 5.08) (xy 9.525 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.065 -5.08) (xy -12.065 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.795 0.635) (xy -7.62 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.795 -3.81) (xy -10.795 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -3.81) (xy -10.795 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -3.81) (xy -10.16 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 1.905) (xy -6.35 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0.635) (xy -7.62 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -3.81) (xy -10.16 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -3.81) (xy -7.62 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 3.81) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 1.905) (xy -6.35 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy -7.62 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy -5.08 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.54 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.175) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.905) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.905) (xy 3.81 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.635) (xy 5.08 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.175) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -3.175) (xy 7.62 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -3.81) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0.635) (xy 5.08 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0.635) (xy 8.255 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -3.81) (xy 7.62 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 5.08) (xy 9.525 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -5.08) (xy -12.065 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 -8.89 90)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -8.89 90)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -8.89 90)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -8.89 90)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -8.89 90)
-					(length 3.81)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -8.89 90)
-					(length 3.81)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -8.89 90)
-					(length 3.81)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -8.89 90)
-					(length 3.81)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3229,6 +3737,18 @@
 		)
 		(uuid "2eb71564-21e2-450d-994d-ff41d00cff36")
 	)
+	(rectangle
+		(start 114.935 29.845)
+		(end 141.605 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "318212d0-e27a-4af6-8b4f-aeba3e9c81de")
+	)
 	(bezier
 		(pts
 			(xy 115.951 168.275) (xy 115.951 168.275) (xy 117.221 167.005) (xy 117.221 167.005)
@@ -3397,7 +3917,7 @@
 	)
 	(text "Ethernet - Camera (Right)\n"
 		(exclude_from_sim no)
-		(at 266.7 100.838 0)
+		(at 281.8432 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3417,7 +3937,7 @@
 	)
 	(text "Ethernet - Camera (Down)\n"
 		(exclude_from_sim no)
-		(at 267.208 127.508 0)
+		(at 281.8432 127.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3447,7 +3967,7 @@
 	)
 	(text "Ethernet - Camera (Left)\n"
 		(exclude_from_sim no)
-		(at 267.462 73.914 0)
+		(at 281.178 73.914 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3477,13 +3997,23 @@
 	)
 	(text "Ethernet - Camera (Down)\n"
 		(exclude_from_sim no)
-		(at 141.224 127.508 0)
+		(at 118.0132 126.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "87e58640-e0fc-47e0-87cc-e328f2328ef0")
+	)
+	(text "Power Input\n"
+		(exclude_from_sim no)
+		(at 128.27 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8db3f8c3-19cd-4a28-96e5-436d45681e33")
 	)
 	(text "8\n"
 		(exclude_from_sim no)
@@ -3507,7 +4037,7 @@
 	)
 	(text "Ethernet - Camera (Right)\n"
 		(exclude_from_sim no)
-		(at 140.97 100.838 0)
+		(at 118.0132 100.076 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +4067,7 @@
 	)
 	(text "Ethernet - ACOUSTICS\n\n"
 		(exclude_from_sim no)
-		(at 140.716 155.956 0)
+		(at 115.8059 155.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3547,7 +4077,7 @@
 	)
 	(text "Ethernet - Camera (Left)\n"
 		(exclude_from_sim no)
-		(at 140.5588 72.644 0)
+		(at 117.348 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3579,7 +4109,7 @@
 	)
 	(text "Ethernet - ACOUSTICS\n\n"
 		(exclude_from_sim no)
-		(at 268.224 155.956 0)
+		(at 279.6359 155.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4317,13 +4847,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 106.68) (xy 151.13 106.68)
+			(xy 138.43 140.97) (xy 151.13 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0421cfaf-7474-4bdf-8fce-25e98cda6985")
+		(uuid "020c22e6-a90a-46f5-8067-d8e5dd463274")
+	)
+	(wire
+		(pts
+			(xy 138.43 130.81) (xy 151.13 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c591c8-8651-40b5-b747-6cb1bc708d2c")
+	)
+	(wire
+		(pts
+			(xy 138.43 77.47) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04153b08-c3fa-4dd5-82ae-38757ce65b2a")
 	)
 	(bus
 		(pts
@@ -4345,16 +4895,6 @@
 		)
 		(uuid "06ea7478-2ab4-45eb-83a0-6d885b241c88")
 	)
-	(wire
-		(pts
-			(xy 143.51 138.43) (xy 151.13 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06ecaee9-5750-45c1-80d9-1fc843d9a000")
-	)
 	(bus
 		(pts
 			(xy 252.73 166.37) (xy 252.73 168.91)
@@ -4364,6 +4904,16 @@
 			(type default)
 		)
 		(uuid "07bb49ac-517f-4bc7-bff6-1fa5b4a04468")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095fdac6-c91b-47fc-a56c-e3eb809d1741")
 	)
 	(wire
 		(pts
@@ -4397,26 +4947,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 151.13 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8e4794-1a71-499c-a915-6232ba1fab42")
-	)
-	(wire
-		(pts
-			(xy 143.51 80.01) (xy 151.13 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ea63744-2560-4a39-9839-7387f59bd0ac")
-	)
-	(wire
-		(pts
 			(xy 330.2 33.02) (xy 336.55 33.02)
 		)
 		(stroke
@@ -4445,6 +4975,16 @@
 		)
 		(uuid "1461ad6b-89c6-4a9c-9fb4-2012c322d1f6")
 	)
+	(wire
+		(pts
+			(xy 138.43 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16226b70-4af4-4382-8330-26911c8efed5")
+	)
 	(bus
 		(pts
 			(xy 252.73 106.68) (xy 252.73 109.22)
@@ -4454,6 +4994,26 @@
 			(type default)
 		)
 		(uuid "16e4bdcb-dfbb-4583-bd59-c755664ce073")
+	)
+	(wire
+		(pts
+			(xy 262.89 151.13) (xy 265.43 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18432366-0375-4d8a-bf53-291fdf921883")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191d242c-ce73-4b23-9b33-3606320acc95")
 	)
 	(wire
 		(pts
@@ -4467,13 +5027,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 148.59) (xy 151.13 148.59)
+			(xy 139.7 74.93) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ba4fec6-b689-4a8f-9808-194b562229a5")
+		(uuid "1a6b007d-eed9-4016-bf1e-b7b5eef0f92c")
 	)
 	(bus
 		(pts
@@ -4517,6 +5077,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 82.55) (xy 151.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcb8d7a-2929-4f26-b66b-4a5d92d7f81b")
+	)
+	(wire
+		(pts
 			(xy 207.01 74.93) (xy 204.47 74.93)
 		)
 		(stroke
@@ -4527,13 +5097,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 121.92) (xy 151.13 121.92)
+			(xy 139.7 156.21) (xy 139.7 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25b376bd-bb8c-404e-b2e5-08ea4f1439b4")
+		(uuid "26078a61-1e08-47bb-ae86-9e94a9986cb3")
 	)
 	(wire
 		(pts
@@ -4544,26 +5114,6 @@
 			(type default)
 		)
 		(uuid "273317ee-8614-4d0c-89e7-b70e9f9c0c56")
-	)
-	(wire
-		(pts
-			(xy 232.41 39.37) (xy 236.22 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28cc7c68-09c0-4ac9-b51d-1fd9afcd54e0")
-	)
-	(wire
-		(pts
-			(xy 143.51 163.83) (xy 151.13 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294362df-e570-436b-921d-16043b2b99c3")
 	)
 	(bus
 		(pts
@@ -4627,16 +5177,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 130.81) (xy 151.13 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed9d746-f2b8-41fa-a4e0-2817e6b0fb83")
-	)
-	(wire
-		(pts
 			(xy 204.47 157.48) (xy 227.33 157.48)
 		)
 		(stroke
@@ -4658,16 +5198,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 114.3) (xy 151.13 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31bbc095-8081-4b43-a838-e125d67355b7")
-	)
-	(wire
-		(pts
 			(xy 223.52 130.81) (xy 223.52 52.07)
 		)
 		(stroke
@@ -4679,13 +5209,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 171.45) (xy 151.13 171.45)
+			(xy 128.27 41.91) (xy 133.35 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3895c5db-76d3-4daf-903c-701325af37c2")
+		(uuid "37a2a1dd-ae8d-4c2b-9578-8eafe1d436d3")
 	)
 	(bus
 		(pts
@@ -4706,16 +5236,6 @@
 			(type default)
 		)
 		(uuid "39f920c0-77d6-496d-8af6-592c65ab1085")
-	)
-	(wire
-		(pts
-			(xy 143.51 135.89) (xy 151.13 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f33de04-2e65-42f0-82cc-9d40bcba3d60")
 	)
 	(wire
 		(pts
@@ -4758,6 +5278,27 @@
 		)
 		(uuid "422f6298-c606-446c-8d54-bfe1e9037658")
 	)
+	(wire
+		(pts
+			(xy 262.89 179.07) (xy 265.43 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429ed869-f362-4979-a0ba-e9333f45bcdc")
+	)
+	(wire
+		(pts
+			(xy 128.27 39.37) (xy 151.13 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 7 0 1)
+		)
+		(uuid "434868fc-76ff-4948-874f-0e9d134824d9")
+	)
 	(bus
 		(pts
 			(xy 252.73 135.89) (xy 252.73 138.43)
@@ -4789,16 +5330,6 @@
 		)
 		(uuid "43d5d0f2-8c77-4052-be9b-ccc94003ad1d")
 	)
-	(wire
-		(pts
-			(xy 143.51 111.76) (xy 151.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ee3276-fe3d-44a6-bc85-da4880016887")
-	)
 	(bus
 		(pts
 			(xy 153.67 80.01) (xy 181.61 80.01)
@@ -4821,6 +5352,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 128.27) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4563173f-a626-407a-8752-09b15a23d006")
+	)
+	(wire
+		(pts
 			(xy 204.47 104.14) (xy 215.9 104.14)
 		)
 		(stroke
@@ -4839,16 +5380,6 @@
 			(type default)
 		)
 		(uuid "472840f0-711b-4522-a093-f0a263ccbfe7")
-	)
-	(wire
-		(pts
-			(xy 143.51 87.63) (xy 151.13 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b475a5-9e21-4172-903e-10a95f002341")
 	)
 	(bus
 		(pts
@@ -4952,7 +5483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 102.87 113.665) (xy 129.54 113.665)
+			(xy 102.87 113.665) (xy 123.825 113.665)
 		)
 		(stroke
 			(width 0)
@@ -5022,6 +5553,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 161.29) (xy 151.13 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4bbc1f-5c86-4d96-8dfc-f524f507fa49")
+	)
+	(wire
+		(pts
+			(xy 133.35 41.91) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b68788c-aeac-44f3-ac6d-cf619629c14d")
+	)
+	(wire
+		(pts
 			(xy 229.87 158.75) (xy 229.87 52.07)
 		)
 		(stroke
@@ -5030,6 +5581,16 @@
 			(color 250 68 255 1)
 		)
 		(uuid "5d5f67bc-242f-4744-9fb8-d79945741436")
+	)
+	(wire
+		(pts
+			(xy 138.43 109.22) (xy 151.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5eb86b-63af-44af-9594-b696f5ddb7a3")
 	)
 	(bus
 		(pts
@@ -5073,6 +5634,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 173.99) (xy 151.13 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640a64f0-5807-4ef3-951e-6b634873afef")
+	)
+	(wire
+		(pts
 			(xy 255.27 163.83) (xy 265.43 163.83)
 		)
 		(stroke
@@ -5080,16 +5651,6 @@
 			(type default)
 		)
 		(uuid "64777572-a27c-4240-8166-8523edd99c68")
-	)
-	(wire
-		(pts
-			(xy 143.51 173.99) (xy 151.13 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "657a6868-29fb-4993-9d5e-67050d1ac807")
 	)
 	(polyline
 		(pts
@@ -5100,16 +5661,6 @@
 			(type default)
 		)
 		(uuid "65b3abe9-ff64-4731-8709-5a6200f7644f")
-	)
-	(wire
-		(pts
-			(xy 143.51 133.35) (xy 151.13 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d2d9e1-42d2-4c20-b7a3-c1a92b86f565")
 	)
 	(wire
 		(pts
@@ -5131,6 +5682,16 @@
 			(type default)
 		)
 		(uuid "66fef333-bd85-4595-87c1-20a1fd78b0a1")
+	)
+	(wire
+		(pts
+			(xy 138.43 133.35) (xy 151.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671ec981-d609-4400-9318-69d7b0a4bb9c")
 	)
 	(bus
 		(pts
@@ -5164,6 +5725,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 168.91) (xy 151.13 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2a1dc6-a3ba-471b-a0c3-86eb79553603")
+	)
+	(wire
+		(pts
 			(xy 58.42 63.5) (xy 46.99 63.5)
 		)
 		(stroke
@@ -5174,23 +5745,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 90.17) (xy 151.13 90.17)
+			(xy 262.89 97.79) (xy 265.43 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d790558-8ec4-4231-a150-80de209be4bc")
-	)
-	(wire
-		(pts
-			(xy 143.51 158.75) (xy 151.13 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eadf85e-21ce-494e-9184-19b78dfac0c6")
+		(uuid "6e59d028-cbda-4a8f-b3bf-49e73bf77d6e")
 	)
 	(wire
 		(pts
@@ -5204,13 +5765,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 168.91) (xy 151.13 168.91)
+			(xy 138.43 163.83) (xy 151.13 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72f268ce-d5f4-4704-ae26-5d599b97c986")
+		(uuid "71ced254-8b22-4da1-8dfc-23bc254f4389")
 	)
 	(bus
 		(pts
@@ -5234,6 +5795,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 148.59) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78bc833d-053e-4f6f-a578-0ff296bd218b")
+	)
+	(wire
+		(pts
 			(xy 330.2 38.1) (xy 330.2 40.64)
 		)
 		(stroke
@@ -5241,16 +5812,6 @@
 			(type default)
 		)
 		(uuid "79b8098d-b022-4b47-a360-e99e017c72ca")
-	)
-	(wire
-		(pts
-			(xy 143.51 140.97) (xy 151.13 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b293d72-9507-44a9-9faa-30941155f32c")
 	)
 	(bus
 		(pts
@@ -5274,6 +5835,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 74.93) (xy 139.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c59f9d5-c3af-4153-87bb-e9ef55a066e1")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6baae2-48f1-4d9a-b42d-65e293fdca64")
+	)
+	(wire
+		(pts
 			(xy 213.36 102.87) (xy 213.36 52.07)
 		)
 		(stroke
@@ -5282,6 +5863,16 @@
 			(color 130 66 255 1)
 		)
 		(uuid "7dd1b27c-ad5b-4054-8886-4ddbe1012292")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 151.13 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df0eb34-a367-4838-8b20-771c9aca085c")
 	)
 	(wire
 		(pts
@@ -5376,6 +5967,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 158.75) (xy 151.13 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a278ac5-a33c-4840-94cf-7c2e5ebd58c3")
+	)
+	(wire
+		(pts
 			(xy 35.56 52.07) (xy 35.56 54.61)
 		)
 		(stroke
@@ -5383,6 +5984,17 @@
 			(type default)
 		)
 		(uuid "8a5d8a6d-686c-425c-8056-08d02deeacf6")
+	)
+	(wire
+		(pts
+			(xy 237.49 39.37) (xy 232.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 7 0 1)
+		)
+		(uuid "8b55615d-02ee-4205-a28e-73d78299088a")
 	)
 	(wire
 		(pts
@@ -5396,6 +6008,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 95.25) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb554ed-3bc7-4031-8d7e-8ec5dfc1070a")
+	)
+	(wire
+		(pts
 			(xy 255.27 119.38) (xy 265.43 119.38)
 		)
 		(stroke
@@ -5403,16 +6025,6 @@
 			(type default)
 		)
 		(uuid "90eeba5d-348c-47b5-9a43-8100db403fe8")
-	)
-	(wire
-		(pts
-			(xy 143.51 95.25) (xy 151.13 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920be5ec-00fd-456d-9126-18078acadad2")
 	)
 	(wire
 		(pts
@@ -5437,6 +6049,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944ad002-46f2-48dc-a693-92aa81a422c9")
+	)
+	(wire
+		(pts
 			(xy 21.59 63.5) (xy 35.56 63.5)
 		)
 		(stroke
@@ -5457,7 +6079,7 @@
 	)
 	(polyline
 		(pts
-			(xy 102.87 140.335) (xy 129.54 140.335)
+			(xy 102.87 140.335) (xy 123.825 140.335)
 		)
 		(stroke
 			(width 0)
@@ -5477,13 +6099,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 109.22) (xy 151.13 109.22)
+			(xy 138.43 128.27) (xy 139.7 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9948cd0c-1898-4345-9ea9-f9896b00d3c8")
+		(uuid "98a8e414-4a97-47c8-8075-c54ebb218363")
+	)
+	(wire
+		(pts
+			(xy 138.43 106.68) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99870bf0-f78a-4def-9cc3-247c0b3524d4")
 	)
 	(bus
 		(pts
@@ -5494,6 +6126,27 @@
 			(type default)
 		)
 		(uuid "9bad1c2f-f95a-40fc-b0af-dd8c08d2641e")
+	)
+	(wire
+		(pts
+			(xy 138.43 138.43) (xy 151.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9f7f00-8175-4756-aea0-a9130430ae6b")
+	)
+	(wire
+		(pts
+			(xy 237.49 36.83) (xy 237.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 7 0 1)
+		)
+		(uuid "9f05307a-2658-48b8-bc83-bc391ced5ef7")
 	)
 	(bus
 		(pts
@@ -5507,6 +6160,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 143.51) (xy 151.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a518770f-8b4b-4a3a-8142-fed2d762e727")
+	)
+	(wire
+		(pts
 			(xy 330.2 31.75) (xy 330.2 33.02)
 		)
 		(stroke
@@ -5515,9 +6178,19 @@
 		)
 		(uuid "a5dd5453-7a7c-4e96-a2e7-e6cf45251c23")
 	)
+	(wire
+		(pts
+			(xy 262.89 124.46) (xy 265.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a686bab2-e5d6-497f-870e-cd3473062205")
+	)
 	(polyline
 		(pts
-			(xy 102.87 86.36) (xy 129.54 86.36)
+			(xy 102.87 86.36) (xy 123.825 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5607,6 +6280,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 80.01) (xy 151.13 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92debfc-630d-4f2b-bccf-46e2cde155de")
+	)
+	(wire
+		(pts
+			(xy 138.43 135.89) (xy 151.13 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d5fd28-167f-49bd-89b8-c7454d80e1a9")
+	)
+	(wire
+		(pts
 			(xy 365.76 33.02) (xy 365.76 35.56)
 		)
 		(stroke
@@ -5644,6 +6337,16 @@
 			(type default)
 		)
 		(uuid "c1d4ae65-c3a7-4363-aa88-d8e880ef92ce")
+	)
+	(wire
+		(pts
+			(xy 138.43 116.84) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d955fe-65f3-4fba-84dc-2ea722b12b80")
 	)
 	(wire
 		(pts
@@ -5698,6 +6401,26 @@
 		)
 		(uuid "c6771d71-698c-47eb-8a8a-2560246688b3")
 	)
+	(wire
+		(pts
+			(xy 138.43 146.05) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7013911-3013-420d-a18f-d65e60d967d0")
+	)
+	(wire
+		(pts
+			(xy 138.43 171.45) (xy 151.13 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77f3d38-7462-4b34-8201-bedb70c3da41")
+	)
 	(bus
 		(pts
 			(xy 153.67 143.51) (xy 153.67 146.05)
@@ -5717,6 +6440,16 @@
 			(type default)
 		)
 		(uuid "c81b2c0d-f1a6-4fcb-ad09-b7586d7427da")
+	)
+	(wire
+		(pts
+			(xy 138.43 90.17) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd55f46-53a3-4a87-a029-78bfa98470fd")
 	)
 	(bus
 		(pts
@@ -5740,23 +6473,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 119.38) (xy 151.13 119.38)
+			(xy 138.43 166.37) (xy 151.13 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf0d4b0e-24d7-4d13-b272-90b86a2c0467")
-	)
-	(wire
-		(pts
-			(xy 143.51 104.14) (xy 151.13 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d00538e4-5633-4eda-8be3-d02df49c9b64")
+		(uuid "ceeb7744-8dfe-4dbf-bdbe-a145c8130020")
 	)
 	(wire
 		(pts
@@ -5770,7 +6493,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.505 167.64) (xy 129.54 167.64)
+			(xy 103.505 167.64) (xy 123.825 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5818,36 +6541,6 @@
 		)
 		(uuid "d53d4d74-6185-4094-b4fb-cf20182d6d02")
 	)
-	(wire
-		(pts
-			(xy 143.51 77.47) (xy 151.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5be5d14-6f05-48c8-82bb-4f4843c77aef")
-	)
-	(wire
-		(pts
-			(xy 143.51 166.37) (xy 151.13 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba6599e-d2f1-4426-bbe7-cb790253df3a")
-	)
-	(wire
-		(pts
-			(xy 143.51 82.55) (xy 151.13 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcadf0d-73a1-4e0c-9ade-ae02eb5e444a")
-	)
 	(bus
 		(pts
 			(xy 153.67 166.37) (xy 153.67 179.07)
@@ -5857,16 +6550,6 @@
 			(type default)
 		)
 		(uuid "defee35e-27fc-4109-a49f-593a21c29658")
-	)
-	(wire
-		(pts
-			(xy 143.51 161.29) (xy 151.13 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc8531a-75f5-456d-b579-1d08c5a429e6")
 	)
 	(wire
 		(pts
@@ -5920,16 +6603,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 116.84) (xy 151.13 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5251d94-da95-41ce-98f5-64ee0a5dc8fa")
-	)
-	(wire
-		(pts
 			(xy 255.27 106.68) (xy 265.43 106.68)
 		)
 		(stroke
@@ -5950,13 +6623,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 176.53) (xy 151.13 176.53)
+			(xy 138.43 119.38) (xy 151.13 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e87bc75c-440e-429f-be9f-cf083e78c49f")
+		(uuid "e7768354-3d70-46cb-b0b2-d02ce9bce47f")
 	)
 	(wire
 		(pts
@@ -5970,6 +6643,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 176.53) (xy 151.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6b7e6c-d6f5-4303-a663-6c03286aa4f4")
+	)
+	(wire
+		(pts
 			(xy 35.56 59.69) (xy 35.56 63.5)
 		)
 		(stroke
@@ -5977,16 +6660,6 @@
 			(type default)
 		)
 		(uuid "ed6e44dc-630e-40b3-b8d2-547fb25bd266")
-	)
-	(wire
-		(pts
-			(xy 143.51 146.05) (xy 151.13 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed99f819-9529-4fbb-9f36-3c0e3d54786f")
 	)
 	(wire
 		(pts
@@ -6028,6 +6701,16 @@
 		)
 		(uuid "efcfd870-9a05-4693-a872-2e0310cbc3e8")
 	)
+	(wire
+		(pts
+			(xy 138.43 156.21) (xy 139.7 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0676005-dd85-4e5d-b017-4511a60af63c")
+	)
 	(bus
 		(pts
 			(xy 252.73 146.05) (xy 252.73 148.59)
@@ -6040,13 +6723,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 151.13 92.71)
+			(xy 138.43 85.09) (xy 151.13 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5b78994-0469-4fa8-bb72-c53ddcfe4eef")
+		(uuid "f40508e4-0197-4c73-8b03-ecb49ce77ec6")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5205327-a1c5-42d4-b867-bda6ae71dac5")
 	)
 	(wire
 		(pts
@@ -6057,16 +6750,6 @@
 			(type default)
 		)
 		(uuid "f6106962-3f27-4f6c-9719-9dfc5a4316c8")
-	)
-	(wire
-		(pts
-			(xy 143.51 143.51) (xy 151.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84a339c-529c-4a2c-9f5a-85cdff7933aa")
 	)
 	(wire
 		(pts
@@ -6081,13 +6764,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 38.1) (xy 236.22 39.37)
+			(xy 139.7 101.6) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbc7743a-2361-46c6-9338-591b57011392")
+		(uuid "f8f26c88-d34a-4634-a4a8-5bd1ccb034f2")
 	)
 	(wire
 		(pts
@@ -6120,7 +6803,7 @@
 		(uuid "fecc962b-cce2-405c-820a-53de985738a6")
 	)
 	(label "ETH.D1+"
-		(at 151.13 130.81 180)
+		(at 151.13 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6150,7 +6833,7 @@
 		(uuid "06456236-85a2-4bd2-9ffd-9b00135eaf45")
 	)
 	(label "ETH.D4+"
-		(at 151.13 146.05 180)
+		(at 151.13 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6159,8 +6842,19 @@
 		)
 		(uuid "0ca66fad-9239-4927-86a4-8978becd4e0f")
 	)
+	(label "+BATT"
+		(at 130.81 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "1017841d-f99a-481c-9838-cbf810f0fe47")
+	)
 	(label "ETH.D3+"
-		(at 151.13 140.97 180)
+		(at 151.13 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6190,7 +6884,7 @@
 		(uuid "124b2ca6-b4f6-4fb3-8a9e-8437985d210b")
 	)
 	(label "ETH.D3+"
-		(at 151.13 87.63 180)
+		(at 151.13 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6200,7 +6894,7 @@
 		(uuid "146f1985-baae-4b5a-8c62-cee711187f6f")
 	)
 	(label "ETH.D2+"
-		(at 151.13 135.89 180)
+		(at 151.13 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6210,7 +6904,7 @@
 		(uuid "14eae2d8-bd48-4959-969c-819079bb0391")
 	)
 	(label "ETH.D4-"
-		(at 151.13 176.53 180)
+		(at 151.13 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6220,7 +6914,7 @@
 		(uuid "1697f2f6-b2ce-4aff-9e2d-f3c590968f6f")
 	)
 	(label "ETH.D1+"
-		(at 151.13 158.75 180)
+		(at 151.13 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6250,7 +6944,7 @@
 		(uuid "2987a6c1-575b-4ad5-b2f0-2c968f2b4635")
 	)
 	(label "ETH.D3-"
-		(at 151.13 90.17 180)
+		(at 151.13 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6260,7 +6954,7 @@
 		(uuid "2ab6a55f-4406-4cfd-b939-91d331f6151c")
 	)
 	(label "ETH.D2+"
-		(at 151.13 82.55 180)
+		(at 151.13 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6300,7 +6994,7 @@
 		(uuid "3e3d23e3-edf3-4b0c-b952-fe7dbca79ae2")
 	)
 	(label "ETH.D4+"
-		(at 151.13 92.71 180)
+		(at 151.13 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6320,7 +7014,7 @@
 		(uuid "480fed9f-f542-4074-98fb-2377dc6de247")
 	)
 	(label "ETH.D2-"
-		(at 151.13 138.43 180)
+		(at 151.13 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6340,7 +7034,7 @@
 		(uuid "54d0ce45-7368-4d87-9263-e1c7980192a1")
 	)
 	(label "ETH.D2-"
-		(at 151.13 166.37 180)
+		(at 151.13 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6410,7 +7104,7 @@
 		(uuid "760d80f5-81dc-4672-8b52-e8ee74e0ae83")
 	)
 	(label "ETH.D3-"
-		(at 151.13 171.45 180)
+		(at 151.13 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6430,7 +7124,7 @@
 		(uuid "78cbd59b-7a58-4d99-9e4f-b15aa5217962")
 	)
 	(label "ETH.D2-"
-		(at 151.13 85.09 180)
+		(at 151.13 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6460,7 +7154,7 @@
 		(uuid "84427475-5790-40ea-a154-d3f04dd866f8")
 	)
 	(label "ETH.D1-"
-		(at 151.13 80.01 180)
+		(at 151.13 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6470,7 +7164,7 @@
 		(uuid "87274fe5-6f64-49f9-a10e-1646b8cbe511")
 	)
 	(label "ETH.D4+"
-		(at 151.13 173.99 180)
+		(at 151.13 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6550,7 +7244,7 @@
 		(uuid "9bb96cfa-4280-483f-a54e-cc8d48da249f")
 	)
 	(label "ETH.D4-"
-		(at 151.13 95.25 180)
+		(at 151.13 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6580,7 +7274,7 @@
 		(uuid "9d2ee573-461c-4bab-ac83-48ba9d58bee1")
 	)
 	(label "ETH.D3-"
-		(at 151.13 143.51 180)
+		(at 151.13 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6590,7 +7284,7 @@
 		(uuid "9dadc246-c0a3-488c-a7ba-26bb8a6a01a1")
 	)
 	(label "ETH.D1+"
-		(at 151.13 77.47 180)
+		(at 151.13 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6620,7 +7314,7 @@
 		(uuid "a7d57a3a-f854-49cc-94a7-30f9d04287f3")
 	)
 	(label "ETH.D3+"
-		(at 151.13 168.91 180)
+		(at 151.13 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6648,16 +7342,6 @@
 			(justify left bottom)
 		)
 		(uuid "aa2ea922-174c-4678-87d1-9b7f3384e5cd")
-	)
-	(label "ETH{GBE}"
-		(at 242.57 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac6a7399-ebf3-4c87-a97e-c5a78dfc5d59")
 	)
 	(label "ETH.X3+"
 		(at 257.81 114.3 0)
@@ -6719,8 +7403,18 @@
 		)
 		(uuid "c7def54d-7b5b-44f1-b206-eb8f49c68554")
 	)
+	(label "ETH{CBE}"
+		(at 242.57 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c92b098a-9eae-4e74-a847-c96b176738ef")
+	)
 	(label "ETH.D1-"
-		(at 151.13 133.35 180)
+		(at 151.13 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6790,7 +7484,7 @@
 		(uuid "e4d43b58-71b1-4585-a2d6-121fd9266f78")
 	)
 	(label "ETH.D4-"
-		(at 151.13 148.59 180)
+		(at 151.13 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6810,7 +7504,7 @@
 		(uuid "ef804676-93ac-4897-adef-4aaadef849c0")
 	)
 	(label "ETH.D1-"
-		(at 151.13 161.29 180)
+		(at 151.13 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6820,7 +7514,7 @@
 		(uuid "faeddc7f-ee39-46fd-bf60-29cf310e0d63")
 	)
 	(label "ETH.D2+"
-		(at 151.13 163.83 180)
+		(at 151.13 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7112,6 +7806,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "083d02a4-8b71-4327-9e60-7c328b91c0fa")
+		(property "Reference" "#PWR060"
+			(at 139.7 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4632d7f8-8ec9-4272-b050-79b74320d15a")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 58.42 57.15 0)
 		(unit 1)
@@ -7188,6 +7961,266 @@
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
 					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aeed593-6af0-49a9-b135-ddddff1081ea")
+		(property "Reference" "#PWR064"
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d5ca422-ea96-49cc-a752-517bf41f970e")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "615008160421:615008160421")
+		(at 129.54 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "106fbb64-96d1-438d-bdf8-be7817b96e9e")
+		(property "Reference" "J2"
+			(at 129.54 84.836 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "615008160421"
+			(at 146.05 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "615008160421:J_Wurth_WR-MJ_615008160421"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160421?ki"
+			(at 121.92 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack THT Vertical Shielded 8P8C"
+			(at 129.54 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 124.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 127 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-MJ"
+			(at 129.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "xPxC" "8P8C"
+			(at 132.08 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EMI" "No"
+			(at 134.62 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount" "THT"
+			(at 137.16 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Application System" "CAT 6"
+			(at 139.7 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Z2"
+			(uuid "392c6471-3f74-499b-8fae-5bf25cb52bc2")
+		)
+		(pin "7"
+			(uuid "dbb1af34-1020-48b9-893c-796ad6bab00d")
+		)
+		(pin "Z1"
+			(uuid "53e0de2e-29e1-4bf5-9f32-4ec31cdc3293")
+		)
+		(pin "8"
+			(uuid "5dc3df31-4b74-4eb9-8a2e-f599b79e40e6")
+		)
+		(pin "3"
+			(uuid "e5fc3fd4-0471-49d0-b825-88fbc745d2d4")
+		)
+		(pin "5"
+			(uuid "2dbe472f-9c45-4ba2-a21c-4fef2006b6c3")
+		)
+		(pin "1"
+			(uuid "fda209dd-201a-404d-b9f5-af90478295cf")
+		)
+		(pin "4"
+			(uuid "da3f61ec-4a10-4bcc-9e5a-7891fde048c3")
+		)
+		(pin "6"
+			(uuid "f5227b7f-64c6-4c09-9fc7-aeabad5c6de4")
+		)
+		(pin "2"
+			(uuid "832336e3-c914-4ac1-a860-e30ea5618a71")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7678,8 +8711,8 @@
 		)
 	)
 	(symbol
-		(lib_id "WR-MJ:615008142521")
-		(at 274.32 140.97 270)
+		(lib_id "615008160421:615008160421")
+		(at 129.54 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7687,20 +8720,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "132952eb-a0a7-46c9-b597-c8558054f75d")
-		(property "Reference" "J13"
-			(at 273.558 139.7 90)
+		(uuid "181f37cb-065c-4567-b8dd-8000c2c886b6")
+		(property "Reference" "J8"
+			(at 129.794 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "615008142521"
-			(at 257.81 140.97 0)
+		(property "Value" "615008160421"
+			(at 146.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,8 +8742,8 @@
 				)
 			)
 		)
-		(property "Footprint" "615008138021-THT:J_Wurth_WR-MJ_615008142521"
-			(at 287.02 140.97 0)
+		(property "Footprint" "615008160421:J_Wurth_WR-MJ_615008160421"
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,8 +8753,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008142521?ki"
-			(at 281.94 204.47 0)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160421?ki"
+			(at 121.92 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7732,8 +8764,8 @@
 				)
 			)
 		)
-		(property "Description" "Modular Jack 45° Plastic 8P8C"
-			(at 274.32 140.97 0)
+		(property "Description" "Modular Jack THT Vertical Shielded 8P8C"
+			(at 129.54 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7744,7 +8776,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 279.4 204.47 0)
+			(at 124.46 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +8787,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 276.86 204.47 0)
+			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +8798,7 @@
 			)
 		)
 		(property "Series" "WR-MJ"
-			(at 274.32 204.47 0)
+			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +8809,7 @@
 			)
 		)
 		(property "xPxC" "8P8C"
-			(at 271.78 204.47 0)
+			(at 132.08 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7788,7 +8820,7 @@
 			)
 		)
 		(property "EMI" "No"
-			(at 269.24 204.47 0)
+			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +8831,7 @@
 			)
 		)
 		(property "Mount" "THT"
-			(at 266.7 204.47 0)
+			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,8 +8841,8 @@
 				)
 			)
 		)
-		(property "Application System" "CAT 3"
-			(at 264.16 204.47 0)
+		(property "Application System" "CAT 6"
+			(at 139.7 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7820,34 +8852,302 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "a11220d2-900c-4e05-b552-9cbb9afb0a29")
-		)
-		(pin "1"
-			(uuid "8b00c3ae-25d9-4c72-a7f6-7d8108587981")
-		)
-		(pin "5"
-			(uuid "51893719-7d2e-4e96-b83f-cf944db15c3e")
-		)
-		(pin "6"
-			(uuid "16c81417-8630-4f77-bd85-ccd806992bd8")
-		)
-		(pin "8"
-			(uuid "ecf74ed6-0890-440b-a160-e3f112fa0a14")
+		(pin "Z2"
+			(uuid "d64a1fef-934b-415d-9d85-6a50fba8c957")
 		)
 		(pin "7"
-			(uuid "5fc055f0-8b0e-400e-88e5-53aef55812e9")
+			(uuid "68277ad3-2e38-4d9d-8b6f-19afbd55e9db")
+		)
+		(pin "Z1"
+			(uuid "13c25d86-2456-4300-a39f-7756a643362f")
+		)
+		(pin "8"
+			(uuid "911e5790-b11f-42a7-be20-bea10728057d")
 		)
 		(pin "3"
-			(uuid "051e8bec-7b01-476c-b021-38b2c0c7f541")
+			(uuid "d8fdf754-f249-4eac-8073-682cfd9df7dd")
+		)
+		(pin "5"
+			(uuid "e3bf3360-601d-42f7-a964-2040576b3799")
+		)
+		(pin "1"
+			(uuid "79d2cb12-ff0f-4db0-9937-4c706db3f978")
+		)
+		(pin "4"
+			(uuid "6584db1b-87a8-429d-96a4-376125fadd78")
+		)
+		(pin "6"
+			(uuid "53105478-7e22-4de4-8c81-6c8894471ff0")
 		)
 		(pin "2"
-			(uuid "d51f5308-ac92-452f-93a2-0fc060a9802d")
+			(uuid "10ded839-a766-45e2-a221-59755865f010")
 		)
 		(instances
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J13")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "691323100002:691323100002")
+		(at 123.19 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e3ced8a-5e02-4438-a3c2-255f4fe276b5")
+		(property "Reference" "J1"
+			(at 122.936 44.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "691323100002"
+			(at 100.33 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "691378140024-2:J_Wurth_WR-TBL_691323100002"
+			(at 102.87 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691323100002.pdf?ki"
+			(at 105.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Series 3231 - 3.50 mm Vertical PCB Header with Flanges"
+			(at 123.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 107.95 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 110.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260401"
+			(at 113.03 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WR-TBL"
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "691323100002"
+			(at 118.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 120.65 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Automotive" "No"
+			(at 123.19 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IR (A)" "10"
+			(at 125.73 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Pins (pcs)" "2"
+			(at 128.27 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Pitch (mm)" "3.5"
+			(at 130.81 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "Vertical"
+			(at 133.35 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Application" "PCB Header"
+			(at 135.89 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "PCB/Cable/Panel" "Cable"
+			(at 138.43 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Modularity" "No"
+			(at 140.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" "10A 2pins 3.5mm"
+			(at 123.19 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3499e423-7cfd-49bb-b8e3-511dc9618fc7")
+		)
+		(pin "2"
+			(uuid "6b2bc429-bb77-4f2e-9786-551653bc8312")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7925,6 +9225,266 @@
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24aceba4-ab77-46b6-81d1-21270ce7a7cf")
+		(property "Reference" "#PWR063"
+			(at 262.89 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "996b6f31-97eb-4a66-a4c1-19fbe5a94c0b")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "615008160721:615008160721")
+		(at 274.32 168.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d36575c-97d8-4a9c-9725-d0a2c9fa0e8f")
+		(property "Reference" "J6"
+			(at 274.32 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "615008160721"
+			(at 257.81 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "615008160721:J_Wurth_WR-MJ_615008160721"
+			(at 287.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160721?ki"
+			(at 281.94 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack THT 47,5° Shielded 8P8C"
+			(at 274.32 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 279.4 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 276.86 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-MJ"
+			(at 274.32 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "xPxC" "8P8C"
+			(at 271.78 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EMI" "No"
+			(at 269.24 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount" "THT"
+			(at 266.7 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Application System" "CAT 6"
+			(at 264.16 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "5261537f-456e-486e-9c05-692f69cb8681")
+		)
+		(pin "1"
+			(uuid "2c1c8517-2302-431f-9f9e-eeab1bbef5dd")
+		)
+		(pin "5"
+			(uuid "b3677eba-9a09-4a6e-82af-061b4bc362a3")
+		)
+		(pin "4"
+			(uuid "61402aea-9a00-4c09-b1ae-3e0b9f0684da")
+		)
+		(pin "S2"
+			(uuid "0f85daa7-2dcb-4aa7-8d88-7b205af99629")
+		)
+		(pin "8"
+			(uuid "c34adcbb-2b24-41d9-a870-55fb6ac9cfaf")
+		)
+		(pin "2"
+			(uuid "f4e82052-f5d5-4122-9752-8858d4570d5c")
+		)
+		(pin "3"
+			(uuid "d4b9a867-d29e-44ab-bffe-98b4379acc4b")
+		)
+		(pin "7"
+			(uuid "98c6664a-5093-4c9b-947b-39391f87f27a")
+		)
+		(pin "S1"
+			(uuid "716404eb-8f50-4e0c-8ec8-dd5f30405d44")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8012,8 +9572,8 @@
 		)
 	)
 	(symbol
-		(lib_id "WR-MJ:634008138121")
-		(at 134.62 166.37 90)
+		(lib_id "power:GND")
+		(at 133.35 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8021,19 +9581,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "40927e55-1659-4ecc-8390-35a4d9dd1b74")
-		(property "Reference" "J20"
-			(at 134.62 166.116 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "634008138121"
-			(at 151.13 166.37 0)
+		(fields_autoplaced yes)
+		(uuid "46df5ed8-007d-4889-ad3a-3609fb870df3")
+		(property "Reference" "#PWR050"
+			(at 133.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8043,8 +9594,8 @@
 				)
 			)
 		)
-		(property "Footprint" "615008138021:J_Wurth_WR-MJ_634008138121"
-			(at 121.92 166.37 0)
+		(property "Value" "GND"
+			(at 133.35 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8054,8 +9605,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/634008138121?ki"
-			(at 127 102.87 0)
+		(property "Footprint" ""
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8065,8 +9616,8 @@
 				)
 			)
 		)
-		(property "Description" "Modular Jack SMT Vertical Plastic 8P8C"
-			(at 134.62 166.37 0)
+		(property "Datasheet" ""
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,8 +9627,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 129.54 102.87 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8086,276 +9637,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 132.08 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-MJ"
-			(at 134.62 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "xPxC" "8P8C"
-			(at 137.16 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EMI" "No"
-			(at 139.7 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount" "SMT"
-			(at 142.24 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Application System" "CAT 3"
-			(at 144.78 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a05e7019-1ea1-4402-ad45-a5c6cd9bab98")
 		)
 		(pin "1"
-			(uuid "179c791a-193e-4187-b809-759b081cd379")
-		)
-		(pin "2"
-			(uuid "261e3a0a-9ecd-4351-a09f-36a14e3cb133")
-		)
-		(pin "4"
-			(uuid "580b5962-d955-467b-bd8e-86ef748f8d83")
-		)
-		(pin "8"
-			(uuid "8319dd7f-a27a-4aa8-ab85-d71f9a0d5ec7")
-		)
-		(pin "6"
-			(uuid "cc4996af-6af7-4a2d-91e4-394109f46c91")
-		)
-		(pin "5"
-			(uuid "55c94a5f-f2ee-4cee-99d8-faea2da5c79b")
-		)
-		(pin "7"
-			(uuid "902b2002-2bad-4d24-85df-a40fa21348a2")
+			(uuid "5b99dbfc-7798-4224-9c7d-92c26bbfd376")
 		)
 		(instances
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WR-MJ:634008138121")
-		(at 134.62 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45354231-022d-452d-ab5a-1c09640ebd0a")
-		(property "Reference" "J18"
-			(at 134.874 112.268 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "634008138121"
-			(at 151.13 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "615008138021:J_Wurth_WR-MJ_634008138121"
-			(at 121.92 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/634008138121?ki"
-			(at 127 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Modular Jack SMT Vertical Plastic 8P8C"
-			(at 134.62 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 129.54 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 132.08 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-MJ"
-			(at 134.62 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "xPxC" "8P8C"
-			(at 137.16 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EMI" "No"
-			(at 139.7 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount" "SMT"
-			(at 142.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Application System" "CAT 3"
-			(at 144.78 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "7643305c-9160-412b-bf98-e9afd24218ba")
-		)
-		(pin "1"
-			(uuid "7ed0949e-d34f-4222-9189-d93cbfa46999")
-		)
-		(pin "2"
-			(uuid "496295c6-6da1-4547-838a-41fef5cd3aca")
-		)
-		(pin "4"
-			(uuid "1f12a9e4-6a03-421f-bec8-9ab13b6d4764")
-		)
-		(pin "8"
-			(uuid "c0783b3f-7110-40bd-8435-90818fbf18b9")
-		)
-		(pin "6"
-			(uuid "94ba77ab-f49e-48ba-9992-cfbe3ca612a0")
-		)
-		(pin "5"
-			(uuid "b590fbb8-a6dd-4cbc-8cd9-1e517cfe2a19")
-		)
-		(pin "7"
-			(uuid "fab0c072-c56a-47d4-bf2a-ecc9b2ce3804")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J18")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8598,8 +9887,370 @@
 		)
 	)
 	(symbol
+		(lib_id "615008160421:615008160421")
+		(at 129.54 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55e2086c-c82e-4dfb-b9ba-696169d98385")
+		(property "Reference" "J9"
+			(at 129.794 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "615008160421"
+			(at 146.05 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "615008160421:J_Wurth_WR-MJ_615008160421"
+			(at 116.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160421?ki"
+			(at 121.92 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack THT Vertical Shielded 8P8C"
+			(at 129.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 124.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 127 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-MJ"
+			(at 129.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "xPxC" "8P8C"
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EMI" "No"
+			(at 134.62 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount" "THT"
+			(at 137.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Application System" "CAT 6"
+			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Z2"
+			(uuid "b275c384-6e96-496c-a410-84716357e080")
+		)
+		(pin "7"
+			(uuid "7fb42fea-e77b-4fa0-b798-8bae74a99586")
+		)
+		(pin "Z1"
+			(uuid "8d0478bb-a0ba-42af-8271-ab5a3a0733c4")
+		)
+		(pin "8"
+			(uuid "690a3193-ba27-4275-a803-d288d08c740d")
+		)
+		(pin "3"
+			(uuid "c795b239-0dec-449f-b2fe-3475bf20bdea")
+		)
+		(pin "5"
+			(uuid "f2bbdffa-21f2-4f5d-8a2a-c4cfa8d4c840")
+		)
+		(pin "1"
+			(uuid "eded4731-1932-41cd-9f37-fca25b7b6518")
+		)
+		(pin "4"
+			(uuid "211c01eb-4ffd-41fb-9d1e-ccf85506cea6")
+		)
+		(pin "6"
+			(uuid "1a16c795-7f60-43ab-b58d-d70e1057e805")
+		)
+		(pin "2"
+			(uuid "28fd9578-a036-4498-94d2-150871c2a28b")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "615008160721:615008160721")
+		(at 274.32 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55ea72d3-993a-41fd-b3ef-e9f1cf5d7c62")
+		(property "Reference" "J3"
+			(at 274.574 87.376 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "615008160721"
+			(at 257.81 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "615008160721:J_Wurth_WR-MJ_615008160721"
+			(at 287.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160721?ki"
+			(at 281.94 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack THT 47,5° Shielded 8P8C"
+			(at 274.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 279.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 276.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-MJ"
+			(at 274.32 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "xPxC" "8P8C"
+			(at 271.78 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EMI" "No"
+			(at 269.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount" "THT"
+			(at 266.7 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Application System" "CAT 6"
+			(at 264.16 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "1cb366de-3e01-4f8a-87b2-e1be75351341")
+		)
+		(pin "1"
+			(uuid "d0ee3631-1d74-47ca-8e04-d6ce7b4c4983")
+		)
+		(pin "5"
+			(uuid "207f4501-1cb8-44e4-af89-3b7a85d8a23a")
+		)
+		(pin "4"
+			(uuid "d0087f4f-e0f6-41ce-bed6-6b8fe49e447f")
+		)
+		(pin "S2"
+			(uuid "f3551acf-920b-4ff8-8595-d3afe4db3527")
+		)
+		(pin "8"
+			(uuid "a295c5ed-86ae-401c-98a4-bb5f375b98b2")
+		)
+		(pin "2"
+			(uuid "43fb400c-3c03-4239-aa71-580c538319cd")
+		)
+		(pin "3"
+			(uuid "29ed4cda-bce2-4224-a1ee-1d569d86c0e1")
+		)
+		(pin "7"
+			(uuid "fbebdfe9-15f4-4f21-9d38-398813e7a62c")
+		)
+		(pin "S1"
+			(uuid "94707a99-785a-47c1-b6d2-caa777fc3600")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
-		(at 236.22 38.1 0)
+		(at 237.49 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8609,7 +10260,7 @@
 		(dnp no)
 		(uuid "56bb3aef-c586-4f2e-9214-e18369d73867")
 		(property "Reference" "#PWR052"
-			(at 236.22 41.91 0)
+			(at 237.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,7 +10271,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 235.458 34.29 0)
+			(at 236.728 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8630,7 +10281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 38.1 0)
+			(at 237.49 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +10292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 38.1 0)
+			(at 237.49 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +10303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 236.22 38.1 0)
+			(at 237.49 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8746,6 +10397,85 @@
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b26de0e-deb4-4c34-bbc3-e1ebfa30d644")
+		(property "Reference" "#PWR059"
+			(at 139.7 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2affb71f-41f5-4b08-ae02-ba5fba13131a")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8862,7 +10592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 27.94 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9130,6 +10860,368 @@
 		)
 	)
 	(symbol
+		(lib_id "615008160721:615008160721")
+		(at 274.32 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6de51a6c-ab3a-4309-88a3-c68eef3228d2")
+		(property "Reference" "J4"
+			(at 274.574 114.046 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "615008160721"
+			(at 257.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "615008160721:J_Wurth_WR-MJ_615008160721"
+			(at 287.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160721?ki"
+			(at 281.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack THT 47,5° Shielded 8P8C"
+			(at 274.32 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 279.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 276.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-MJ"
+			(at 274.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "xPxC" "8P8C"
+			(at 271.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EMI" "No"
+			(at 269.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount" "THT"
+			(at 266.7 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Application System" "CAT 6"
+			(at 264.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "b6f790de-ab39-4a04-89fa-08537cf4b091")
+		)
+		(pin "1"
+			(uuid "74253aaa-7b9c-42f6-b0dd-7c6cd62718bd")
+		)
+		(pin "5"
+			(uuid "3b42f373-b3fb-4a85-a9f8-c511bc528fe8")
+		)
+		(pin "4"
+			(uuid "55bb03f6-b49b-41e5-97ca-222bb1b8f135")
+		)
+		(pin "S2"
+			(uuid "8df45b88-3e34-44dd-81d7-ea12bdca546f")
+		)
+		(pin "8"
+			(uuid "0ed5843d-96c2-4e7c-88fa-a1f2a31ed8fc")
+		)
+		(pin "2"
+			(uuid "7fdf97f7-a4f5-4fa2-9830-c28cd2543adc")
+		)
+		(pin "3"
+			(uuid "68d76ce4-c6c0-47b2-a782-0977c6435020")
+		)
+		(pin "7"
+			(uuid "736713f7-c641-4b8b-a882-93bdfa30b105")
+		)
+		(pin "S1"
+			(uuid "f9907005-03b5-4324-8378-8c149f1141fe")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "615008160721:615008160721")
+		(at 274.32 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a4ed677-4c10-4fd4-b5fe-f0d8b30af57e")
+		(property "Reference" "J5"
+			(at 274.574 140.716 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "615008160721"
+			(at 257.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "615008160721:J_Wurth_WR-MJ_615008160721"
+			(at 287.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160721?ki"
+			(at 281.94 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack THT 47,5° Shielded 8P8C"
+			(at 274.32 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 279.4 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 276.86 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-MJ"
+			(at 274.32 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "xPxC" "8P8C"
+			(at 271.78 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EMI" "No"
+			(at 269.24 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount" "THT"
+			(at 266.7 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Application System" "CAT 6"
+			(at 264.16 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "de8cf64e-c106-4dee-97ef-032a6c92f789")
+		)
+		(pin "1"
+			(uuid "170b79db-bb53-406e-8cf2-ed5adbd20dc2")
+		)
+		(pin "5"
+			(uuid "1d601a4c-75ec-488e-8c72-8f09f83d6a4b")
+		)
+		(pin "4"
+			(uuid "524369e6-2c52-4ecf-8259-908a43dc6f64")
+		)
+		(pin "S2"
+			(uuid "268094f2-d4b6-4830-b818-9c566be8cde8")
+		)
+		(pin "8"
+			(uuid "57aa4d43-8c1f-41b7-a6f1-50593fd7bc95")
+		)
+		(pin "2"
+			(uuid "9760d75c-2eb7-474f-89b7-731e805cf1f0")
+		)
+		(pin "3"
+			(uuid "9089eed7-c1e6-46a3-b5fd-22e94a3d5ee5")
+		)
+		(pin "7"
+			(uuid "f88b5d4a-1ec5-4e97-a9b5-33999b756465")
+		)
+		(pin "S1"
+			(uuid "465ec8c5-d2a2-4575-9f92-5c0c0e249d25")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 330.2 41.91 0)
 		(unit 1)
@@ -9203,182 +11295,6 @@
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WR-MJ:615008142521")
-		(at 274.32 168.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81fbc742-1a5f-4b69-9759-cf5c8a097075")
-		(property "Reference" "J15"
-			(at 273.558 167.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "615008142521"
-			(at 257.81 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "615008138021-THT:J_Wurth_WR-MJ_615008142521"
-			(at 287.02 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008142521?ki"
-			(at 281.94 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Modular Jack 45° Plastic 8P8C"
-			(at 274.32 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 279.4 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 276.86 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-MJ"
-			(at 274.32 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "xPxC" "8P8C"
-			(at 271.78 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EMI" "No"
-			(at 269.24 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount" "THT"
-			(at 266.7 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Application System" "CAT 3"
-			(at 264.16 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "64ed97db-c22d-4ead-bcc1-49c922f48c05")
-		)
-		(pin "1"
-			(uuid "85abca31-fc1b-417b-8fcf-01805da9e704")
-		)
-		(pin "5"
-			(uuid "9eb6aa33-ece6-492f-bbb8-0b1b7d9964a8")
-		)
-		(pin "6"
-			(uuid "b51739c3-6086-4967-828d-7e8c60904559")
-		)
-		(pin "8"
-			(uuid "761cfdd0-1524-4f61-a74f-b79403a306c4")
-		)
-		(pin "7"
-			(uuid "80b6fc62-433c-43e4-829c-e0ff89aa1a68")
-		)
-		(pin "3"
-			(uuid "757e3b92-5f68-4f56-a8b3-2f6c84c2777a")
-		)
-		(pin "2"
-			(uuid "be11b8ee-097e-4834-a60f-4aad533e1112")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -9495,7 +11411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MagIC_THT_Wurth:U_Wurth_WPME-FDSM_17395xx36"
+		(property "Footprint" "173950336:U_Wurth_WPME-FDSM_17395xx36"
 			(at 116.84 48.006 0)
 			(hide yes)
 			(show_name no)
@@ -9661,8 +11577,8 @@
 		)
 	)
 	(symbol
-		(lib_id "WR-MJ:634008138121")
-		(at 134.62 138.43 90)
+		(lib_id "power:GND")
+		(at 139.7 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9670,19 +11586,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a94694c2-261e-4f86-a996-c007ea7f2a32")
-		(property "Reference" "J19"
-			(at 134.874 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "634008138121"
-			(at 151.13 138.43 0)
+		(fields_autoplaced yes)
+		(uuid "a6e72a12-dff4-4d85-8a11-93dded150bc9")
+		(property "Reference" "#PWR061"
+			(at 139.7 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,8 +11599,8 @@
 				)
 			)
 		)
-		(property "Footprint" "615008138021:J_Wurth_WR-MJ_634008138121"
-			(at 121.92 138.43 0)
+		(property "Value" "GND"
+			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,8 +11610,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/634008138121?ki"
-			(at 127 74.93 0)
+		(property "Footprint" ""
+			(at 139.7 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9714,8 +11621,8 @@
 				)
 			)
 		)
-		(property "Description" "Modular Jack SMT Vertical Plastic 8P8C"
-			(at 134.62 138.43 0)
+		(property "Datasheet" ""
+			(at 139.7 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9725,8 +11632,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 129.54 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,109 +11642,22 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 132.08 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-MJ"
-			(at 134.62 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "xPxC" "8P8C"
-			(at 137.16 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EMI" "No"
-			(at 139.7 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount" "SMT"
-			(at 142.24 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Application System" "CAT 3"
-			(at 144.78 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a3b5e58a-1f6c-489e-887c-fb482b453f46")
 		)
 		(pin "1"
-			(uuid "bc08db1b-768e-4e65-9457-5b234d46d13e")
-		)
-		(pin "2"
-			(uuid "1633df9d-6a11-4468-9ec9-7d2ce4136984")
-		)
-		(pin "4"
-			(uuid "a1d16f7c-a2d2-44f0-bb4a-85050f91b1cf")
-		)
-		(pin "8"
-			(uuid "78718e0d-3eb7-4205-80f4-299aaa1dcb2d")
-		)
-		(pin "6"
-			(uuid "1dd93843-917e-401e-a36c-96e5412736f4")
-		)
-		(pin "5"
-			(uuid "53a0df1b-bed5-4563-a966-fa6a24e1ba01")
-		)
-		(pin "7"
-			(uuid "eca6d140-7714-4e27-83ec-130fed4c0c78")
+			(uuid "82059a49-e25b-43e4-8182-0318b23a0236")
 		)
 		(instances
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J19")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "WR-MJ:615008142521")
-		(at 274.32 87.63 270)
+		(lib_id "615008160421:615008160421")
+		(at 129.54 166.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9845,20 +11665,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b865262e-9ab5-4991-8c8a-a558e7224254")
-		(property "Reference" "J9"
-			(at 273.558 86.36 90)
+		(uuid "b94bf360-10ff-4ead-8db0-000524e9e7e5")
+		(property "Reference" "J11"
+			(at 129.54 166.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "615008142521"
-			(at 257.81 87.63 0)
+		(property "Value" "615008160421"
+			(at 146.05 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9868,8 +11687,8 @@
 				)
 			)
 		)
-		(property "Footprint" "615008138021-THT:J_Wurth_WR-MJ_615008142521"
-			(at 287.02 87.63 0)
+		(property "Footprint" "615008138021-THT:J_Wurth_WR-MJ_615008160421"
+			(at 116.84 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,8 +11698,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008142521?ki"
-			(at 281.94 151.13 0)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008160421?ki"
+			(at 121.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9890,8 +11709,8 @@
 				)
 			)
 		)
-		(property "Description" "Modular Jack 45° Plastic 8P8C"
-			(at 274.32 87.63 0)
+		(property "Description" "Modular Jack THT Vertical Shielded 8P8C"
+			(at 129.54 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9902,7 +11721,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 279.4 151.13 0)
+			(at 124.46 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9913,7 +11732,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 276.86 151.13 0)
+			(at 127 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +11743,7 @@
 			)
 		)
 		(property "Series" "WR-MJ"
-			(at 274.32 151.13 0)
+			(at 129.54 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +11754,7 @@
 			)
 		)
 		(property "xPxC" "8P8C"
-			(at 271.78 151.13 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +11765,7 @@
 			)
 		)
 		(property "EMI" "No"
-			(at 269.24 151.13 0)
+			(at 134.62 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,7 +11776,7 @@
 			)
 		)
 		(property "Mount" "THT"
-			(at 266.7 151.13 0)
+			(at 137.16 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9967,8 +11786,8 @@
 				)
 			)
 		)
-		(property "Application System" "CAT 3"
-			(at 264.16 151.13 0)
+		(property "Application System" "CAT 6"
+			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,42 +11797,48 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f59d01f2-23d9-470e-91b2-be220ac3f957")
-		)
-		(pin "1"
-			(uuid "1dc933b6-484c-4821-bd17-e18e7b1b6b04")
-		)
-		(pin "5"
-			(uuid "df081e2a-e77f-44c2-ac29-6ce38183c58a")
-		)
-		(pin "6"
-			(uuid "fc61dfda-0e15-4e01-8fa4-fba8f6ed976a")
-		)
-		(pin "8"
-			(uuid "9ff0e6cd-8388-4fea-bdc0-352c3e4a753a")
+		(pin "Z2"
+			(uuid "7b4e4a0d-00a2-42a9-873d-3463b9ec1450")
 		)
 		(pin "7"
-			(uuid "f37ba7c4-3e3a-44af-b9d7-fe6909d7ae5b")
+			(uuid "d29af864-d096-4995-9fe3-09847b5eda42")
+		)
+		(pin "Z1"
+			(uuid "e956a090-9d4a-48eb-8d15-4cedd6d1ba48")
+		)
+		(pin "8"
+			(uuid "2bd88899-5a8b-404f-a68b-0e0824784907")
 		)
 		(pin "3"
-			(uuid "7d0d1a35-bfd9-4309-87a0-6bdcc19f4b78")
+			(uuid "6e10a6d8-e1df-44e5-a69e-fb74a91dc592")
+		)
+		(pin "5"
+			(uuid "3dfd7588-cfd9-46d1-8e80-1d7a50bad286")
+		)
+		(pin "1"
+			(uuid "8c3e2d23-66c6-468d-a0d9-aed5c05fc193")
+		)
+		(pin "4"
+			(uuid "74c0db24-3592-4cb0-92f8-0580d12ae4e3")
+		)
+		(pin "6"
+			(uuid "2e20cfe3-c867-4099-9a6e-52c3fc2fef2a")
 		)
 		(pin "2"
-			(uuid "1be79ffe-bb8f-488c-a8e4-010447d1c1b2")
+			(uuid "0b8b6969-aab8-4267-8620-b81c296aff12")
 		)
 		(instances
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "WR-MJ:634008138121")
-		(at 134.62 85.09 90)
+		(lib_id "power:GND")
+		(at 262.89 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10021,19 +11846,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ba74c1bc-d33d-4390-ba81-390d953e0b29")
-		(property "Reference" "J14"
-			(at 134.874 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "634008138121"
-			(at 151.13 85.09 0)
+		(fields_autoplaced yes)
+		(uuid "d4e00fe2-0764-4d59-8fbf-68427cd4ea5d")
+		(property "Reference" "#PWR065"
+			(at 262.89 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,8 +11859,8 @@
 				)
 			)
 		)
-		(property "Footprint" "615008138021:J_Wurth_WR-MJ_634008138121"
-			(at 121.92 85.09 0)
+		(property "Value" "GND"
+			(at 262.89 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,8 +11870,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/634008138121?ki"
-			(at 127 21.59 0)
+		(property "Footprint" ""
+			(at 262.89 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10065,8 +11881,8 @@
 				)
 			)
 		)
-		(property "Description" "Modular Jack SMT Vertical Plastic 8P8C"
-			(at 134.62 85.09 0)
+		(property "Datasheet" ""
+			(at 262.89 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,8 +11892,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 129.54 21.59 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10086,101 +11902,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 132.08 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-MJ"
-			(at 134.62 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "xPxC" "8P8C"
-			(at 137.16 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EMI" "No"
-			(at 139.7 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount" "SMT"
-			(at 142.24 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Application System" "CAT 3"
-			(at 144.78 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e63fd672-3d5a-4820-8aa4-cabaa751ff11")
 		)
 		(pin "1"
-			(uuid "227fa2c1-21b9-4aa2-8978-688b0ec1ab77")
-		)
-		(pin "2"
-			(uuid "063e903d-1165-4760-aed9-d858ce9c00ea")
-		)
-		(pin "4"
-			(uuid "c82405d6-c79e-4313-b2d8-32d6302856da")
-		)
-		(pin "8"
-			(uuid "88459fbe-a9d9-4175-beaf-67a4c3b38114")
-		)
-		(pin "6"
-			(uuid "1017f804-80f5-4330-ae88-c94c166f2082")
-		)
-		(pin "5"
-			(uuid "a3b71f06-688d-46ff-9cbd-432bcff3390e")
-		)
-		(pin "7"
-			(uuid "d798d5a9-76cc-4e2b-b161-8a94ab74e09d")
+			(uuid "98edba78-cde4-41bf-95b5-463f466a3bae")
 		)
 		(instances
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J14")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10264,9 +11993,8 @@
 		)
 	)
 	(symbol
-		(lib_id "WR-MJ:615008142521")
-		(at 274.32 111.76 270)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 139.7 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10274,20 +12002,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e2ccf770-dfeb-4cd7-8c7c-c695853f6a6d")
-		(property "Reference" "J12"
-			(at 273.558 113.0302 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "615008142521"
-			(at 257.81 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "e8ff98f1-cdd3-4a15-9a85-0ad5c63ec731")
+		(property "Reference" "#PWR058"
+			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10297,8 +12015,8 @@
 				)
 			)
 		)
-		(property "Footprint" "615008138021-THT:J_Wurth_WR-MJ_615008142521"
-			(at 287.02 111.76 0)
+		(property "Value" "GND"
+			(at 139.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10308,8 +12026,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/615008142521?ki"
-			(at 281.94 48.26 0)
+		(property "Footprint" ""
+			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10319,8 +12037,8 @@
 				)
 			)
 		)
-		(property "Description" "Modular Jack 45° Plastic 8P8C"
-			(at 274.32 111.76 0)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10330,8 +12048,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 279.4 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10340,101 +12058,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 276.86 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-MJ"
-			(at 274.32 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "xPxC" "8P8C"
-			(at 271.78 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EMI" "No"
-			(at 269.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount" "THT"
-			(at 266.7 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Application System" "CAT 3"
-			(at 264.16 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "4409e619-e92c-4d93-88a2-9111dc1fefe1")
 		)
 		(pin "1"
-			(uuid "7727a7d7-b836-4230-8456-8448a4d73ef1")
-		)
-		(pin "5"
-			(uuid "815cbba1-1a15-4353-a2cd-416f3cd2f1bc")
-		)
-		(pin "6"
-			(uuid "4db00c7e-8a3b-4e51-9109-a53cdb11e919")
-		)
-		(pin "8"
-			(uuid "61c348f0-b626-4165-b2b5-4cf3c9026bc8")
-		)
-		(pin "7"
-			(uuid "d0ea8e8a-0f19-43a1-ae2d-ea6f520da496")
-		)
-		(pin "3"
-			(uuid "f6a1c308-3116-44fc-872b-cafa27c14288")
-		)
-		(pin "2"
-			(uuid "99473bee-073d-4a14-a11b-a53a2c463fb6")
+			(uuid "0d4ce113-3580-48df-85ab-0401391bfdc5")
 		)
 		(instances
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J12")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10512,6 +12143,85 @@
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d250b2-4dae-4385-adba-c1e7dba01195")
+		(property "Reference" "#PWR062"
+			(at 262.89 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f7c85f9-955a-4479-950c-168c50dd14cf")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10665,7 +12375,7 @@
 	)
 	(sheet
 		(at 151.13 36.83)
-		(size 17.78 7.62)
+		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10691,7 +12401,7 @@
 			)
 		)
 		(property "Sheetfile" "eFuse.kicad_sch"
-			(at 151.13 45.0346 0)
+			(at 151.13 52.6546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10732,7 +12442,7 @@
 	)
 	(sheet
 		(at 176.53 36.83)
-		(size 17.78 7.62)
+		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)

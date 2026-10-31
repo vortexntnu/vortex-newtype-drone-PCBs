@@ -1293,7 +1293,7 @@
         "uuid": "18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
       }
     ],
-    "used_designators": "#FLG6,J9-10,J12-21,C23-25,C62-63,#PWR15,#PWR40-41,#PWR46,#PWR51,#PWR54-57,L1,L3,U4",
+    "used_designators": "C22",
     "variants": []
   },
   "sheets": [
