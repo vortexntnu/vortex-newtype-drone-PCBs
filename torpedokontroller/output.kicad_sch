@@ -5,7 +5,7 @@
 	(uuid "609a7ca3-1c99-497a-aaf0-6c82596325f9")
 	(paper "A4")
 	(title_block
-		(date "2026-10-23")
+		(date "2026-10-28")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols
@@ -439,6 +439,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -552,6 +692,193 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -972,6 +1299,160 @@
 				)
 			)
 			(symbol "SMAJ18A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ8.0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ8.0A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 8.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ8.0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ8.0A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4463,7 +4944,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WR-MPC4:64900411122"
+		(symbol "WR-TBL:691214100003"
 			(pin_names
 				(hide yes)
 			)
@@ -4482,8 +4963,8 @@
 					)
 				)
 			)
-			(property "Value" "64900411122"
-				(at 0 -12.7 0)
+			(property "Value" "691214100003"
+				(at 12.7 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4491,10 +4972,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-MPC4_64900411122"
-				(at 0 7.62 0)
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-TBL_691214100003"
+				(at 12.7 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4502,10 +4984,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/64900411122?ki"
-				(at 45.72 17.78 0)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691214100003.pdf?ki"
+				(at 12.7 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4513,9 +4996,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Description" "4.20 mm Male Single Row Vertical Header"
+			(property "Description" "Series 2141 - 3.50 mm Vertical Entry Modular w. Rising Cage Clamp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4527,7 +5011,7 @@
 				)
 			)
 			(property "Manufacturer" "Wurth Elektronik"
-				(at 45.72 15.24 0)
+				(at 12.7 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4535,10 +5019,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 45.72 12.7 0)
+				(at 12.7 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4546,10 +5031,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Series" "WR-MPC4"
-				(at 45.72 10.16 0)
+			(property "Created Date" "20260401"
+				(at 12.7 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4557,10 +5043,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Pins (pcs)" "4"
-				(at 45.72 7.62 0)
+			(property "Series" "WR-TBL"
+				(at 12.7 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4568,10 +5055,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Pitch (mm)" "4.20"
-				(at 45.72 2.54 0)
+			(property "Part Number" "691214100003"
+				(at 12.7 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4579,10 +5067,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "IR (A)" "8"
-				(at 45.72 5.08 0)
+			(property "Mounting Technology" "THT"
+				(at 12.7 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4590,10 +5079,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Gender" "Male"
-				(at 45.72 0 0)
+			(property "Automotive" "No"
+				(at 12.7 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4601,10 +5091,47 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "IR (A)" "10"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Pins (pcs)" "3"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Pitch (mm)" "3.5"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Type" "Vertical"
-				(at 45.72 -2.54 0)
+				(at 12.7 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4612,10 +5139,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Rows" "Single"
-				(at 45.72 -5.08 0)
+			(property "Application" "Rising Cage Clamp"
+				(at 12.7 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4623,10 +5151,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Mount" "THT"
-				(at 45.72 -7.62 0)
+			(property "PCB/Cable/Panel" "PCB"
+				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4634,10 +5163,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Working Voltage (V (AC))" "600"
-				(at 45.72 -10.16 0)
+			(property "Modularity" "Yes"
+				(at 12.7 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4645,10 +5175,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "PCD/Cable/Panel" "PCB"
-				(at 45.72 -12.7 0)
+			(property "Wire Section" "30 to 16 (AWG) 0.05 to 1.31 (mm²)"
+				(at 12.7 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4656,17 +5187,18 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "L (mm)" "18"
-				(at 45.72 -15.24 0)
+			(property "Critical Parameter" "10A 3pins 3.5mm"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "ki_keywords" "THT"
@@ -4680,7 +5212,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WR-MPC4*"
+			(property "ki_fp_filters" "*WR-TBL*691214100003*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4691,112 +5223,127 @@
 					)
 				)
 			)
-			(symbol "64900411122_1_1"
+			(symbol "691214100003_0_1"
 				(rectangle
-					(start -5.08 1.27)
-					(end 5.08 -1.27)
+					(start -3.81 1.27)
+					(end 3.81 -1.27)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.8992 -0.3592) (xy -2.1808 0.3592)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center -3.81 0)
+					(center -2.54 0)
 					(radius 0.508)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -3.81 -0.508) (xy -3.81 -1.27)
+						(xy -2.54 -0.508) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3592 -0.3592) (xy 0.3592 0.3592)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center -1.27 0)
+					(center 0 0)
 					(radius 0.508)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 -0.508) (xy -1.27 -1.27)
+						(xy 0 -0.508) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.1808 -0.3592) (xy 2.8992 0.3592)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center 1.27 0)
+					(center 2.54 0)
 					(radius 0.508)
 					(stroke
 						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.508) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 3.81 0)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
-						(xy 3.81 -0.508) (xy 3.81 -1.27)
+						(xy 2.54 -0.508) (xy 2.54 -1.27)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "691214100003_1_1"
 				(pin passive line
-					(at 3.81 -5.08 90)
+					(at -2.54 -5.08 90)
 					(length 3.81)
 					(name "1"
 						(effects
@@ -4814,7 +5361,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -5.08 90)
+					(at 0 -5.08 90)
 					(length 3.81)
 					(name "2"
 						(effects
@@ -4832,7 +5379,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -5.08 90)
+					(at 2.54 -5.08 90)
 					(length 3.81)
 					(name "3"
 						(effects
@@ -4842,24 +5389,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -5.08 90)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6818,7 +7347,7 @@
 	)
 	(rectangle
 		(start 17.272 17.78)
-		(end 273.05 135.636)
+		(end 277.495 135.636)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -6850,7 +7379,7 @@
 	)
 	(text "Om dette ikke funker, kan PCBen byttes ut med dette:"
 		(exclude_from_sim no)
-		(at 249.174 139.7 0)
+		(at 247.015 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,7 +7387,7 @@
 		)
 		(uuid "745add6f-2308-4525-8761-4d32c923cb3e")
 	)
-	(text "V-BAT TO SERVO CONNECTOR\n\n"
+	(text "V-BAT TO SERVO CONNECTORS\n\n"
 		(exclude_from_sim no)
 		(at 48.514 24.384 0)
 		(effects
@@ -6893,6 +7422,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "033dfde4-18f4-4339-877f-bb0465427d94")
+	)
+	(junction
+		(at 219.71 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "057fc7e4-6889-4cfa-9371-144451bbc096")
 	)
 	(junction
 		(at 130.81 55.88)
@@ -6937,16 +7472,16 @@
 		(uuid "2c22e86f-347b-4326-afa7-267ff10059b9")
 	)
 	(junction
+		(at 161.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ed6d24d-0faf-4f1b-919f-4ccc657ecfef")
+	)
+	(junction
 		(at 76.2 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35b45594-1eaf-4708-8ca3-c1fb529da99a")
-	)
-	(junction
-		(at 245.11 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a70cde0-e3d1-4fb3-ba54-e1bcff3a01c5")
 	)
 	(junction
 		(at 76.2 52.07)
@@ -6959,6 +7494,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e30a756-8e52-4758-a525-1e1889283ac2")
+	)
+	(junction
+		(at 233.68 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "436adec3-ba93-454c-b1d9-9ecb2868f0e6")
 	)
 	(junction
 		(at 146.05 95.25)
@@ -6979,25 +7520,19 @@
 		(uuid "48f8374f-7889-43af-95d6-522683b95a66")
 	)
 	(junction
-		(at 251.46 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50104846-3373-458c-9fda-c1686e393686")
-	)
-	(junction
 		(at 156.21 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "521f3914-2def-488d-a34a-78c0829b1815")
 	)
 	(junction
-		(at 184.15 82.55)
+		(at 184.15 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c6f169d-e8a9-472c-ab06-227de26e75ba")
 	)
 	(junction
-		(at 222.25 45.72)
+		(at 220.98 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d2e359b-691b-488c-8f19-2ac30f1bef1b")
@@ -7069,28 +7604,16 @@
 		(uuid "7678ee3d-f4cf-4cbf-a151-ca1355765c85")
 	)
 	(junction
-		(at 242.57 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "784130d3-d92c-4826-94f0-ac8a8d2a84c2")
-	)
-	(junction
-		(at 212.09 45.72)
+		(at 210.82 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78801702-a3a8-43bd-a6ed-e58bfd142f49")
 	)
 	(junction
-		(at 260.35 38.1)
+		(at 238.76 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f7997ac-691d-4e1c-bf80-04bf99085b2d")
-	)
-	(junction
-		(at 153.67 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "854e15cc-0ce4-4b51-b8fa-0b6061ec66ed")
+		(uuid "7dd1e202-0ba4-4995-854f-0909b62b3e6d")
 	)
 	(junction
 		(at 72.39 172.72)
@@ -7123,10 +7646,22 @@
 		(uuid "924764d9-9309-4e2f-b883-99a32ed7ad26")
 	)
 	(junction
+		(at 227.33 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f79c8f8-6170-4df8-af81-0b71f3e71439")
+	)
+	(junction
 		(at 46.99 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2c4ebda-8122-4995-88f2-cd54f673882f")
+	)
+	(junction
+		(at 214.63 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ade29bae-e6e2-40cc-a45a-d13797d90085")
 	)
 	(junction
 		(at 46.99 102.87)
@@ -7147,22 +7682,10 @@
 		(uuid "bfa659d0-bdaa-4912-b83d-dc03fb3d6014")
 	)
 	(junction
-		(at 226.06 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb3028b2-401b-499e-9341-a7e375d69350")
-	)
-	(junction
 		(at 66.04 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01a8de7-0173-48a5-b5a1-10e0608c875d")
-	)
-	(junction
-		(at 237.49 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6b6f1b9-5027-42e0-b251-7f3ca4887f1d")
 	)
 	(junction
 		(at 167.64 106.68)
@@ -7213,7 +7736,7 @@
 		(uuid "f47a86b1-f6d3-48f5-b02a-4c35afa46f24")
 	)
 	(junction
-		(at 217.17 45.72)
+		(at 224.79 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5bb16af-6d43-42a5-9b61-5d49249cf1d9")
@@ -7256,13 +7779,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 36.83) (xy 226.06 38.1)
+			(xy 227.33 96.52) (xy 227.33 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03957ae1-a28e-4fd9-b25e-c7cddfe65688")
+		(uuid "0238e5e1-7615-4ac9-9a3c-46e44627579b")
 	)
 	(wire
 		(pts
@@ -7286,7 +7809,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 55.88) (xy 212.09 55.88)
+			(xy 199.39 55.88) (xy 210.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7326,6 +7849,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 69.85) (xy 250.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf3b6f7-5689-4cb2-b1a8-bbfd41c3042f")
+	)
+	(wire
+		(pts
 			(xy 76.2 62.23) (xy 77.47 62.23)
 		)
 		(stroke
@@ -7336,6 +7869,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 45.72) (xy 238.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f36ba44-a078-4cee-89fb-8cf139328dc3")
+	)
+	(wire
+		(pts
 			(xy 170.18 104.14) (xy 170.18 106.68)
 		)
 		(stroke
@@ -7343,6 +7886,16 @@
 			(type default)
 		)
 		(uuid "11470410-4c1e-4dd4-9996-70a0d3c5fbda")
+	)
+	(wire
+		(pts
+			(xy 238.76 86.36) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1153bbb0-4066-4802-be70-7004baa55343")
 	)
 	(wire
 		(pts
@@ -7366,16 +7919,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 45.72) (xy 261.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1294928f-fffe-4b71-9d0c-9009ec50d0fa")
-	)
-	(wire
-		(pts
 			(xy 76.2 57.15) (xy 77.47 57.15)
 		)
 		(stroke
@@ -7396,6 +7939,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 96.52) (xy 219.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f608ff-6894-4c0a-ac3e-e972f8bb34b3")
+	)
+	(wire
+		(pts
 			(xy 130.81 87.63) (xy 170.18 87.63)
 		)
 		(stroke
@@ -7406,7 +7959,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 55.88) (xy 212.09 54.61)
+			(xy 210.82 55.88) (xy 210.82 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7436,13 +7989,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 73.66) (xy 189.23 72.39)
+			(xy 214.63 102.87) (xy 214.63 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1defbd80-c24d-4fdc-9f80-a0b0f8771a51")
+		(uuid "1fb6e6c4-51c1-47eb-9de3-c1c86024e8af")
 	)
 	(wire
 		(pts
@@ -7456,13 +8009,13 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 44.45) (xy 237.49 43.18)
+			(xy 214.63 102.87) (xy 250.19 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20919396-192b-4370-b8ad-51464435394f")
+		(uuid "2064ddda-fef2-4eea-8da3-16b61bc1621d")
 	)
 	(wire
 		(pts
@@ -7556,33 +8109,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 46.99) (xy 222.25 45.72)
+			(xy 220.98 46.99) (xy 220.98 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31e8e40b-9793-4c69-a030-b7aedee96f7d")
-	)
-	(wire
-		(pts
-			(xy 245.11 40.64) (xy 262.89 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32ba828c-9959-4d36-889e-fcef61da92c8")
-	)
-	(wire
-		(pts
-			(xy 217.17 45.72) (xy 222.25 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3314d1d2-6886-428d-a2b2-ada545c22999")
 	)
 	(wire
 		(pts
@@ -7646,7 +8179,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 46.99) (xy 212.09 45.72)
+			(xy 210.82 46.99) (xy 210.82 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7666,7 +8199,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 45.72) (xy 166.37 45.72)
+			(xy 233.68 45.72) (xy 233.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402f62b3-cbda-45bd-9742-74f8d5ca089c")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 166.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7686,7 +8229,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 55.88) (xy 222.25 54.61)
+			(xy 220.98 55.88) (xy 220.98 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7723,16 +8266,6 @@
 			(type default)
 		)
 		(uuid "47b1f12f-7d14-41b8-980c-06922153427d")
-	)
-	(wire
-		(pts
-			(xy 245.11 36.83) (xy 245.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494c95a1-8dac-4d96-a632-d9924a2dfe6a")
 	)
 	(wire
 		(pts
@@ -7926,13 +8459,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 45.72) (xy 153.67 45.72)
+			(xy 204.47 102.87) (xy 214.63 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f1c6689-ee2e-4d0f-a60d-4ec436a9c809")
+		(uuid "6359c6ca-c2d0-4a1f-a7d3-2b0730856c0c")
 	)
 	(wire
 		(pts
@@ -7946,6 +8479,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 85.09) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65eb411d-051f-4ad8-80a0-bce8a9efd6b8")
+	)
+	(wire
+		(pts
+			(xy 219.71 100.33) (xy 219.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6666931c-a41b-41ed-8af3-271b6e3609bf")
+	)
+	(wire
+		(pts
 			(xy 130.81 82.55) (xy 134.62 82.55)
 		)
 		(stroke
@@ -7953,6 +8506,26 @@
 			(type default)
 		)
 		(uuid "667bb4c1-ebc8-43ca-99a3-60ac089c7084")
+	)
+	(wire
+		(pts
+			(xy 247.65 87.63) (xy 250.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6701a2ae-e895-42cb-8670-79a48eca1a06")
+	)
+	(wire
+		(pts
+			(xy 246.38 67.31) (xy 250.19 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67779673-5f7b-4ac0-89aa-664768b61ed6")
 	)
 	(wire
 		(pts
@@ -7986,6 +8559,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 100.33) (xy 250.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbd8ec7-e12b-4d17-adff-589877e506cf")
+	)
+	(wire
+		(pts
 			(xy 57.15 66.04) (xy 39.37 66.04)
 		)
 		(stroke
@@ -8006,16 +8589,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 27.94) (xy 260.35 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "734cb71d-3466-48e7-a715-1f0aa321c2a6")
-	)
-	(wire
-		(pts
 			(xy 137.16 66.04) (xy 137.16 67.31)
 		)
 		(stroke
@@ -8026,17 +8599,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 38.1) (xy 262.89 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77bb141f-9055-4a5f-b1ec-fb0d3bdd6697")
-	)
-	(wire
-		(pts
-			(xy 184.15 82.55) (xy 184.15 83.82)
+			(xy 184.15 72.39) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8053,26 +8616,6 @@
 			(type default)
 		)
 		(uuid "79bbf834-3eda-4599-b3f7-0552f82a2f6b")
-	)
-	(wire
-		(pts
-			(xy 267.97 27.94) (xy 267.97 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a059d36-b1ae-4a5b-953d-72b338aff954")
-	)
-	(wire
-		(pts
-			(xy 153.67 26.67) (xy 153.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db4f70d-f05b-4e3d-b000-4041074aff4e")
 	)
 	(wire
 		(pts
@@ -8116,13 +8659,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 43.18) (xy 217.17 45.72)
+			(xy 224.79 43.18) (xy 224.79 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83b0f773-841c-49a4-aa5e-7e6cf8f9b4fc")
+	)
+	(wire
+		(pts
+			(xy 238.76 45.72) (xy 238.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b4e727-8774-4e53-bc8f-5485b99ab710")
 	)
 	(wire
 		(pts
@@ -8156,13 +8709,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 40.64) (xy 245.11 40.64)
+			(xy 233.68 55.88) (xy 233.68 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8978d4cb-8813-48a3-a605-8630ccdd2b9c")
+		(uuid "889d45a9-9683-4944-a44f-5460e3dc0bca")
 	)
 	(wire
 		(pts
@@ -8226,16 +8779,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 72.39) (xy 184.15 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918fe2c8-fc0a-42d8-b6aa-9643fdd0d71d")
-	)
-	(wire
-		(pts
 			(xy 76.2 54.61) (xy 76.2 57.15)
 		)
 		(stroke
@@ -8243,6 +8786,16 @@
 			(type default)
 		)
 		(uuid "91af5b95-2e17-4d59-a358-968813b77e86")
+	)
+	(wire
+		(pts
+			(xy 247.65 72.39) (xy 247.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926ab305-054f-490b-8fa6-7ec90bb8d632")
 	)
 	(wire
 		(pts
@@ -8293,16 +8846,6 @@
 			(type default)
 		)
 		(uuid "97b161b7-b8d2-425f-a4b7-c4b932832a2d")
-	)
-	(wire
-		(pts
-			(xy 226.06 26.67) (xy 226.06 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99988347-a865-4d30-846d-9e2b3f02cfaa")
 	)
 	(wire
 		(pts
@@ -8516,16 +9059,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 26.67) (xy 153.67 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af850eb8-307a-4f8f-b841-bf6626ad8439")
-	)
-	(wire
-		(pts
 			(xy 29.21 107.95) (xy 55.88 107.95)
 		)
 		(stroke
@@ -8553,16 +9086,6 @@
 			(type default)
 		)
 		(uuid "b02fc5a9-ced9-48b2-9ef0-3bb3f550356a")
-	)
-	(wire
-		(pts
-			(xy 240.03 59.69) (xy 240.03 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20449ae-4043-4dee-8fe0-46d0b23c6a48")
 	)
 	(wire
 		(pts
@@ -8596,16 +9119,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 44.45) (xy 242.57 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b482f40c-81c7-4555-86ea-9518a8df9d26")
-	)
-	(wire
-		(pts
 			(xy 109.22 127) (xy 109.22 125.73)
 		)
 		(stroke
@@ -8613,16 +9126,6 @@
 			(type default)
 		)
 		(uuid "b64fb853-d6a7-439e-8c5e-95121ef94f2e")
-	)
-	(wire
-		(pts
-			(xy 231.14 43.18) (xy 262.89 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68a8a3f-1d13-48c3-b848-d95416b0b0ca")
 	)
 	(wire
 		(pts
@@ -8646,6 +9149,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 87.63) (xy 247.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7fbd0b-7b21-40e8-8f7d-0a2170b1a926")
+	)
+	(wire
+		(pts
 			(xy 39.37 55.88) (xy 46.99 55.88)
 		)
 		(stroke
@@ -8653,6 +9166,16 @@
 			(type default)
 		)
 		(uuid "be9dbddd-893f-4473-a618-134299c46cf7")
+	)
+	(wire
+		(pts
+			(xy 161.29 85.09) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13dda3c-387c-42c0-a9d7-eb649afb2fec")
 	)
 	(wire
 		(pts
@@ -8683,16 +9206,6 @@
 			(type default)
 		)
 		(uuid "c3c9d50e-784f-489b-930a-5dc13b34c4ee")
-	)
-	(wire
-		(pts
-			(xy 222.25 45.72) (xy 226.06 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f8e010-1eb6-4286-9de8-27505483cabe")
 	)
 	(wire
 		(pts
@@ -8806,23 +9319,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 45.72) (xy 217.17 45.72)
+			(xy 199.39 45.72) (xy 233.68 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1bc947a-1265-4645-b6c1-aa3473064c37")
-	)
-	(wire
-		(pts
-			(xy 260.35 36.83) (xy 260.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2bf6466-2e59-47a7-8bcf-d69d15044d20")
 	)
 	(wire
 		(pts
@@ -8906,26 +9409,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 82.55) (xy 189.23 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e19ba61b-ed86-4819-b64f-4c55cd6939de")
-	)
-	(wire
-		(pts
-			(xy 251.46 36.83) (xy 251.46 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e577452c-2f68-4394-8f53-95ae10c63f88")
-	)
-	(wire
-		(pts
 			(xy 137.16 58.42) (xy 137.16 57.15)
 		)
 		(stroke
@@ -8936,7 +9419,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 82.55) (xy 184.15 82.55)
+			(xy 189.23 80.01) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8966,6 +9449,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 72.39) (xy 250.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5f64d6-6b5f-44d9-a0a2-9544762986b1")
+	)
+	(wire
+		(pts
 			(xy 57.15 50.8) (xy 57.15 66.04)
 		)
 		(stroke
@@ -8986,16 +9479,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 45.72) (xy 261.62 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f396e60f-0d9b-4343-82f2-789d3037ead3")
-	)
-	(wire
-		(pts
 			(xy 46.99 102.87) (xy 77.47 102.87)
 		)
 		(stroke
@@ -9006,13 +9489,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 27.94) (xy 260.35 29.21)
+			(xy 204.47 100.33) (xy 219.71 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f74c25a8-6773-4fb1-af0d-9c8702376e02")
+		(uuid "f6af0b7e-8455-4940-8b0e-869c625fa8b4")
 	)
 	(wire
 		(pts
@@ -9085,7 +9568,7 @@
 		(uuid "ffc4af8c-bdf2-4390-b56f-59c153a6ea00")
 	)
 	(image
-		(at 248.92 150.368)
+		(at 246.761 150.368)
 		(scale 0.877751)
 		(uuid "dac6ef63-c07b-45c9-92c6-68dcafad0f8e")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAooAAAFuCAIAAACJK67SAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -9477,6 +9960,16 @@
 		)
 		(uuid "028798da-a3b1-4aba-8578-df0bbbb94720")
 	)
+	(label "6V7"
+		(at 246.38 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17e28438-4c6f-4cd0-83d4-ea72c2157e27")
+	)
 	(label "+V_SERVO"
 		(at 129.54 45.72 0)
 		(effects
@@ -9498,17 +9991,17 @@
 		(uuid "4a0df434-d279-485f-9bac-03ddcb472bf5")
 	)
 	(label "CANH"
-		(at 231.14 40.64 0)
+		(at 204.47 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4d7bc313-0511-4ba4-b89d-02782ec26002")
+		(uuid "5081461c-695c-4aa5-b635-01599d945c4e")
 	)
 	(label "+VDD_Servo"
-		(at 156.21 45.72 0)
+		(at 149.86 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9527,16 +10020,6 @@
 		)
 		(uuid "66ab4ccf-22b2-4f3d-a5e6-42de095bdfcb")
 	)
-	(label "CANL"
-		(at 231.14 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67c62e5b-7da3-4a27-b297-59951dab3e59")
-	)
 	(label "killswitch_output"
 		(at 62.23 96.52 0)
 		(effects
@@ -9546,6 +10029,16 @@
 			(justify left bottom)
 		)
 		(uuid "971511e4-d79a-4079-8948-ddcab49e6bf6")
+	)
+	(label "CANL"
+		(at 204.47 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3195eab-4635-46af-83c9-e734fd7dfbba")
 	)
 	(label "CANH"
 		(at 171.45 167.64 180)
@@ -9566,16 +10059,6 @@
 			(justify right bottom)
 		)
 		(uuid "b8f8d54e-3330-4274-ac3b-9cf48eb1b231")
-	)
-	(label "SERVO_PWR"
-		(at 228.6 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5652a11-4005-480a-a30c-79739ef666f3")
 	)
 	(label "RP_G"
 		(at 40.64 55.88 0)
@@ -9687,6 +10170,17 @@
 		)
 		(uuid "c444d99e-1f63-4baa-b83a-78ac91e8fc73")
 	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 246.38 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f43d1156-4917-4e4f-9977-8022abb9668f")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 46.99 95.25 180)
@@ -9698,7 +10192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0229a364-a88c-4750-ac75-236a4e2ef9a4")
-		(property "Reference" "R48"
+		(property "Reference" "R20"
 			(at 48.26 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9762,7 +10256,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R48")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9779,7 +10273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04620f34-660a-4d9f-b185-58627598c622")
-		(property "Reference" "R45"
+		(property "Reference" "R29"
 			(at 166.878 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +10335,86 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R45")
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 247.65 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05a8c442-58d5-4d64-a817-0a77cc5a329f")
+		(property "Reference" "#PWR083"
+			(at 247.65 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 247.65 94.488 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 247.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a0b38f4-5b09-4ff0-b012-d778c6c5b7c4")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -9858,7 +10431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "079f06a9-90be-4201-b288-8bfec51c6dd3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR060"
 			(at 52.07 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9918,7 +10491,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR022")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9935,7 +10508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07d1c05c-2dfe-41e0-b88d-50666eaa92b6")
-		(property "Reference" "TP12"
+		(property "Reference" "TP6"
 			(at 76.2 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +10569,94 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP12")
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 256.54 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08c4f4ac-7812-4b4f-9785-2d471d09cbe0")
+		(property "Reference" "J11"
+			(at 256.413 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 255.905 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
+			(at 256.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 256.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "navn" "CAN_GND"
+			(at 256.54 60.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa07d07c-53c9-4dd3-a851-334d2886a010")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10013,7 +10673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08e56d39-2fda-42fa-a1df-791f9a2908c1")
-		(property "Reference" "R49"
+		(property "Reference" "R31"
 			(at 171.704 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10077,7 +10737,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R49")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -10095,7 +10755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aade32b-ffe5-4d64-97bc-08dbef8ceb2d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR061"
 			(at 57.15 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10156,7 +10816,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR028")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10174,7 +10834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c9dd1ae-7b3a-4e57-bed4-31aee25d2213")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR074"
 			(at 167.64 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10235,16 +10895,15 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR038")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "WR-MPC4:64900411122")
-		(at 267.97 41.91 270)
-		(mirror x)
+		(lib_id "Diode:SMAJ8.0A")
+		(at 233.68 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10252,20 +10911,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0f01056a-fb3b-416b-8a29-e990b4bb156c")
-		(property "Reference" "J1"
-			(at 266.7 35.814 90)
+		(uuid "1096fe7e-31fb-47d1-b857-643b34d33a55")
+		(property "Reference" "D14"
+			(at 232.156 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "64900411122"
-			(at 255.27 41.91 0)
+		(property "Value" "8V"
+			(at 232.156 52.832 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 228.6 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10275,8 +10945,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connectors_tht:J_Wurth_WR-MPC4_64900411122"
-			(at 275.59 41.91 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10286,8 +10956,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/64900411122?ki"
-			(at 285.75 -3.81 0)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 8.0Vr, SMA(DO-214AC)"
+			(at 233.68 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,177 +10966,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Description" "4.20 mm Male Single Row Vertical Header"
-			(at 267.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 283.21 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 280.67 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-MPC4"
-			(at 278.13 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pins (pcs)" "4"
-			(at 275.59 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch (mm)" "4.20"
-			(at 270.51 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR (A)" "8"
-			(at 273.05 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gender" "Male"
-			(at 267.97 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Vertical"
-			(at 265.43 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rows" "Single"
-			(at 262.89 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount" "THT"
-			(at 260.35 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Working Voltage (V (AC))" "600"
-			(at 257.81 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PCD/Cable/Panel" "PCB"
-			(at 255.27 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "18"
-			(at 252.73 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "69a583d1-79e9-463d-8512-239cc86dada6")
-		)
-		(pin "4"
-			(uuid "ede2ecba-d63e-4c55-a48f-815546d7abdd")
 		)
 		(pin "1"
-			(uuid "863b641e-a488-4923-83b4-6f99cbd20cb4")
+			(uuid "d38113e3-3fa3-40aa-8828-4ab46f1e1543")
 		)
 		(pin "2"
-			(uuid "a377f4b8-fd5f-4ca8-9c8d-d793517acd72")
+			(uuid "69741612-a6ec-4d7d-b737-6b035fbe156e")
 		)
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "J1")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10483,7 +10993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1166ef84-7878-4a50-8f09-564e981be09a")
-		(property "Reference" "R44"
+		(property "Reference" "R25"
 			(at 139.954 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10547,7 +11057,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R44")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10555,7 +11065,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 43.18 0)
+		(at 224.79 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10564,8 +11074,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13d7c69a-0c91-46e3-8687-6f536e4a1602")
-		(property "Reference" "TP16"
-			(at 212.09 41.91 0)
+		(property "Reference" "TP8"
+			(at 220.726 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10576,7 +11086,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 41.1479 0)
+			(at 227.33 41.1479 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10588,7 +11098,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 222.25 43.18 0)
+			(at 229.87 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10599,7 +11109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 43.18 0)
+			(at 229.87 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10610,7 +11120,7 @@
 			)
 		)
 		(property "Description" "6V7"
-			(at 219.202 41.91 0)
+			(at 222.504 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10625,7 +11135,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP16")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -10642,7 +11152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18d1d5cb-db58-44c3-889b-33095c7c6514")
-		(property "Reference" "D15"
+		(property "Reference" "D11"
 			(at 34.036 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +11399,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10906,7 +11416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e0feec4-306f-47d3-ad67-89d7d5432219")
-		(property "Reference" "C50"
+		(property "Reference" "C32"
 			(at 152.146 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11246,7 +11756,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C50")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -11254,7 +11764,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209048")
-		(at 212.09 50.8 0)
+		(at 210.82 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11263,8 +11773,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ebf6e29-4b2c-42c4-a083-18c99df16640")
-		(property "Reference" "C48"
-			(at 214.376 48.26 0)
+		(property "Reference" "C35"
+			(at 213.106 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11275,7 +11785,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 217.17 27.94 0)
+			(at 215.9 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11287,7 +11797,7 @@
 			)
 		)
 		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
-			(at 217.17 30.48 0)
+			(at 215.9 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11299,7 +11809,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209048.pdf?ki"
-			(at 217.17 33.02 0)
+			(at 215.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11311,7 +11821,7 @@
 			)
 		)
 		(property "Description" "MLCCs 50 V(DC) ED"
-			(at 212.09 50.8 0)
+			(at 210.82 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11322,7 +11832,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 217.17 35.56 0)
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11334,7 +11844,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 217.17 38.1 0)
+			(at 215.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11346,7 +11856,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 217.17 40.64 0)
+			(at 215.9 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11358,7 +11868,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 217.17 43.18 0)
+			(at 215.9 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11370,7 +11880,7 @@
 			)
 		)
 		(property "Size" "1210_H2.5"
-			(at 217.17 45.72 0)
+			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11382,7 +11892,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 217.17 48.26 0)
+			(at 215.9 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11394,7 +11904,7 @@
 			)
 		)
 		(property "Part Number" "885012209048"
-			(at 215.9 49.5299 0)
+			(at 214.63 49.5299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11406,7 +11916,7 @@
 			)
 		)
 		(property "Capacitance" "22nF"
-			(at 214.376 50.8 0)
+			(at 213.106 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11417,7 +11927,7 @@
 			)
 		)
 		(property "Voltage" "50.0"
-			(at 214.376 53.34 0)
+			(at 213.106 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11428,7 +11938,7 @@
 			)
 		)
 		(property "C" "4.7 uF"
-			(at 224.79 53.34 0)
+			(at 223.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11440,7 +11950,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 224.79 55.88 0)
+			(at 223.52 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11962,7 @@
 			)
 		)
 		(property "VR (V (DC))" "50.0"
-			(at 224.79 58.42 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11464,7 +11974,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 224.79 60.96 0)
+			(at 223.52 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11476,7 +11986,7 @@
 			)
 		)
 		(property "DF (%)" "5"
-			(at 224.79 63.5 0)
+			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11488,7 +11998,7 @@
 			)
 		)
 		(property "RISO" "0.02 Gohm"
-			(at 224.79 66.04 0)
+			(at 223.52 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11500,7 +12010,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 224.79 68.58 0)
+			(at 223.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11512,7 +12022,7 @@
 			)
 		)
 		(property "L (mm)" "3.2"
-			(at 224.79 71.12 0)
+			(at 223.52 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11524,7 +12034,7 @@
 			)
 		)
 		(property "W (mm)" "2.5"
-			(at 224.79 73.66 0)
+			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11536,7 +12046,7 @@
 			)
 		)
 		(property "H (mm)" "2.5"
-			(at 224.79 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11548,7 +12058,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.6"
-			(at 224.79 78.74 0)
+			(at 223.52 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11560,7 +12070,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 224.79 81.28 0)
+			(at 223.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11572,7 +12082,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 224.79 83.82 0)
+			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11584,7 +12094,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 212.09 58.42 0)
+			(at 210.82 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11603,7 +12113,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C48")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -11620,7 +12130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24db9ea2-eb1d-4efa-802d-e3710744e1f0")
-		(property "Reference" "C31"
+		(property "Reference" "C33"
 			(at 152.4 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11961,7 +12471,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C31")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -11969,7 +12479,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 267.97 30.48 0)
+		(at 238.76 93.98 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11979,8 +12489,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31a5e35c-1d17-4732-a5d9-3fb8be88f057")
-		(property "Reference" "#PWR052"
-			(at 267.97 36.83 0)
+		(property "Reference" "#PWR080"
+			(at 238.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11991,7 +12501,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 267.97 34.798 0)
+			(at 238.76 98.298 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12002,7 +12512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 30.48 0)
+			(at 238.76 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12013,7 +12523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 30.48 0)
+			(at 238.76 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12024,7 +12534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 267.97 30.48 0)
+			(at 238.76 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12040,7 +12550,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR052")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -12135,6 +12645,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 255.27 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "336f3702-1363-4fd9-b33f-8962daa7b0c8")
+		(property "Reference" "J12"
+			(at 258.064 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 254.635 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "navn" "CAN_VCC"
+			(at 263.652 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3be44367-4e82-4927-92a9-565e13487b07")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 45.72 162.56 0)
 		(unit 1)
@@ -12145,7 +12742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34356efa-818f-4dbb-ba6b-41e2e97dd91d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR058"
 			(at 45.72 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12205,7 +12802,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR014")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12222,7 +12819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3712ad6f-eceb-41b0-92cb-7c52758605ef")
-		(property "Reference" "R36"
+		(property "Reference" "R30"
 			(at 167.894 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12286,7 +12883,173 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R36")
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 255.27 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "387e0bd9-2013-42ca-8a93-6f49d73fb13d")
+		(property "Reference" "J9"
+			(at 258.064 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 254.635 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "navn" "CAN_VCC"
+			(at 263.652 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "227d22fe-2f6b-4079-9152-56c8d940c83c")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 217.17 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e16da76-558f-4f67-aa82-22db4d1b7ad8")
+		(property "Reference" "#PWR079"
+			(at 217.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 217.17 123.698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 217.17 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c78c61eb-f986-4ecb-8441-91d37f097e2f")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -12304,7 +13067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41bcb20b-e4e1-44a2-8c41-202038ac36f4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR068"
 			(at 138.43 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12365,7 +13128,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR037")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -12373,7 +13136,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 222.25 55.88 0)
+		(at 220.98 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12383,8 +13146,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4334acd6-a9f1-4c5a-9829-ad2519cc821f")
-		(property "Reference" "#PWR071"
-			(at 222.25 62.23 0)
+		(property "Reference" "#PWR077"
+			(at 220.98 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12395,7 +13158,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 222.25 60.198 0)
+			(at 220.98 60.198 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12406,7 +13169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 55.88 0)
+			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12417,7 +13180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 55.88 0)
+			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +13191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 222.25 55.88 0)
+			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12444,7 +13207,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -12452,7 +13215,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209048")
-		(at 189.23 77.47 0)
+		(at 189.23 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12461,8 +13224,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4618a63f-7f4a-4069-a5b1-d2fa020ac0a7")
-		(property "Reference" "C47"
-			(at 194.31 74.9299 0)
+		(property "Reference" "C34"
+			(at 194.31 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12473,7 +13236,7 @@
 			)
 		)
 		(property "Value" "4.7 uF"
-			(at 194.31 54.61 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12485,7 +13248,7 @@
 			)
 		)
 		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
-			(at 194.31 57.15 0)
+			(at 194.31 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12497,7 +13260,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209048.pdf?ki"
-			(at 194.31 59.69 0)
+			(at 194.31 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12509,7 +13272,7 @@
 			)
 		)
 		(property "Description" "MLCCs 50 V(DC) ED"
-			(at 189.23 77.47 0)
+			(at 189.23 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12520,7 +13283,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 194.31 62.23 0)
+			(at 194.31 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12532,7 +13295,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 194.31 64.77 0)
+			(at 194.31 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12544,7 +13307,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 194.31 67.31 0)
+			(at 194.31 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12556,7 +13319,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 194.31 69.85 0)
+			(at 194.31 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12568,7 +13331,7 @@
 			)
 		)
 		(property "Size" "1210_H2.5"
-			(at 194.31 72.39 0)
+			(at 194.31 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12580,7 +13343,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 194.31 74.93 0)
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12592,7 +13355,7 @@
 			)
 		)
 		(property "Part Number" "885012209048"
-			(at 193.04 76.1999 0)
+			(at 193.04 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12604,7 +13367,7 @@
 			)
 		)
 		(property "Capacitance" "4.7 uF"
-			(at 193.04 77.4699 0)
+			(at 193.04 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12615,7 +13378,7 @@
 			)
 		)
 		(property "Voltage" "50.0"
-			(at 193.04 80.0099 0)
+			(at 193.04 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12626,7 +13389,7 @@
 			)
 		)
 		(property "C" "4.7 uF"
-			(at 201.93 80.01 0)
+			(at 201.93 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12638,7 +13401,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 201.93 82.55 0)
+			(at 201.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12650,7 +13413,7 @@
 			)
 		)
 		(property "VR (V (DC))" "50.0"
-			(at 201.93 85.09 0)
+			(at 201.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12662,7 +13425,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 201.93 87.63 0)
+			(at 201.93 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12674,7 +13437,7 @@
 			)
 		)
 		(property "DF (%)" "5"
-			(at 201.93 90.17 0)
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12686,7 +13449,7 @@
 			)
 		)
 		(property "RISO" "0.02 Gohm"
-			(at 201.93 92.71 0)
+			(at 201.93 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,7 +13461,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 201.93 95.25 0)
+			(at 201.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12710,7 +13473,7 @@
 			)
 		)
 		(property "L (mm)" "3.2"
-			(at 201.93 97.79 0)
+			(at 201.93 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12722,7 +13485,7 @@
 			)
 		)
 		(property "W (mm)" "2.5"
-			(at 201.93 100.33 0)
+			(at 201.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12734,7 +13497,7 @@
 			)
 		)
 		(property "H (mm)" "2.5"
-			(at 201.93 102.87 0)
+			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12746,7 +13509,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.6"
-			(at 201.93 105.41 0)
+			(at 201.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12758,7 +13521,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 201.93 107.95 0)
+			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12770,7 +13533,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 201.93 110.49 0)
+			(at 201.93 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +13545,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 189.23 85.09 0)
+			(at 189.23 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12801,7 +13564,286 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C47")
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WR-TBL:691214100003")
+		(at 255.27 69.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e2ddbc-9f23-45f2-9e8f-ac4a80e5183b")
+		(property "Reference" "J6"
+			(at 257.81 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691214100003"
+			(at 278.13 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connectors_tht:J_Wurth_WR-TBL_691214100003"
+			(at 275.59 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691214100003.pdf?ki"
+			(at 273.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Series 2141 - 3.50 mm Vertical Entry Modular w. Rising Cage Clamp"
+			(at 255.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 270.51 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 267.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260401"
+			(at 265.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WR-TBL"
+			(at 262.89 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "691214100003"
+			(at 260.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 257.81 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Automotive" "No"
+			(at 255.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IR (A)" "10"
+			(at 252.73 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Pins (pcs)" "3"
+			(at 250.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Pitch (mm)" "3.5"
+			(at 247.65 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "Vertical"
+			(at 245.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Application" "Rising Cage Clamp"
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "PCB/Cable/Panel" "PCB"
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Modularity" "Yes"
+			(at 237.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Wire Section" "30 to 16 (AWG) 0.05 to 1.31 (mm²)"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" "10A 3pins 3.5mm"
+			(at 257.81 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "421dfaa6-0056-458b-ae35-5cf9ba95f13e")
+		)
+		(pin "1"
+			(uuid "1d7e221a-e61e-4228-bd9d-dc1fcc4f9ad0")
+		)
+		(pin "3"
+			(uuid "25cd9ec2-0bcc-4e75-b5ff-443d5909dc9e")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12818,7 +13860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a164dda-0fca-497a-a379-9c3e7e71b66c")
-		(property "Reference" "R58"
+		(property "Reference" "R22"
 			(at 67.31 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12882,7 +13924,297 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R58")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Wurth_WE-TVSP:SOT23-3L_824094024")
+		(at 217.17 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b54f7e8-d258-4755-8110-efcefbcb397b")
+		(property "Reference" "D16"
+			(at 221.996 111.252 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOT23-3L_824094024"
+			(at 211.709 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 237.49 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824094024.pdf?ki"
+			(at 234.95 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "TVS Diode  Standard Series"
+			(at 217.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 232.41 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 229.87 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260409"
+			(at 227.33 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WE-TVS"
+			(at 224.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "824094024"
+			(at 222.25 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "SOT23-3L"
+			(at 219.71 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 217.17 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Automotive" "No"
+			(at 214.63 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Channels" "Channels2"
+			(at 212.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Polarity" "Bidirectional"
+			(at 209.55 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VCh max.(V)" "24 V"
+			(at 207.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ICh Leak max.(nA)" "100 nA"
+			(at 204.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VBR min.(V)" "26.2 V"
+			(at 201.93 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "CCh typ.(pF)" "38 pF"
+			(at 199.39 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPeak(A)" "6 A"
+			(at 196.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VCh Clamp ESD typ.(V)" "31 V"
+			(at 194.31 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VESD Contact(kV)" "30 kV"
+			(at 191.77 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "8c3db6b7-7b40-4142-968c-dac7ee048dfd")
+		)
+		(pin "1"
+			(uuid "bab82de1-dad3-42d9-85d6-1df62e072d59")
+		)
+		(pin "3"
+			(uuid "9e256b70-025d-44da-9bea-33741b2422ec")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -12900,7 +14232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f1e2227-dfb3-4a38-814f-b8b325d5f3a8")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 39.37 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12974,7 +14306,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12992,7 +14324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fee36cf-18dc-458c-b8ee-8b98fa5ef9fc")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR071"
 			(at 149.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13053,7 +14385,176 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR077")
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 255.27 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51636a02-720d-42c0-9a57-c6c457b46227")
+		(property "Reference" "J13"
+			(at 257.556 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 254.635 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
+			(at 255.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 255.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "navn" "CAN_GND"
+			(at 263.906 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73ef0688-77cd-4978-b1e5-2176a4e3f274")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ18A")
+		(at 238.76 90.17 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51cde313-7ff7-4227-98ba-3dbf52cdd5a2")
+		(property "Reference" "D15"
+			(at 237.236 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18V"
+			(at 237.236 90.932 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 243.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 238.76 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
+			(at 238.76 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffd6d47b-b05f-4e2e-8c1b-8140ff69c39e")
+		)
+		(pin "2"
+			(uuid "c943d1dd-bf9a-4d82-976c-35f5432aa983")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -13070,7 +14571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "530544cf-5e83-4f37-888b-6680338fc9b2")
-		(property "Reference" "R47"
+		(property "Reference" "R21"
 			(at 57.15 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13134,7 +14635,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R47")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13152,7 +14653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54499aed-9433-4fbd-b0d7-00e027abfc1b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR065"
 			(at 95.25 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -13213,7 +14714,85 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR033")
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 219.71 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55ab20e0-a93f-4d1b-aa7f-d99acce9414f")
+		(property "Reference" "TP9"
+			(at 221.234 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN1H"
+			(at 220.472 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 224.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48dbd9e7-d0fb-42c7-a15f-e4d33b8c0b9d")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13221,7 +14800,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor_Wurth_WCAP-CSGP:1210_H2.5_885012209048")
-		(at 222.25 50.8 0)
+		(at 220.98 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13231,7 +14810,7 @@
 		(dnp no)
 		(uuid "5e02fade-f98a-4dcb-ad74-dfbdfb432c8b")
 		(property "Reference" "C36"
-			(at 225.552 50.292 0)
+			(at 223.266 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13242,7 +14821,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 227.33 27.94 0)
+			(at 226.06 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13254,7 +14833,7 @@
 			)
 		)
 		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
-			(at 227.33 30.48 0)
+			(at 226.06 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13266,7 +14845,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209048.pdf?ki"
-			(at 227.33 33.02 0)
+			(at 226.06 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13278,7 +14857,7 @@
 			)
 		)
 		(property "Description" "MLCCs 50 V(DC) ED"
-			(at 222.25 50.8 0)
+			(at 220.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13289,7 +14868,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 227.33 35.56 0)
+			(at 226.06 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13301,7 +14880,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 227.33 38.1 0)
+			(at 226.06 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13313,7 +14892,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 227.33 40.64 0)
+			(at 226.06 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13325,7 +14904,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 227.33 43.18 0)
+			(at 226.06 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13337,7 +14916,7 @@
 			)
 		)
 		(property "Size" "1210_H2.5"
-			(at 227.33 45.72 0)
+			(at 226.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13349,7 +14928,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 227.33 48.26 0)
+			(at 226.06 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13361,7 +14940,7 @@
 			)
 		)
 		(property "Part Number" "885012209048"
-			(at 226.06 49.5299 0)
+			(at 224.79 49.5299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13373,7 +14952,7 @@
 			)
 		)
 		(property "Capacitance" "22uF"
-			(at 225.298 52.578 0)
+			(at 223.012 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13384,7 +14963,7 @@
 			)
 		)
 		(property "Voltage" "100"
-			(at 223.774 53.848 0)
+			(at 222.504 53.848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13396,7 +14975,7 @@
 			)
 		)
 		(property "C" "4.7 uF"
-			(at 234.95 53.34 0)
+			(at 233.68 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13408,7 +14987,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 234.95 55.88 0)
+			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13420,7 +14999,7 @@
 			)
 		)
 		(property "VR (V (DC))" "50.0"
-			(at 234.95 58.42 0)
+			(at 233.68 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13432,7 +15011,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 234.95 60.96 0)
+			(at 233.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13444,7 +15023,7 @@
 			)
 		)
 		(property "DF (%)" "5"
-			(at 234.95 63.5 0)
+			(at 233.68 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13456,7 +15035,7 @@
 			)
 		)
 		(property "RISO" "0.02 Gohm"
-			(at 234.95 66.04 0)
+			(at 233.68 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13468,7 +15047,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 234.95 68.58 0)
+			(at 233.68 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,7 +15059,7 @@
 			)
 		)
 		(property "L (mm)" "3.2"
-			(at 234.95 71.12 0)
+			(at 233.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13492,7 +15071,7 @@
 			)
 		)
 		(property "W (mm)" "2.5"
-			(at 234.95 73.66 0)
+			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +15083,7 @@
 			)
 		)
 		(property "H (mm)" "2.5"
-			(at 234.95 76.2 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13516,7 +15095,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.6"
-			(at 234.95 78.74 0)
+			(at 233.68 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13528,7 +15107,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 234.95 81.28 0)
+			(at 233.68 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13540,7 +15119,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 234.95 83.82 0)
+			(at 233.68 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13552,7 +15131,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 222.25 58.42 0)
+			(at 220.98 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13589,7 +15168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6ebe1c-e3df-4486-83f9-55a3d83e8200")
-		(property "Reference" "R6"
+		(property "Reference" "R26"
 			(at 143.51 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13610,7 +15189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-PSMC-2512_L6.3W3.1H0.51"
+		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
 			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13838,7 +15417,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R6")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13855,7 +15434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ea2b415-1f3c-4b6a-8be9-47759b1f4be7")
-		(property "Reference" "R46"
+		(property "Reference" "R24"
 			(at 138.684 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13919,7 +15498,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R46")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -13936,7 +15515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "639a4911-804f-47d5-a0c9-b4300f978874")
-		(property "Reference" "R38"
+		(property "Reference" "R32"
 			(at 204.47 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14000,7 +15579,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R38")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -14018,7 +15597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64cbc382-867f-4a41-9765-463549667964")
-		(property "Reference" "C41"
+		(property "Reference" "C29"
 			(at 113.03 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14358,89 +15937,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ18A")
-		(at 260.35 33.02 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64f2c373-59cf-4d38-9475-65e6205487f6")
-		(property "Reference" "D19"
-			(at 261.874 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18V"
-			(at 261.874 32.258 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 255.27 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 260.35 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
-			(at 260.35 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd69fd8c-7841-4183-9509-5117a0a6ba4c")
-		)
-		(pin "2"
-			(uuid "09b88231-d4e4-4474-bdc3-4d2aded00f47")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D19")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -14588,7 +16085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6870e81f-04e2-40f2-a61d-ac175cbb9d19")
-		(property "Reference" "C37"
+		(property "Reference" "C30"
 			(at 127 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,15 +16149,15 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C37")
+					(reference "C30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "WRIS-PSMC:2512_L6.3W3.1H0.51_580070763005")
-		(at 226.06 33.02 90)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 255.27 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14668,20 +16165,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "709e6a0d-e2fd-45d4-aad4-03edbc42e3c7")
-		(property "Reference" "R8"
-			(at 227.33 31.75 90)
+		(uuid "6c5d2700-a0b3-4839-82c4-cfbf424203a5")
+		(property "Reference" "J10"
+			(at 257.556 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "5 mohm"
-			(at 228.6 33.02 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 254.635 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14691,8 +16187,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_Wurth:R_Wurth_WRIS-PSMC-2512_L6.3W3.1H0.51"
-			(at 218.44 33.02 0)
+		(property "Footprint" "SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
+			(at 255.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14702,8 +16198,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/580070763005.pdf?ki"
-			(at 208.28 -19.05 0)
+		(property "Datasheet" ""
+			(at 255.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14713,8 +16209,8 @@
 				)
 			)
 		)
-		(property "Description" "High Power Current Sensing Metal Plate Resistors"
-			(at 226.06 33.02 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 255.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14724,203 +16220,23 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 210.82 -19.05 0)
-			(hide yes)
+		(property "navn" "CAN_GND"
+			(at 263.906 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 213.36 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Created Date" "20250214"
-			(at 215.9 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WRIS-PSMC"
-			(at 218.44 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "580070763005"
-			(at 220.98 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" "2512_L6.3W3.1H0.51"
-			(at 223.52 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 226.06 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R" "5 mohm"
-			(at 228.6 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "±1%"
-			(at 231.14 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRated (W)" "2"
-			(at 233.68 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C)" "-100"
-			(at 236.22 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR (ppm/ °C).1" "100"
-			(at 238.76 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR (A)" "20.0"
-			(at 241.3 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "6.3"
-			(at 243.84 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "W (mm)" "3.1"
-			(at 246.38 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" "0.51"
-			(at 248.92 -19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Critical Parameter" "5 mohm"
-			(at 227.33 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "f2b6c55d-e5b0-4efa-ae28-4846b92330d7")
-		)
-		(pin "2"
-			(uuid "edccf665-8818-40a5-861a-2188c4b145a5")
+			(uuid "cda46fd8-4e65-405e-80b1-417377e6350b")
 		)
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -14938,7 +16254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73285a33-2474-491b-9b91-e867a499bd2b")
-		(property "Reference" "R34"
+		(property "Reference" "R23"
 			(at 74.93 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +16318,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R34")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -15019,7 +16335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74294155-f01a-4247-a41a-a3364c80d0fd")
-		(property "Reference" "R39"
+		(property "Reference" "R33"
 			(at 204.47 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15083,7 +16399,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R39")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -15100,7 +16416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b2d4e1e-83fb-4071-8bbe-84ed6cda3c30")
-		(property "Reference" "R51"
+		(property "Reference" "R17"
 			(at 40.64 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15164,7 +16480,86 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R51")
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 247.65 74.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84c4f0fb-1973-449a-b6b9-257ff83643e5")
+		(property "Reference" "#PWR081"
+			(at 247.65 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 247.65 79.248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 247.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2b40894-ddd7-486f-96db-08233f458dac")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -15182,7 +16577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a0b2c49-4b54-4e41-a4f8-d0369a22fcdd")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR067"
 			(at 137.16 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15243,7 +16638,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR039")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -15260,7 +16655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8af23a45-6ee5-482c-a66a-64f50f35914d")
-		(property "Reference" "IC1"
+		(property "Reference" "IC4"
 			(at 103.378 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15501,7 +16896,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "IC1")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -15518,7 +16913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d161a5a-2351-4d31-a172-0a351dfdaf43")
-		(property "Reference" "R50"
+		(property "Reference" "R27"
 			(at 159.512 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15580,7 +16975,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R50")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -15598,7 +16993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91cae8b6-d41e-41dc-bc44-793af5e0e712")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR062"
 			(at 66.04 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15659,7 +17054,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR032")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -15677,7 +17072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95cbf43e-ea95-4a27-835d-713fca1b2dff")
-		(property "Reference" "D14"
+		(property "Reference" "D13"
 			(at 139.7 61.5907 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15924,7 +17319,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D14")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -15941,7 +17336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97afc7fc-8853-4462-8d41-94175f545ea2")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 54.61 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16216,85 +17611,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 245.11 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97d5a9e0-87cf-43af-8b52-b6acad8b587a")
-		(property "Reference" "TP1"
-			(at 245.872 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN1H"
-			(at 245.11 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 250.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 245.11 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6128dd7c-2b8c-4dfd-9e35-8769a4b804dc")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -16302,7 +17619,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 184.15 83.82 0)
+		(at 184.15 80.01 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16312,8 +17629,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97df43b3-c5d5-4634-9ce0-1e85309f58d1")
-		(property "Reference" "#PWR067"
-			(at 184.15 90.17 0)
+		(property "Reference" "#PWR075"
+			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16324,7 +17641,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 184.15 88.138 0)
+			(at 184.15 84.328 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16335,7 +17652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 83.82 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16346,7 +17663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 83.82 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16357,7 +17674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 184.15 83.82 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16373,7 +17690,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR067")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -16390,7 +17707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97eb04c6-060a-4f7d-b0c2-4270da706a8e")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR069"
 			(at 139.7 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16451,7 +17768,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR075")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -16468,7 +17785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "994beed9-b109-4659-b1da-f50db044f9c7")
-		(property "Reference" "R56"
+		(property "Reference" "R28"
 			(at 162.306 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16530,7 +17847,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R56")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -16548,7 +17865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a8cb0ba-0c7e-4f2c-82c8-f8dcbf9ee751")
-		(property "Reference" "IC9"
+		(property "Reference" "IC5"
 			(at 129.54 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16683,15 +18000,15 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "IC9")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode_Wurth_WE-TVSP:SOT23-3L_824094024")
-		(at 240.03 52.07 270)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 256.54 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16699,9 +18016,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a0cf1151-09ba-408f-b130-db1539e8801c")
-		(property "Reference" "D17"
-			(at 231.394 51.308 90)
+		(fields_autoplaced yes)
+		(uuid "9e69e661-22ff-4593-9f0b-8b03a62bca52")
+		(property "Reference" "J8"
+			(at 259.08 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16711,20 +18029,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SOT23-3L_824094024"
-			(at 234.569 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 260.35 64.77 0)
-			(hide yes)
+		(property "Value" "Conn_01x03"
+			(at 259.08 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16734,20 +18040,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824094024.pdf?ki"
-			(at 257.81 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "TVS Diode  Standard Series"
-			(at 240.03 52.07 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.95mm_OD2.1mm"
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16757,8 +18051,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 255.27 64.77 0)
+		(property "Datasheet" ""
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16766,11 +18060,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 252.73 64.77 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16778,202 +18071,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260409"
-			(at 250.19 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WE-TVS"
-			(at 247.65 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "824094024"
-			(at 245.11 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "SOT23-3L"
-			(at 242.57 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 240.03 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Automotive" "No"
-			(at 237.49 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Channels" "Channels2"
-			(at 234.95 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Polarity" "Bidirectional"
-			(at 232.41 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VCh max.(V)" "24 V"
-			(at 229.87 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "ICh Leak max.(nA)" "100 nA"
-			(at 227.33 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VBR min.(V)" "26.2 V"
-			(at 224.79 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "CCh typ.(pF)" "38 pF"
-			(at 222.25 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IPeak(A)" "6 A"
-			(at 219.71 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VCh Clamp ESD typ.(V)" "31 V"
-			(at 217.17 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VESD Contact(kV)" "30 kV"
-			(at 214.63 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "e7bd1192-0906-4c9a-a242-49f5a217f4a2")
+			(uuid "3ac13664-f05d-46b3-a731-b48d7410f4ee")
 		)
 		(pin "1"
-			(uuid "6d9cfea5-f655-435a-bd06-e0473a85e71d")
+			(uuid "9268d969-be20-44db-ac58-f56938e3821b")
 		)
 		(pin "3"
-			(uuid "f73f62be-2c3e-4b46-ba54-6c3c4622571b")
+			(uuid "47ba55cf-fc61-4089-ad90-fde7ab76fe63")
 		)
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D17")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -16990,7 +18102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a13c583e-98eb-45bd-b0be-bc8bc7abeb3e")
-		(property "Reference" "TP11"
+		(property "Reference" "TP7"
 			(at 125.73 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17051,7 +18163,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP11")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -17068,7 +18180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4736cab-aa18-4b58-966b-e986af532840")
-		(property "Reference" "C46"
+		(property "Reference" "C28"
 			(at 68.58 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17132,7 +18244,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C46")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -17149,7 +18261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfc6fcfb-7a76-4827-9ea3-d41ca72e7952")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR059"
 			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17209,86 +18321,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 226.06 41.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c31cc7a6-527d-402e-a987-b2d612ce7cf7")
-		(property "Reference" "R5"
-			(at 224.028 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 228.346 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WE-Resistors:R_Wurth_WRIS-KSKE-0603"
-			(at 227.838 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 226.06 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5906533-58d2-4ea0-8f07-588990b99b79")
-		)
-		(pin "2"
-			(uuid "a1a1a2c9-745a-4c0b-a9ae-aef358938d90")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R5")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -17305,7 +18338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceff03e8-f8cb-4fcb-86b1-3b86978c6288")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR063"
 			(at 72.39 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -17366,7 +18399,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR070")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -17383,7 +18416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d13c0a93-a41b-4726-9ef2-f2bb27316454")
-		(property "Reference" "C42"
+		(property "Reference" "C27"
 			(at 59.69 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17447,7 +18480,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C42")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -17464,7 +18497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d549b72c-8810-471f-a7f6-bf415fc0618b")
-		(property "Reference" "R33"
+		(property "Reference" "R19"
 			(at 38.1 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17528,7 +18561,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R33")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17545,7 +18578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6dadf68-55eb-480f-b0cd-9b96193e89ac")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR070"
 			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -17606,86 +18639,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 261.62 48.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8e1a9ff-6d14-4c68-92e9-94db63336dfb")
-		(property "Reference" "#PWR053"
-			(at 261.62 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 261.62 52.578 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 261.62 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e057893e-d3de-4616-8871-3deef1e565e9")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR053")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -17703,7 +18657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf4c500-ddca-4d83-aef2-e6521aabdbf9")
-		(property "Reference" "D5"
+		(property "Reference" "D12"
 			(at 49.53 49.0062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17961,7 +18915,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D5")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -17979,7 +18933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd474003-d912-4605-9e98-ec0b52488277")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR073"
 			(at 156.21 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -18040,7 +18994,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR079")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -18058,7 +19012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df2a0f7b-0f96-4cbb-bdfe-e1a00ea60db3")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR057"
 			(at 26.67 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -18119,7 +19073,85 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR059")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e064aa67-8f99-44d3-ba17-f64dfd0855d6")
+		(property "Reference" "TP10"
+			(at 228.854 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN1L"
+			(at 228.346 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 232.41 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd180a6b-47e5-43ac-9b6c-8b0e07ff84fe")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -18137,7 +19169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e17c73ec-8038-49af-ae15-ddc96fa16c6e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR064"
 			(at 72.39 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -18198,7 +19230,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR011")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -18216,7 +19248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49e26a2-3c05-4f2b-8ab6-d17d092943c2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR072"
 			(at 149.86 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18277,86 +19309,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 240.03 62.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e4f47a16-2373-460f-ad9a-9d9489732a7b")
-		(property "Reference" "#PWR051"
-			(at 240.03 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 240.03 66.548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 240.03 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3482dae8-7e6c-46fc-8ca5-f750955ff3f0")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR051")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -18373,7 +19326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e84faa84-2b6d-435f-b261-ec23d0b0ce9f")
-		(property "Reference" "R52"
+		(property "Reference" "R18"
 			(at 37.338 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18437,7 +19390,86 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "R52")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 233.68 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed92540a-c27f-4213-a3a7-485cf64f5937")
+		(property "Reference" "#PWR078"
+			(at 233.68 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 233.68 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 233.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b966e272-7619-4403-9095-f389009d6967")
+		)
+		(instances
+			(project "torpedokontroller"
+				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -18454,7 +19486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f124d9ae-f3f3-44dc-a361-9f2894d70d59")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR066"
 			(at 121.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -18515,85 +19547,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 251.46 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9ea8130-dbd1-4622-bf33-287678d46845")
-		(property "Reference" "TP2"
-			(at 252.222 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN1L"
-			(at 251.714 35.052 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 256.54 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 251.46 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69e1e9e8-84cd-4176-b27f-a4f017858896")
-		)
-		(instances
-			(project "torpedokontroller"
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "TP2")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -18611,7 +19565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc0357f8-e16e-4a73-a5e3-ff4b86ba006a")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR076"
 			(at 203.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -18672,7 +19626,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "#PWR073")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -18690,7 +19644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe29f236-5339-46a3-b008-9e8edd9622a9")
-		(property "Reference" "C38"
+		(property "Reference" "C31"
 			(at 148.844 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18754,7 +19708,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "C38")
+					(reference "C31")
 					(unit 1)
 				)
 			)

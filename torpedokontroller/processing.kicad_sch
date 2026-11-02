@@ -5,7 +5,7 @@
 	(uuid "9babeba3-1355-4920-9e6e-8b0d3b645509")
 	(paper "A4")
 	(title_block
-		(date "2026-10-24")
+		(date "2026-10-28")
 		(comment 1 "Simon Torvund")
 	)
 	(lib_symbols
@@ -3730,7 +3730,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -17.78 180)
+					(at 43.18 -20.32 180)
 					(length 5.08)
 					(name "PE2"
 						(effects
@@ -3748,7 +3748,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -15.24 180)
+					(at 43.18 -17.78 180)
 					(length 5.08)
 					(name "PC13"
 						(effects
@@ -4000,7 +4000,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -43.18 180)
+					(at 0 -13.97 0)
 					(length 5.08)
 					(name "PA6"
 						(effects
@@ -4018,7 +4018,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -40.64 180)
+					(at 0 -16.51 0)
 					(length 5.08)
 					(name "PA7"
 						(effects
@@ -4252,7 +4252,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -13.97 0)
+					(at 43.18 -43.18 180)
 					(length 5.08)
 					(name "PA9"
 						(effects
@@ -4270,7 +4270,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -16.51 0)
+					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "PA10"
 						(effects
@@ -4396,7 +4396,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -22.86 180)
+					(at 43.18 1.27 180)
 					(length 5.08)
 					(name "PA15"
 						(effects
@@ -4432,7 +4432,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -20.32 180)
+					(at 43.18 -22.86 180)
 					(length 5.08)
 					(name "PB4"
 						(effects
@@ -4486,7 +4486,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -12.7 180)
+					(at 43.18 -15.24 180)
 					(length 5.08)
 					(name "PB7"
 						(effects
@@ -10077,10 +10077,6 @@
 		(uuid "1f720db6-3da8-4d95-af2a-5a20ef5794dd")
 	)
 	(no_connect
-		(at 90.17 120.65)
-		(uuid "25a86735-ef61-4ed8-b242-108110811dd2")
-	)
-	(no_connect
 		(at 90.17 148.59)
 		(uuid "41bcd517-e41a-40c9-9e22-70707031c1fb")
 	)
@@ -10573,6 +10569,16 @@
 			(type default)
 		)
 		(uuid "2e2032a7-d9f8-4a86-b082-5c99bd024418")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 90.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1c98c9-df4e-433a-a4dd-7628234ca59a")
 	)
 	(wire
 		(pts
@@ -11793,6 +11799,16 @@
 			(type default)
 		)
 		(uuid "bda66661-b05a-4c51-903a-b9fb9d070c66")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8cc99c-8bf1-4afb-99a5-6bb1c0a84560")
 	)
 	(wire
 		(pts
@@ -22958,6 +22974,17 @@
 		)
 		(uuid "76e3b65e-1f4a-42f7-82a2-939b4dc62545")
 	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 91.44 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78d337cb-c719-4c86-9d1b-c6d568beedc6")
+	)
 	(hierarchical_label "GOK"
 		(shape input)
 		(at 92.71 82.55 0)
@@ -23026,7 +23053,7 @@
 	)
 	(hierarchical_label "MCU_KillSwitch"
 		(shape output)
-		(at 90.17 113.03 0)
+		(at 91.44 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23057,7 +23084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00bcffd9-8a4a-468f-ad68-9b96a0d9b08d")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR035"
 			(at 43.18 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -23117,7 +23144,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR069")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23135,7 +23162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02b2e72a-4623-4696-9f9b-3f100ca3d721")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR037"
 			(at 46.99 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -23196,7 +23223,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR013")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -23213,7 +23240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "075e7de3-c51e-4869-803a-97af08d763de")
-		(property "Reference" "C14"
+		(property "Reference" "C23"
 			(at 124.714 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23554,7 +23581,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C14")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -23572,7 +23599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dfcb907-9f3f-45ca-9f62-0e8453bbf7eb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR052"
 			(at 227.33 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23633,7 +23660,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR021")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -23650,7 +23677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f11773f-71c6-4b1a-bfb3-b22bdeafab5a")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR041"
 			(at 121.92 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23710,7 +23737,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR078")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -23729,7 +23756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b9ed86-8633-48b5-b45d-d0de925fa488")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 142.24 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23880,7 +23907,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -24073,7 +24100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eaa1568-a3e9-4f30-92c1-c3e9188ebdae")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR040"
 			(at 92.71 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -24134,7 +24161,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR017")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -24152,7 +24179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fdd44bc-469d-42ec-8ea3-1e54b27248ee")
-		(property "Reference" "D4"
+		(property "Reference" "D10"
 			(at 267.97 128.3848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24434,7 +24461,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "D4")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -24452,7 +24479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21279fe9-9dfe-4c88-8b40-4c8a53a94ce0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR034"
 			(at 41.91 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -24513,7 +24540,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR05")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -24532,7 +24559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2277c5ea-d821-45c5-9be8-145a5f530521")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR048"
 			(at 175.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -24593,7 +24620,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR018")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -24610,7 +24637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "232aa2bc-c081-48c6-acc1-74a489c0897d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR039"
 			(at 67.31 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -24671,7 +24698,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR010")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -24688,7 +24715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "308caa62-6521-4460-9ec5-07d83e423234")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR046"
 			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -24748,7 +24775,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR084")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -24766,7 +24793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "313c8a77-3821-4813-87d7-0827a15cbfdd")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 205.74 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24971,7 +24998,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -24989,7 +25016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d72397-ffd6-422b-8f69-64fb853e8c77")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR055"
 			(at 257.81 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -25050,7 +25077,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR023")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -25068,7 +25095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3890ca4e-e046-4a42-9e3c-ed13e505d349")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 270.51 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25247,7 +25274,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -25264,7 +25291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ffb1bca-f149-407c-9558-ccddb2f54a18")
-		(property "Reference" "D6"
+		(property "Reference" "D9"
 			(at 159.766 131.318 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25540,11 +25567,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/dee7d489-79d3-42b0-822e-0a7c6f39f6c4"
-					(reference "D6")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -25561,7 +25584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "426185e6-1586-4979-ba33-d05ddb24f08b")
-		(property "Reference" "TP13"
+		(property "Reference" "TP5"
 			(at 157.48 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25622,7 +25645,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "TP13")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -25639,7 +25662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44004d0f-b15c-404d-a9fc-148249cc2e97")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR038"
 			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -25699,7 +25722,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR068")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -25716,7 +25739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46a414b1-f5b2-4bac-b9e5-a91050036dd4")
-		(property "Reference" "C12"
+		(property "Reference" "C22"
 			(at 96.266 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26057,7 +26080,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C12")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -26075,7 +26098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56934b70-d834-4fef-b12f-9537d30f689a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR042"
 			(at 128.27 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -26136,7 +26159,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR06")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -26153,7 +26176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59c8f74a-74e5-4619-a1c1-1c6bb83c3625")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 222.25 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26383,7 +26406,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -26400,7 +26423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a240493-1436-4360-946b-af35d80fc91d")
-		(property "Reference" "C39"
+		(property "Reference" "C17"
 			(at 38.1 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26462,7 +26485,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C39")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -26479,7 +26502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fbef255-89d4-4e9b-964f-f9688cef5f2d")
-		(property "Reference" "C15"
+		(property "Reference" "C25"
 			(at 244.094 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26820,7 +26843,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C15")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -26838,7 +26861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60c4d44d-79e8-4be0-9939-7d15e2e946fd")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR056"
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26899,7 +26922,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR012")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -26917,7 +26940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6384a211-6e6d-46bc-a9e0-77c135268e8b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR043"
 			(at 138.43 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -26978,7 +27001,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR027")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -26995,7 +27018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64f7fd28-346d-478d-93eb-0749264de6eb")
-		(property "Reference" "C16"
+		(property "Reference" "C26"
 			(at 252.984 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27336,7 +27359,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C16")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -27353,7 +27376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "692f34f6-5e70-4a2d-8c21-757cf8f995a2")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 26.162 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27600,7 +27623,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -27922,7 +27945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71bed794-1803-446a-8e1a-d082315555fd")
-		(property "Reference" "C13"
+		(property "Reference" "C24"
 			(at 227.076 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28263,7 +28286,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C13")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -28281,7 +28304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783a77df-faec-41f5-8a14-12b32f882eb9")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR036"
 			(at 43.18 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -28342,7 +28365,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR08")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -28359,7 +28382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81f00f1f-3616-4c1e-9071-30dfdc810a62")
-		(property "Reference" "R37"
+		(property "Reference" "R14"
 			(at 35.56 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -28422,7 +28445,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "R37")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -28695,7 +28718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d91d94c-252c-46c5-bb79-34c2a2e41633")
-		(property "Reference" "C43"
+		(property "Reference" "C19"
 			(at 51.816 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28757,7 +28780,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C43")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -28774,7 +28797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "908dd4d8-0784-4e66-a91a-b5a67e2bace0")
-		(property "Reference" "C44"
+		(property "Reference" "C20"
 			(at 62.23 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28836,7 +28859,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C44")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -28854,7 +28877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912eb006-4ab6-4399-945a-52913d608822")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR047"
 			(at 147.32 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -28915,7 +28938,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR026")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -28933,7 +28956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "957bba1a-40f6-402d-824c-435eb560fcee")
-		(property "Reference" "R54"
+		(property "Reference" "R16"
 			(at 182.88 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28997,7 +29020,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "R54")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -29014,7 +29037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9969aa5e-4c38-4ec7-93a9-fd0eff1df88f")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR049"
 			(at 208.28 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -29074,7 +29097,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR072")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -29091,7 +29114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a4baf13-fc6c-435e-9fdb-b82ee76d896d")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR054"
 			(at 257.81 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -29151,7 +29174,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR085")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -29169,7 +29192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a912a0e4-e049-46df-b57f-183815364145")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR051"
 			(at 215.9 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -29230,7 +29253,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR02")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -29247,7 +29270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae0a62be-495f-481e-9f1b-1dfe9f44181d")
-		(property "Reference" "C45"
+		(property "Reference" "C21"
 			(at 72.39 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29309,7 +29332,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C45")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -29326,7 +29349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0cf7b75-a0c8-47ae-9e12-274d32e98276")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 133.35 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29502,7 +29525,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -29519,7 +29542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0ec346c-110a-4959-a277-721549284223")
-		(property "Reference" "C11"
+		(property "Reference" "C18"
 			(at 53.848 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29860,7 +29883,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -29877,7 +29900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b22dbb4b-2ec8-4029-97db-bf032757a3be")
-		(property "Reference" "D13"
+		(property "Reference" "D6"
 			(at 31.242 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30124,7 +30147,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "D13")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -30141,7 +30164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4537a1b-afc8-4697-9efd-4bb49a16a0a4")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 33.528 154.686 90)
 			(hide yes)
 			(show_name no)
@@ -30204,7 +30227,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "R1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -30222,7 +30245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2cdb157-6d7a-420e-9391-899ee31dda2a")
-		(property "Reference" "U15"
+		(property "Reference" "U17"
 			(at 182.118 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30299,7 +30322,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "U15")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -30316,7 +30339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5a74ec9-7a65-4a0a-bbb1-7d6d5fe686d1")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR053"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -30376,7 +30399,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR082")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -30393,7 +30416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cde62ab8-f913-4f97-a60f-a9727ccb4f69")
-		(property "Reference" "R35"
+		(property "Reference" "R12"
 			(at 22.86 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -30456,7 +30479,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "R35")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -30473,7 +30496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfd62410-e1df-4e47-a6af-8bbf4442c264")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR045"
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -30534,7 +30557,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR083")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -30551,7 +30574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dacf2b81-2c48-4341-8390-b662a346bb33")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR044"
 			(at 146.05 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -30562,7 +30585,7 @@
 				)
 			)
 		)
-		(property "Value" "+VBUS"
+		(property "Value" "+VBUS_OUT"
 			(at 145.796 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30611,7 +30634,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR080")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -30629,7 +30652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbcc7484-5406-48a2-b509-af3c7b923f34")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR050"
 			(at 208.28 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -30690,7 +30713,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "#PWR04")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -30709,7 +30732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc07edb1-6d20-415d-b75b-ca26f438b6d3")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 149.606 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30832,7 +30855,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -30850,7 +30873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e84e9ae1-27d8-4e2e-9fef-800475fd3b08")
-		(property "Reference" "R53"
+		(property "Reference" "R15"
 			(at 171.45 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30914,7 +30937,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "R53")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -30931,7 +30954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5dabbd9-2b8a-4952-90c9-39c4df2c6e60")
-		(property "Reference" "TP14"
+		(property "Reference" "TP4"
 			(at 155.956 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30992,7 +31015,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "TP14")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -31009,7 +31032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f67189e3-9c0a-4993-ae9f-3e56516f4d77")
-		(property "Reference" "D9"
+		(property "Reference" "D7"
 			(at 38.608 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31256,7 +31279,7 @@
 		(instances
 			(project "torpedokontroller"
 				(path "/e42df04f-3e58-4415-86e6-9a5d9df63a21/c6847d26-94ed-4539-97f7-de598ce051b5"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
