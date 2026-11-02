@@ -1,0 +1,7 @@
+(version 1)
+
+(rule "CAN diff pair"
+  (condition "A.NetClass == 'CAN_DIFF'")
+  (constraint diff_pair_gap (opt 0.2mm))
+  (constraint diff_pair_uncoupled (max 5mm))
+  (constraint skew (max 1mm)))

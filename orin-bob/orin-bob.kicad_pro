@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -277,10 +277,6 @@
       [
         "pin_to_pin|1028700|1066800|7f4e1720-bed1-427d-8ece-03f134cab4ee|379eb208-a5f9-4ba0-b682-5a48f61d1350|/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c|/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c|/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c",
         ""
-      ],
-      [
-        "pin_to_pin|2336800|1181100|6cacaeea-b343-4679-8e4e-3b73208e3c98|7f4e1720-bed1-427d-8ece-03f134cab4ee|/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c|/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c|/6d7a1667-a0e1-4e68-9a43-9a403cb7beab/1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c",
-        ""
       ]
     ],
     "meta": {
@@ -488,7 +484,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -535,10 +531,14 @@
         "wire_width": 6
       },
       {
-        "name": "CAN",
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "name": "CAN_DIFF",
         "pcb_color": "rgb(0, 112, 35)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": ""
       },
       {
@@ -602,7 +602,14 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/CAN-transceiver/CAN_N": [
+        "CAN_DIFF"
+      ],
+      "/CAN-transceiver/CAN_P": [
+        "CAN_DIFF"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "PWR_3V3",
@@ -625,20 +632,12 @@
         "pattern": "GND_ISO"
       },
       {
-        "netclass": "CAN",
-        "pattern": "CAN0_DIN1"
+        "netclass": "CAN_DIFF",
+        "pattern": "CAN_H"
       },
       {
-        "netclass": "CAN",
-        "pattern": "CAN0_DOUT1"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "CANH"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "CANL"
+        "netclass": "CAN_DIFF",
+        "pattern": "CAN_L"
       },
       {
         "netclass": "I2C",
@@ -1006,7 +1005,7 @@
         "uuid": "6d7a1667-a0e1-4e68-9a43-9a403cb7beab"
       }
     ],
-    "used_designators": "R5,R7",
+    "used_designators": "J2,J8,J11-14,#FLG5,#FLG7-10,R5,R7-12,#PWR2,#PWR12,#PWR19,#PWR32-39,#PWR41-68,C7-12,C20-21,C30-39,FB3-4,U4,U7-9",
     "variants": []
   },
   "sheets": [
@@ -1015,16 +1014,20 @@
       "orin-bob"
     ],
     [
-      "e2d8c78c-33a8-4b4d-bd4a-b6cc6ecc563a",
-      "ORIN-connector"
+      "2a9f2166-d1a2-4f01-af2b-d0cd7a5b2be8",
+      "CAN-transceiver"
     ],
     [
-      "1f00ce47-a73d-4bbd-9cf0-86b4bfe2156c",
-      "Digital-isolator"
+      "f028178e-9f4a-4d86-bf5e-c551a1b30280",
+      "SPI ISO"
     ],
     [
-      "abf82d22-e1c1-46aa-b91c-e3b15213749e",
-      "Connectors"
+      "cc0d31ac-4759-44bf-894f-95e25afe21ac",
+      "I2C ISO"
+    ],
+    [
+      "8bf0ce93-82cc-4b4a-9c53-bd8867e156e3",
+      "UART ISO"
     ]
   ],
   "text_variables": {},

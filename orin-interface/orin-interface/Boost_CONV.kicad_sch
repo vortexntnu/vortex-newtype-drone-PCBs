@@ -2137,6 +2137,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Boost Converter"
+		(exclude_from_sim no)
+		(at 101.092 29.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "daf1aa81-8649-4f51-86f4-63d65ac8adc0")
+	)
 	(junction
 		(at 100.33 81.28)
 		(diameter 0)

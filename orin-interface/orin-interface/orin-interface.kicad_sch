@@ -1723,7 +1723,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "691323100002:691323100002"
+		(symbol "691323100002:691325110004"
 			(pin_names
 				(hide yes)
 			)
@@ -1742,7 +1742,7 @@
 					)
 				)
 			)
-			(property "Value" "691323100002"
+			(property "Value" "691325110004"
 				(at 12.7 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1754,7 +1754,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-TBL_691323100002"
+			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-TBL_691325110004"
 				(at 12.7 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1766,7 +1766,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691323100002.pdf?ki"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691325110004.pdf?ki"
 				(at 12.7 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1778,7 +1778,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "Series 3231 - 3.50 mm Vertical PCB Header with Flanges"
+			(property "Description" "Series 3251 - 3.50 mm Horizontal PCB Header with Flanges"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1837,7 +1837,7 @@
 					(justify left)
 				)
 			)
-			(property "Part Number" "691323100002"
+			(property "Part Number" "691325110004"
 				(at 12.7 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1885,7 +1885,7 @@
 					(justify left)
 				)
 			)
-			(property "Pins (pcs)" "2"
+			(property "Pins (pcs)" "4"
 				(at 12.7 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1909,7 +1909,7 @@
 					(justify left)
 				)
 			)
-			(property "Type" "Vertical"
+			(property "Type" "PCB Header"
 				(at 12.7 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1957,7 +1957,7 @@
 					(justify left)
 				)
 			)
-			(property "Critical Parameter" "10A 2pins 3.5mm"
+			(property "Critical Parameter" "10A 4pins 3.5mm"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1979,7 +1979,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WR-TBL*691323100002*"
+			(property "ki_fp_filters" "*WR-TBL*691325110004*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1990,10 +1990,33 @@
 					)
 				)
 			)
-			(symbol "691323100002_0_1"
+			(symbol "691325110004_0_1"
 				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.508) (xy -3.81 -1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2048,10 +2071,33 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.508) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "691323100002_1_1"
+			(symbol "691325110004_1_1"
 				(pin passive line
-					(at -1.27 -5.08 90)
+					(at -3.81 -5.08 90)
 					(length 3.81)
 					(name "1"
 						(effects
@@ -2061,6 +2107,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -5.08 90)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2071,466 +2135,6 @@
 				(pin passive line
 					(at 1.27 -5.08 90)
 					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "694106402002:694106402002"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "694106402002"
-				(at 12.7 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-DC_694106402002"
-				(at 12.7 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/694106402002.pdf?ki"
-				(at 12.7 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Power Jacks ED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 12.7 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 12.7 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Created Date" "20251209"
-				(at 12.7 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Series" "WR-DC"
-				(at 12.7 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "694106402002"
-				(at 12.7 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mounting Technology" "THT"
-				(at 12.7 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Center pin Ø (Value) (mm)" "2.0"
-				(at 12.7 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Plug OD (mm)" "5.5"
-				(at 12.7 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Type" "Vertical"
-				(at 12.7 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "IR (A)" "3.0"
-				(at 12.7 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Working Voltage (V (DC))" "30"
-				(at 12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "DC_POWER_JACKS_WR_DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WR-DC*694106402002*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "694106402002_0_0"
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -4.445 -3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -3.81) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.175 0)
-					(mid -4.4395 1.27)
-					(end -3.175 2.54)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -0.508 -2.54) (xy 0.508 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -3.175 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.175) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.635) (xy 2.54 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy -3.175 -3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "694106402002_1_0"
-				(pin passive line
-					(at 6.35 1.27 180)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
 					(name "3"
 						(effects
 							(font
@@ -2539,6 +2143,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3789,7 +3411,7 @@
 		(uuid "4811a2bf-b886-4bbb-b281-5922fb66ffd5")
 	)
 	(rectangle
-		(start 276.225 12.065)
+		(start 314.325 12.065)
 		(end 394.335 48.26)
 		(stroke
 			(width 0)
@@ -3814,8 +3436,8 @@
 		(uuid "9059894b-37c6-48fc-a1fe-38cef995c131")
 	)
 	(rectangle
-		(start 12.065 34.925)
-		(end 69.85 68.58)
+		(start 335.915 48.895)
+		(end 393.7 82.55)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -3835,23 +3457,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "bb0e2f77-2f48-43fb-be93-471c0f560c80")
-	)
-	(rectangle
-		(start 318.135 21.59)
-		(end 356.235 48.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
 		(uuid "be3d7191-2f44-4c5a-97b2-28ed379af9d3")
 	)
 	(rectangle
-		(start 276.225 21.59)
-		(end 318.135 48.26)
+		(start 314.325 21.59)
+		(end 356.235 48.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -3875,7 +3485,7 @@
 	)
 	(text "VBAT_P -> 3V3 Converter\n "
 		(exclude_from_sim no)
-		(at 40.132 40.894 0)
+		(at 363.982 54.864 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -3907,7 +3517,7 @@
 	)
 	(text "Power for GigaBlox\n"
 		(exclude_from_sim no)
-		(at 300.228 24.13 0)
+		(at 334.518 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4057,7 +3667,7 @@
 	)
 	(text "Power for Rugged GigaBlox"
 		(exclude_from_sim no)
-		(at 334.772 24.13 0)
+		(at 372.872 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,19 +3695,9 @@
 		)
 		(uuid "dd4a9260-f159-43d3-82cc-dba0b9ff0bd6")
 	)
-	(text "Barrel-Jack\n"
-		(exclude_from_sim no)
-		(at 370.332 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f1ec95e3-5cce-4619-8ad4-d13534916cc6")
-	)
 	(text "Power Outputs"
 		(exclude_from_sim no)
-		(at 334.772 17.272 0)
+		(at 356.108 17.526 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4118,61 +3718,67 @@
 		(uuid "ffc0ea8c-5759-4466-9f38-ef696baf5a61")
 	)
 	(junction
-		(at 35.56 52.07)
+		(at 359.41 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "274f2578-b4a9-44e7-8f78-dc315bccd10f")
 	)
 	(junction
-		(at 35.56 63.5)
+		(at 127 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b587681-e931-43d5-a135-797948624635")
+	)
+	(junction
+		(at 359.41 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bb636ff-65c3-40af-b797-4d4e7a2242cc")
 	)
 	(junction
-		(at 46.99 63.5)
+		(at 370.84 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a1c6545-66a9-4d16-9203-55e2525238d7")
 	)
 	(junction
-		(at 365.76 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "840e90bf-baee-4c45-863b-103ed201eb98")
-	)
-	(junction
-		(at 21.59 52.07)
+		(at 345.44 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b901974-f9e1-429e-8e5e-eadf4c5f7cd7")
 	)
 	(junction
-		(at 330.2 40.64)
+		(at 368.3 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b154069a-4cd7-4b1f-b5c0-aee55bbeca39")
 	)
 	(junction
-		(at 58.42 52.07)
+		(at 382.27 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2a71cf7-ed9f-4cbb-af5f-1a517bc1ea30")
 	)
 	(junction
-		(at 295.91 33.02)
+		(at 172.72 39.37)
+		(diameter 0)
+		(color 255 43 34 1)
+		(uuid "be4e1448-9ea7-458e-bf6d-a8b99f30591a")
+	)
+	(junction
+		(at 330.2 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc8d8300-fcc5-4d73-b058-43bb97b5374a")
 	)
 	(junction
-		(at 295.91 40.64)
+		(at 330.2 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2d0f3b5-0545-4e5c-820d-bfa12786e96d")
 	)
 	(junction
-		(at 330.2 33.02)
+		(at 368.3 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa108c03-8807-412b-b405-6718077cb358")
@@ -4937,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 35.56) (xy 302.26 35.56)
+			(xy 330.2 35.56) (xy 336.55 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4947,13 +4553,23 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 33.02) (xy 336.55 33.02)
+			(xy 368.3 33.02) (xy 374.65 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11c007dc-7254-4c6c-a356-5c4507777eac")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ce33b2-8c76-4cf2-948c-c60791113d7f")
 	)
 	(bus
 		(pts
@@ -5017,7 +4633,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 35.56) (xy 295.91 33.02)
+			(xy 330.2 35.56) (xy 330.2 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5157,7 +4773,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 63.5) (xy 46.99 64.77)
+			(xy 370.84 77.47) (xy 370.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5209,7 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 41.91) (xy 133.35 41.91)
+			(xy 125.73 46.99) (xy 127 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5229,17 +4845,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 40.64) (xy 369.57 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f920c0-77d6-496d-8af6-592c65ab1085")
-	)
-	(wire
-		(pts
-			(xy 330.2 35.56) (xy 336.55 35.56)
+			(xy 368.3 35.56) (xy 374.65 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5256,16 +4862,6 @@
 			(type default)
 		)
 		(uuid "41de2189-7df7-41b8-af6a-c11ee8083a7b")
-	)
-	(wire
-		(pts
-			(xy 369.57 35.56) (xy 365.76 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42176cda-2f85-435f-9ff3-83a0a13dd400")
 	)
 	(wire
 		(pts
@@ -5287,17 +4883,6 @@
 			(type default)
 		)
 		(uuid "429ed869-f362-4979-a0ba-e9333f45bcdc")
-	)
-	(wire
-		(pts
-			(xy 128.27 39.37) (xy 151.13 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 7 0 1)
-		)
-		(uuid "434868fc-76ff-4948-874f-0e9d134824d9")
 	)
 	(bus
 		(pts
@@ -5403,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 46.99 63.5)
+			(xy 359.41 77.47) (xy 370.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5443,7 +5028,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 49.53) (xy 21.59 52.07)
+			(xy 345.44 63.5) (xy 345.44 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5453,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 33.02) (xy 302.26 33.02)
+			(xy 330.2 33.02) (xy 336.55 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5463,13 +5048,24 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 52.07) (xy 25.4 52.07)
+			(xy 345.44 66.04) (xy 349.25 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50670e66-d31f-4731-9f6c-2ee15c3b4834")
+	)
+	(wire
+		(pts
+			(xy 172.72 39.37) (xy 172.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 7 0 1)
+		)
+		(uuid "50d5d73b-264a-4a93-a8e8-a0f441c91b14")
 	)
 	(bus
 		(pts
@@ -5493,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 39.37 52.07)
+			(xy 359.41 66.04) (xy 363.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5523,7 +5119,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 33.02) (xy 330.2 35.56)
+			(xy 368.3 33.02) (xy 368.3 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5563,7 +5159,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 41.91) (xy 133.35 45.72)
+			(xy 127 46.99) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +5271,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 59.69) (xy 21.59 63.5)
+			(xy 345.44 73.66) (xy 345.44 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5735,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 63.5) (xy 46.99 63.5)
+			(xy 382.27 77.47) (xy 370.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5755,7 +5351,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 52.07) (xy 20.32 52.07)
+			(xy 345.44 66.04) (xy 344.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5785,7 +5381,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 40.64) (xy 330.2 41.91)
+			(xy 368.3 40.64) (xy 368.3 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5805,7 +5401,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 38.1) (xy 330.2 40.64)
+			(xy 368.3 38.1) (xy 368.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5825,7 +5421,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 62.23) (xy 46.99 63.5)
+			(xy 370.84 76.2) (xy 370.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5907,16 +5503,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 38.1) (xy 365.76 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f1cc591-b2af-465f-b8a4-5b2ec3b99e55")
-	)
-	(wire
-		(pts
 			(xy 255.27 109.22) (xy 265.43 109.22)
 		)
 		(stroke
@@ -5957,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 38.1) (xy 295.91 40.64)
+			(xy 330.2 38.1) (xy 330.2 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5977,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 35.56 54.61)
+			(xy 359.41 66.04) (xy 359.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6059,23 +5645,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 63.5) (xy 35.56 63.5)
+			(xy 345.44 77.47) (xy 359.41 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94da4765-5027-4045-951b-b381980582fd")
-	)
-	(wire
-		(pts
-			(xy 365.76 40.64) (xy 365.76 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94e97692-18c4-47c9-8a43-b4f958b644a3")
 	)
 	(polyline
 		(pts
@@ -6089,7 +5665,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 40.64) (xy 302.26 40.64)
+			(xy 330.2 40.64) (xy 336.55 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6170,7 +5746,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 31.75) (xy 330.2 33.02)
+			(xy 368.3 31.75) (xy 368.3 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6258,16 +5834,6 @@
 		)
 		(uuid "b1d7b5db-e345-453e-9e3e-f9ab4b236e9b")
 	)
-	(wire
-		(pts
-			(xy 365.76 38.1) (xy 369.57 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1db6a61-1e57-4d51-839e-bc63d020c64f")
-	)
 	(bus
 		(pts
 			(xy 252.73 171.45) (xy 252.73 173.99)
@@ -6300,17 +5866,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 33.02) (xy 365.76 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba26abd7-9f6b-4a3b-a46c-9c527b656605")
-	)
-	(wire
-		(pts
-			(xy 21.59 52.07) (xy 21.59 54.61)
+			(xy 345.44 66.04) (xy 345.44 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6320,13 +5876,24 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 31.75) (xy 295.91 33.02)
+			(xy 330.2 31.75) (xy 330.2 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bfc95da1-09d9-4f49-a852-72ca8e283cae")
+	)
+	(wire
+		(pts
+			(xy 125.73 44.45) (xy 172.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 7 0 1)
+		)
+		(uuid "c1035fa9-8412-4775-898d-6277060aa9af")
 	)
 	(polyline
 		(pts
@@ -6383,7 +5950,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 52.07) (xy 58.42 52.07)
+			(xy 378.46 66.04) (xy 382.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6463,7 +6030,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 52.07) (xy 35.56 52.07)
+			(xy 354.33 66.04) (xy 359.41 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6483,7 +6050,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 58.42 63.5)
+			(xy 382.27 73.66) (xy 382.27 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6541,6 +6108,38 @@
 		)
 		(uuid "d53d4d74-6185-4094-b4fb-cf20182d6d02")
 	)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5da8b06-d7db-4ce8-9d67-15579f8a34ca")
+	)
+	(wire
+		(pts
+			(xy 125.73 39.37) (xy 151.13 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 7 0 1)
+		)
+		(uuid "d6bef636-2706-4327-ae5a-35c2d3a71524")
+	)
+	(wire
+		(pts
+			(xy 172.72 39.37) (xy 176.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 7 0 1)
+		)
+		(uuid "de39f4fd-0e58-4992-97e9-643f0e965073")
+	)
 	(bus
 		(pts
 			(xy 153.67 166.37) (xy 153.67 179.07)
@@ -6573,7 +6172,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 38.1) (xy 302.26 38.1)
+			(xy 330.2 38.1) (xy 336.55 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6593,7 +6192,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 58.42 54.61)
+			(xy 382.27 66.04) (xy 382.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6633,7 +6232,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 38.1) (xy 336.55 38.1)
+			(xy 368.3 38.1) (xy 374.65 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6653,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 59.69) (xy 35.56 63.5)
+			(xy 359.41 73.66) (xy 359.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6663,7 +6262,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 40.64) (xy 295.91 41.91)
+			(xy 330.2 40.64) (xy 330.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6693,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 58.42 52.07)
+			(xy 382.27 63.5) (xy 382.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6743,7 +6342,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 40.64) (xy 336.55 40.64)
+			(xy 368.3 40.64) (xy 374.65 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6753,7 +6352,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 39.37) (xy 176.53 39.37)
+			(xy 168.91 39.37) (xy 172.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6821,6 +6420,17 @@
 			(justify left bottom)
 		)
 		(uuid "04de56df-fc10-454e-bb9f-1d8751086b9b")
+	)
+	(label "+BATT_P"
+		(at 130.81 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "062bdd69-0837-444e-a899-7c2bdac767c2")
 	)
 	(label "ETH.X3-"
 		(at 257.81 116.84 0)
@@ -7886,7 +7496,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 57.15 0)
+		(at 382.27 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7897,7 +7507,7 @@
 		(fields_autoplaced yes)
 		(uuid "095a00e6-dbc5-40b4-abd4-21859d8c6cb3")
 		(property "Reference" "C63"
-			(at 60.96 55.8862 0)
+			(at 384.81 69.8562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7908,7 +7518,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 60.96 58.4262 0)
+			(at 384.81 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7919,7 +7529,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 58.42 57.15 0)
+			(at 382.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 57.15 0)
+			(at 382.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,7 +7551,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 57.15 0)
+			(at 382.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,7 +7838,7 @@
 	)
 	(symbol
 		(lib_id "WR-WTB:64600411622")
-		(at 341.63 36.83 270)
+		(at 379.73 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8239,6 +7849,248 @@
 		(fields_autoplaced yes)
 		(uuid "10ff0c1c-f74e-4fd3-a96e-d340c837a827")
 		(property "Reference" "J21"
+			(at 382.27 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "64600411622"
+			(at 367.03 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Wurth_WR-WTB:J_Wurth_WR-WTB_64600411622"
+			(at 387.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/64600411622?ki"
+			(at 397.51 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.50 mm Male Shrouded Header"
+			(at 379.73 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 394.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 392.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "WR-WTB"
+			(at 389.89 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pins (pcs)" "4"
+			(at 387.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch (mm)" "2.50"
+			(at 384.81 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gender" "Male"
+			(at 382.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Vertical"
+			(at 379.73 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 377.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IR (A)" "3"
+			(at 374.65 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Working Voltage (V (AC))" "250"
+			(at 372.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PCB/Cable/Panel" "PCB"
+			(at 369.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Resistance (mohm)" "20"
+			(at 367.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol. R" "max."
+			(at 364.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (mm)" "12.5"
+			(at 361.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ac0ab022-e620-4caf-aeee-93de474689d4")
+		)
+		(pin "1"
+			(uuid "9148e452-f3b4-434a-8560-9b21787cb225")
+		)
+		(pin "3"
+			(uuid "ddaff783-72f1-4339-b05c-c63deffdfed2")
+		)
+		(pin "2"
+			(uuid "cc159950-4e4b-4b1a-b309-d8a3d1f589f7")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WR-WTB:64600411622")
+		(at 341.63 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f3a0ff-4079-4489-a056-90d7b17602f6")
+		(property "Reference" "J17"
 			(at 344.17 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,248 +8290,6 @@
 		)
 		(property "L (mm)" "12.5"
 			(at 323.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "ac0ab022-e620-4caf-aeee-93de474689d4")
-		)
-		(pin "1"
-			(uuid "9148e452-f3b4-434a-8560-9b21787cb225")
-		)
-		(pin "3"
-			(uuid "ddaff783-72f1-4339-b05c-c63deffdfed2")
-		)
-		(pin "2"
-			(uuid "cc159950-4e4b-4b1a-b309-d8a3d1f589f7")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WR-WTB:64600411622")
-		(at 307.34 36.83 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11f3a0ff-4079-4489-a056-90d7b17602f6")
-		(property "Reference" "J17"
-			(at 309.88 36.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "64600411622"
-			(at 294.64 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Wurth_WR-WTB:J_Wurth_WR-WTB_64600411622"
-			(at 314.96 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/64600411622?ki"
-			(at 325.12 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.50 mm Male Shrouded Header"
-			(at 307.34 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 322.58 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 320.04 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "WR-WTB"
-			(at 317.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pins (pcs)" "4"
-			(at 314.96 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch (mm)" "2.50"
-			(at 312.42 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gender" "Male"
-			(at 309.88 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "Vertical"
-			(at 307.34 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" "THT"
-			(at 304.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IR (A)" "3"
-			(at 302.26 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Working Voltage (V (AC))" "250"
-			(at 299.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PCB/Cable/Panel" "PCB"
-			(at 297.18 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Resistance (mohm)" "20"
-			(at 294.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol. R" "max."
-			(at 292.1 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (mm)" "12.5"
-			(at 289.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8892,270 +8502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "691323100002:691323100002")
-		(at 123.19 40.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e3ced8a-5e02-4438-a3c2-255f4fe276b5")
-		(property "Reference" "J1"
-			(at 122.936 44.704 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "691323100002"
-			(at 100.33 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "691378140024-2:J_Wurth_WR-TBL_691323100002"
-			(at 102.87 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691323100002.pdf?ki"
-			(at 105.41 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Series 3231 - 3.50 mm Vertical PCB Header with Flanges"
-			(at 123.19 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 107.95 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 110.49 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20260401"
-			(at 113.03 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WR-TBL"
-			(at 115.57 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "691323100002"
-			(at 118.11 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "THT"
-			(at 120.65 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Automotive" "No"
-			(at 123.19 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IR (A)" "10"
-			(at 125.73 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Pins (pcs)" "2"
-			(at 128.27 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Pitch (mm)" "3.5"
-			(at 130.81 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Type" "Vertical"
-			(at 133.35 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Application" "PCB Header"
-			(at 135.89 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "PCB/Cable/Panel" "Cable"
-			(at 138.43 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Modularity" "No"
-			(at 140.97 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" "10A 2pins 3.5mm"
-			(at 123.19 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3499e423-7cfd-49bb-b8e3-511dc9618fc7")
-		)
-		(pin "2"
-			(uuid "6b2bc429-bb77-4f2e-9786-551653bc8312")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 21.59 49.53 0)
+		(at 345.44 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9165,7 +8513,7 @@
 		(dnp no)
 		(uuid "21b9fc06-ab11-4be6-9545-b2ea78d71e2f")
 		(property "Reference" "#PWR046"
-			(at 21.59 53.34 0)
+			(at 345.44 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +8524,7 @@
 			)
 		)
 		(property "Value" "+BATT_P"
-			(at 21.59 45.72 0)
+			(at 345.44 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9186,7 +8534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 49.53 0)
+			(at 345.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9197,7 +8545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 49.53 0)
+			(at 345.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9208,7 +8556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 21.59 49.53 0)
+			(at 345.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9492,7 +8840,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 35.56 57.15 0)
+		(at 359.41 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9502,7 +8850,7 @@
 		(dnp no)
 		(uuid "344e7f47-7315-4ad1-a9c5-7104acf88439")
 		(property "Reference" "C62"
-			(at 30.988 55.372 0)
+			(at 354.838 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9513,7 +8861,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 36.068 59.182 0)
+			(at 359.918 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9524,7 +8872,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 35.56 57.15 0)
+			(at 359.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +8883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 57.15 0)
+			(at 359.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +8894,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 35.56 57.15 0)
+			(at 359.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,7 +8921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 45.72 0)
+		(at 127 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9584,7 +8932,7 @@
 		(fields_autoplaced yes)
 		(uuid "46df5ed8-007d-4889-ad3a-3609fb870df3")
 		(property "Reference" "#PWR050"
-			(at 133.35 52.07 0)
+			(at 127 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9595,7 +8943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 50.8 0)
+			(at 127 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9606,7 +8954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 45.72 0)
+			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +8965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 45.72 0)
+			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +8976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 45.72 0)
+			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9652,7 +9000,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 330.2 31.75 0)
+		(at 368.3 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9662,7 +9010,7 @@
 		(dnp no)
 		(uuid "48188e37-2f60-43d3-925a-72e91b416811")
 		(property "Reference" "#PWR057"
-			(at 330.2 35.56 0)
+			(at 368.3 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9673,7 +9021,7 @@
 			)
 		)
 		(property "Value" "+BATT_P"
-			(at 329.438 27.94 0)
+			(at 367.538 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9683,7 +9031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 31.75 0)
+			(at 368.3 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 31.75 0)
+			(at 368.3 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9705,7 +9053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 330.2 31.75 0)
+			(at 368.3 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9729,7 +9077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 64.77 0)
+		(at 370.84 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9740,7 +9088,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c93954b-0adc-46a7-a865-dc282ec40197")
 		(property "Reference" "#PWR015"
-			(at 46.99 71.12 0)
+			(at 370.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9751,7 +9099,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 69.85 0)
+			(at 370.84 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9762,7 +9110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 64.77 0)
+			(at 370.84 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9773,7 +9121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 64.77 0)
+			(at 370.84 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,7 +9132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 64.77 0)
+			(at 370.84 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9807,8 +9155,276 @@
 		)
 	)
 	(symbol
+		(lib_id "691323100002:691325110004")
+		(at 120.65 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c9963a9-0c7c-4d07-ad20-2c0310f89351")
+		(property "Reference" "J7"
+			(at 120.65 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "691325110004"
+			(at 97.79 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "691378140024-2:J_Wurth_WR-TBL_691325110004"
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691325110004.pdf?ki"
+			(at 102.87 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Series 3251 - 3.50 mm Horizontal PCB Header with Flanges"
+			(at 120.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 105.41 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 107.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260401"
+			(at 110.49 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WR-TBL"
+			(at 113.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "691325110004"
+			(at 115.57 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "THT"
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Automotive" "No"
+			(at 120.65 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IR (A)" "10"
+			(at 123.19 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Pins (pcs)" "4"
+			(at 125.73 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Pitch (mm)" "3.5"
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "PCB Header"
+			(at 130.81 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Application" "PCB Header"
+			(at 133.35 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "PCB/Cable/Panel" "Cable"
+			(at 135.89 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Modularity" "No"
+			(at 138.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" "10A 4pins 3.5mm"
+			(at 120.65 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0df60266-cc0c-4f63-b2ab-bf8cc4729bd8")
+		)
+		(pin "1"
+			(uuid "91fddaae-a428-4385-a520-330357151887")
+		)
+		(pin "2"
+			(uuid "5bf232bf-617f-4242-889e-17d10f0c3641")
+		)
+		(pin "3"
+			(uuid "79b7670f-1800-4b3a-9e72-d515b8e499fb")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 20.32 52.07 90)
+		(at 344.17 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9819,7 +9435,7 @@
 		(fields_autoplaced yes)
 		(uuid "55d3787c-c787-473e-bf32-2fe9f1d62da3")
 		(property "Reference" "#FLG06"
-			(at 18.415 52.07 0)
+			(at 342.265 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9830,7 +9446,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 16.51 52.0699 90)
+			(at 340.36 66.0399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9842,7 +9458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 52.07 0)
+			(at 344.17 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9853,7 +9469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 52.07 0)
+			(at 344.17 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,7 +9480,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 20.32 52.07 0)
+			(at 344.17 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10326,83 +9942,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 365.76 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58425a88-9bbe-4ee9-a6bf-9383ceba58db")
-		(property "Reference" "#PWR040"
-			(at 365.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT_P"
-			(at 365.76 29.464 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 365.76 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa58b0af-b8df-460c-9b43-e66546092902")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 123.19 0)
 		(unit 1)
@@ -10482,87 +10021,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 365.76 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62684817-d769-45d8-97dc-a557c33de3da")
-		(property "Reference" "#PWR051"
-			(at 365.76 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 365.76 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02b9e8c7-5ea0-42bf-b214-ce976f5ab0ef")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
-		(at 27.94 52.07 90)
+		(at 351.79 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10573,7 +10033,7 @@
 		(fields_autoplaced yes)
 		(uuid "628a5fe9-068f-4487-90fd-d048d0ae3320")
 		(property "Reference" "L3"
-			(at 27.94 46.99 90)
+			(at 351.79 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10583,7 +10043,7 @@
 			)
 		)
 		(property "Value" "1pH"
-			(at 27.94 49.53 90)
+			(at 351.79 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10593,7 +10053,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 27.94 52.07 0)
+			(at 351.79 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10604,7 +10064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 52.07 0)
+			(at 351.79 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10615,7 +10075,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 27.94 52.07 0)
+			(at 351.79 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10635,225 +10095,6 @@
 			(project "orin-interface"
 				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "694106402002:694106402002")
-		(at 375.92 36.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64066b24-434d-4448-96ad-63437e293adf")
-		(property "Reference" "J10"
-			(at 376.8725 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "694106402002"
-			(at 363.22 13.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "694106402002:J_Wurth_WR-DC_694106402002"
-			(at 363.22 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/694106402002.pdf?ki"
-			(at 363.22 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Power Jacks ED"
-			(at 375.92 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 363.22 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 363.22 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20251209"
-			(at 363.22 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WR-DC"
-			(at 363.22 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "694106402002"
-			(at 363.22 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "THT"
-			(at 363.22 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Center pin Ø (Value) (mm)" "2.0"
-			(at 363.22 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Plug OD (mm)" "5.5"
-			(at 363.22 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Type" "Vertical"
-			(at 363.22 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "IR (A)" "3.0"
-			(at 363.22 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Working Voltage (V (DC))" "30"
-			(at 363.22 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "260e9ea0-b872-440b-a412-27f68575e327")
-		)
-		(pin "1"
-			(uuid "11f51ee2-b213-432c-aa22-2f6feac0dca7")
-		)
-		(pin "3"
-			(uuid "76c33d86-2262-44f7-a776-9ce37a85f65b")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11223,7 +10464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 330.2 41.91 0)
+		(at 368.3 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11234,6 +10475,85 @@
 		(fields_autoplaced yes)
 		(uuid "7f08b31b-c157-4097-93f0-503c8469ce4a")
 		(property "Reference" "#PWR055"
+			(at 368.3 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bc87004-6d40-4e33-9347-847177a93dd5")
+		)
+		(instances
+			(project "orin-interface"
+				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97491777-6cad-4574-aab2-f4089bac1c8f")
+		(property "Reference" "#PWR041"
 			(at 330.2 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11289,85 +10609,6 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bc87004-6d40-4e33-9347-847177a93dd5")
-		)
-		(instances
-			(project "orin-interface"
-				(path "/18aef7c7-2f0e-4a2c-9e5d-7b655e80b6a3"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 295.91 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97491777-6cad-4574-aab2-f4089bac1c8f")
-		(property "Reference" "#PWR041"
-			(at 295.91 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 295.91 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 295.91 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 295.91 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
 			(uuid "9aba8e52-da67-404b-92cc-8ce1ce9429f0")
 		)
 		(instances
@@ -11381,7 +10622,7 @@
 	)
 	(symbol
 		(lib_id "173950336:173950336")
-		(at 46.99 52.07 0)
+		(at 370.84 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11391,7 +10632,7 @@
 		(dnp no)
 		(uuid "a3307f90-a450-478a-aa42-6b9b9907c0ef")
 		(property "Reference" "U4"
-			(at 46.99 44.704 0)
+			(at 370.84 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11401,7 +10642,7 @@
 			)
 		)
 		(property "Value" "173950336"
-			(at 46.99 44.45 0)
+			(at 370.84 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11412,7 +10653,7 @@
 			)
 		)
 		(property "Footprint" "173950336:U_Wurth_WPME-FDSM_17395xx36"
-			(at 116.84 48.006 0)
+			(at 440.69 61.976 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11423,7 +10664,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/173950336.pdf"
-			(at 115.062 50.292 0)
+			(at 438.912 64.262 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11434,7 +10675,7 @@
 			)
 		)
 		(property "Description" "For optimal performance the module is recommended for use with external input and output capacitors as well as a an input filter"
-			(at 46.99 52.07 0)
+			(at 370.84 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +10686,7 @@
 			)
 		)
 		(property "Vin (V)" "4.75 - 36"
-			(at 118.364 54.102 0)
+			(at 442.214 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +10697,7 @@
 			)
 		)
 		(property "Vout (V)" "3.3"
-			(at 118.364 56.388 0)
+			(at 442.214 70.358 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,7 +10708,7 @@
 			)
 		)
 		(property "Iout (A)" "0.5"
-			(at 118.364 58.42 0)
+			(at 442.214 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11497,7 +10738,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 21.59 57.15 0)
+		(at 345.44 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11507,7 +10748,7 @@
 		(dnp no)
 		(uuid "a419b4c2-7f74-49bd-8b04-9a37324ea5b5")
 		(property "Reference" "C25"
-			(at 17.272 55.372 0)
+			(at 341.122 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11518,7 +10759,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 22.352 59.182 0)
+			(at 346.202 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11529,7 +10770,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 21.59 57.15 0)
+			(at 345.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11540,7 +10781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 57.15 0)
+			(at 345.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11551,7 +10792,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 21.59 57.15 0)
+			(at 345.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11917,7 +11158,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 295.91 31.75 0)
+		(at 330.2 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11927,7 +11168,7 @@
 		(dnp no)
 		(uuid "dd146b4e-4a69-4fc9-9f43-7e0bdd552a47")
 		(property "Reference" "#PWR056"
-			(at 295.91 35.56 0)
+			(at 330.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11938,7 +11179,7 @@
 			)
 		)
 		(property "Value" "+BATT_P"
-			(at 295.148 27.94 0)
+			(at 329.438 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11948,7 +11189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 31.75 0)
+			(at 330.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11959,7 +11200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 31.75 0)
+			(at 330.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11970,7 +11211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 295.91 31.75 0)
+			(at 330.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12073,7 +11314,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 58.42 49.53 0)
+		(at 382.27 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12083,7 +11324,7 @@
 		(dnp no)
 		(uuid "e91a9970-f205-4cbc-add9-1fa3c0aa9dd1")
 		(property "Reference" "#PWR054"
-			(at 58.42 53.34 0)
+			(at 382.27 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12094,7 +11335,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 57.658 45.72 0)
+			(at 381.508 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12104,7 +11345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 49.53 0)
+			(at 382.27 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,7 +11356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 49.53 0)
+			(at 382.27 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12126,7 +11367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 58.42 49.53 0)
+			(at 382.27 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12375,7 +11616,7 @@
 	)
 	(sheet
 		(at 151.13 36.83)
-		(size 17.78 15.24)
+		(size 17.78 5.715)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12401,7 +11642,7 @@
 			)
 		)
 		(property "Sheetfile" "eFuse.kicad_sch"
-			(at 151.13 52.6546 0)
+			(at 151.13 43.1296 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
