@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 1,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -1367,7 +1367,7 @@
         "uuid": "e42df04f-3e58-4415-86e6-9a5d9df63a21"
       }
     ],
-    "used_designators": "J1-13,R1-59,IC1-9,Q1-9,L1-4,#PWR1-88,C1-50,U1-18,D1-21,S1-2,TP1-17,SW1-6,Y1,Z1",
+    "used_designators": "IC1-9,R1-59,J1-13,Q1-9,#PWR1-88,L1-4,C1-50,U1-18,D1-21,S1-2,TP1-17,SW1-6,Y1,Z1",
     "variants": []
   },
   "sheets": [
