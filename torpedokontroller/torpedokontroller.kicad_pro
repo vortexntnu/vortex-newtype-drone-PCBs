@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 1,
+          "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -133,7 +133,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -162,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -677,10 +677,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -710,13 +710,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1317,6 +1317,96 @@
           "label": "2θ50% typ.(°)",
           "name": "2θ50% typ.(°)",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "navn",
+          "name": "navn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Poles",
+          "name": "Poles",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Wire Section",
+          "name": "Wire Section",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TCR (ppm/ °C).1",
+          "name": "TCR (ppm/ °C).1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TCR (ppm/ °C)",
+          "name": "TCR (ppm/ °C)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRated (W)",
+          "name": "PRated (W)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Modularity",
+          "name": "Modularity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R",
+          "name": "R",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sponsor",
+          "name": "Sponsor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer 1",
+          "name": "Manufacturer 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1",
+          "name": "Supplier 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number 1",
+          "name": "Supplier Part Number 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Unit Price 1",
+          "name": "Supplier Unit Price 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Unit Price NOK",
+          "name": "Supplier Unit Price NOK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1367,7 +1457,7 @@
         "uuid": "e42df04f-3e58-4415-86e6-9a5d9df63a21"
       }
     ],
-    "used_designators": "IC1-9,R1-59,J1-13,Q1-9,#PWR1-88,L1-4,C1-50,U1-18,D1-21,S1-2,TP1-17,SW1-6,Y1,Z1",
+    "used_designators": "IC1-9,R1-59,J1-13,Q1-9,#PWR1-88,L1-4,C1-50,U1-19,D1-21,S1-2,TP1-17,SW1-6,Y1,Z1",
     "variants": []
   },
   "sheets": [
