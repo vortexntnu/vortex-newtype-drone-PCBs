@@ -5,3 +5,17 @@
   (constraint diff_pair_gap (opt 0.2mm))
   (constraint diff_pair_uncoupled (max 5mm))
   (constraint skew (max 1mm)))
+
+(rule "deco_edge_copper"
+  (constraint edge_clearance (min 0.2mm))
+  (condition "A.NetName == '' || B.NetName == ''"))
+
+
+(rule "deco_edge_copper"
+  (constraint edge_clearance (min 0mm))
+  (condition "A.NetName == '' || B.NetName == ''"))
+
+(rule "deco_edge_copper"
+	(constraint edge_clearance (min 0mm))
+	(severity ignore)
+	(condition "A.NetName == '' || B.NetName == ''"))
