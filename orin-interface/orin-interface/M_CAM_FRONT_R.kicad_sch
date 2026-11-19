@@ -2093,7 +2093,7 @@
 		)
 		(uuid "f5eee6a7-c2f4-452b-8945-890a4bf7f12c")
 	)
-	(label "ETH.X3-"
+	(label "FR.X3-"
 		(at 144.78 66.04 0)
 		(effects
 			(font
@@ -2103,7 +2103,7 @@
 		)
 		(uuid "2297e9fb-a284-402e-b6d2-6493cf564a67")
 	)
-	(label "ETH.X2-"
+	(label "FR.X2-"
 		(at 144.78 58.42 0)
 		(effects
 			(font
@@ -2113,7 +2113,7 @@
 		)
 		(uuid "2e18aa4f-c03f-4b06-91a8-d3a4d95bf5d4")
 	)
-	(label "ETH.X2+"
+	(label "FR.X2+"
 		(at 144.78 53.34 0)
 		(effects
 			(font
@@ -2123,7 +2123,7 @@
 		)
 		(uuid "2f630812-84c8-432c-909a-a41bea7f3793")
 	)
-	(label "ETH{CBE}"
+	(label "FR{CBE}"
 		(at 157.48 45.72 0)
 		(effects
 			(font
@@ -2133,7 +2133,7 @@
 		)
 		(uuid "34a96f10-b508-4c7a-b5be-f9dd216a6a24")
 	)
-	(label "ETH.D1+"
+	(label "FR.D1+"
 		(at 74.93 45.72 0)
 		(effects
 			(font
@@ -2143,7 +2143,7 @@
 		)
 		(uuid "4c976d68-6615-43c6-91a2-1fc498e1696a")
 	)
-	(label "ETH.X4+"
+	(label "FR.X4+"
 		(at 144.78 68.58 0)
 		(effects
 			(font
@@ -2153,7 +2153,7 @@
 		)
 		(uuid "543aa557-bb78-4ced-9759-d4875096e6ee")
 	)
-	(label "ETH.D4-"
+	(label "FR.D4-"
 		(at 74.93 73.66 0)
 		(effects
 			(font
@@ -2163,7 +2163,7 @@
 		)
 		(uuid "6bd9f3bb-c348-473c-b66d-3d1bdfd920b6")
 	)
-	(label "ETH.X3+"
+	(label "FR.X3+"
 		(at 144.78 60.96 0)
 		(effects
 			(font
@@ -2173,7 +2173,7 @@
 		)
 		(uuid "6c284e44-584d-4275-9c2a-7a01de83cc0a")
 	)
-	(label "ETH.D1-"
+	(label "FR.D1-"
 		(at 74.93 50.8 0)
 		(effects
 			(font
@@ -2183,7 +2183,7 @@
 		)
 		(uuid "7d99bb43-eb2a-474a-83f9-c007cf417670")
 	)
-	(label "ETH.X4-"
+	(label "FR.X4-"
 		(at 144.78 73.66 0)
 		(effects
 			(font
@@ -2193,7 +2193,7 @@
 		)
 		(uuid "973e9d1e-c1a9-4837-8485-bab9f7c9387d")
 	)
-	(label "ETH.X1-"
+	(label "FR.X1-"
 		(at 144.78 50.8 0)
 		(effects
 			(font
@@ -2203,7 +2203,7 @@
 		)
 		(uuid "a4b04269-7db5-4a1c-855d-391f62117824")
 	)
-	(label "ETH.D2+"
+	(label "FR.D2+"
 		(at 74.93 53.34 0)
 		(effects
 			(font
@@ -2213,7 +2213,7 @@
 		)
 		(uuid "a5bbd33f-5a05-414e-8181-f440cd6d2e11")
 	)
-	(label "ETH.X1+"
+	(label "FR.X1+"
 		(at 144.78 45.72 0)
 		(effects
 			(font
@@ -2223,7 +2223,7 @@
 		)
 		(uuid "b5d3f0ff-4b98-4766-a2bd-51c81cf43623")
 	)
-	(label "ETH.D3-"
+	(label "FR.D3-"
 		(at 74.93 66.04 0)
 		(effects
 			(font
@@ -2233,7 +2233,7 @@
 		)
 		(uuid "bc01b115-7eb3-40c3-8aac-abc97bb8a357")
 	)
-	(label "ETH.D3+"
+	(label "FR.D3+"
 		(at 74.93 60.96 0)
 		(effects
 			(font
@@ -2243,7 +2243,7 @@
 		)
 		(uuid "e56f10ce-6702-48de-add6-a668847c29e6")
 	)
-	(label "ETH.D2-"
+	(label "FR.D2-"
 		(at 74.93 58.42 0)
 		(effects
 			(font
@@ -2253,7 +2253,7 @@
 		)
 		(uuid "f07d3a3b-a58f-4c15-a491-5cb320d194f1")
 	)
-	(label "ETH.D4+"
+	(label "FR.D4+"
 		(at 74.93 68.58 0)
 		(effects
 			(font
@@ -2274,7 +2274,7 @@
 		)
 		(uuid "0de0053e-ae2c-42ca-ac60-2a9871c9409c")
 	)
-	(hierarchical_label "ETH{CBE}"
+	(hierarchical_label "FR{CBE}"
 		(shape output)
 		(at 168.91 45.72 0)
 		(effects
@@ -2296,7 +2296,7 @@
 		)
 		(uuid "cc31e9fb-bc5c-44b8-bb67-f7ec21f0fd67")
 	)
-	(hierarchical_label "ETH{GBE}"
+	(hierarchical_label "FR{GBE}"
 		(shape input)
 		(at 52.07 59.69 180)
 		(effects

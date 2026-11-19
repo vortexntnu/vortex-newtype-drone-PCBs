@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -146,7 +146,7 @@
         "min_track_width": 0.152,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.1,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -701,7 +701,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Gerber/Bob/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -955,6 +955,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PCB/Cable/Panel",
+          "name": "PCB/Cable/Panel",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1005,7 +1011,7 @@
         "uuid": "6d7a1667-a0e1-4e68-9a43-9a403cb7beab"
       }
     ],
-    "used_designators": "TP1",
+    "used_designators": "TP1-31",
     "variants": []
   },
   "sheets": [

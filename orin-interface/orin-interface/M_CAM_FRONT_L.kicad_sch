@@ -2023,7 +2023,7 @@
 		)
 		(uuid "fde2023a-93cd-4033-9cf5-4b32e7c793a0")
 	)
-	(label "ETH.D4+"
+	(label "FL.D4+"
 		(at 74.93 64.77 0)
 		(effects
 			(font
@@ -2033,7 +2033,7 @@
 		)
 		(uuid "1c9cbffc-1f20-41dd-b25f-8edbbcbf4190")
 	)
-	(label "ETH.X4+"
+	(label "FL.X4+"
 		(at 143.51 64.77 0)
 		(effects
 			(font
@@ -2043,7 +2043,7 @@
 		)
 		(uuid "260b1149-7013-4b6f-aa49-2f83a00064f8")
 	)
-	(label "ETH.X2+"
+	(label "FL.X2+"
 		(at 143.51 49.53 0)
 		(effects
 			(font
@@ -2053,7 +2053,7 @@
 		)
 		(uuid "30b8372f-1fdb-4843-b1de-f4c1229c3bbd")
 	)
-	(label "ETH.D2+"
+	(label "FL.D2+"
 		(at 74.93 49.53 0)
 		(effects
 			(font
@@ -2063,7 +2063,7 @@
 		)
 		(uuid "391fc091-efb6-4e1b-bd32-f54f815d4576")
 	)
-	(label "ETH.D1-"
+	(label "FL.D1-"
 		(at 74.93 46.99 0)
 		(effects
 			(font
@@ -2073,7 +2073,7 @@
 		)
 		(uuid "3bc8f54a-4c5c-4891-adec-4f8ed89cc5a9")
 	)
-	(label "ETH.D3-"
+	(label "FL.D3-"
 		(at 74.93 62.23 0)
 		(effects
 			(font
@@ -2083,7 +2083,7 @@
 		)
 		(uuid "46f40d29-1c1b-4b32-b92d-fefb9bebf15a")
 	)
-	(label "ETH.X1+"
+	(label "FL.X1+"
 		(at 143.51 41.91 0)
 		(effects
 			(font
@@ -2093,7 +2093,7 @@
 		)
 		(uuid "69706f99-6d8e-4224-bf90-a89ac34eb307")
 	)
-	(label "ETH.X3-"
+	(label "FL.X3-"
 		(at 143.51 62.23 0)
 		(effects
 			(font
@@ -2103,7 +2103,7 @@
 		)
 		(uuid "6fd134f8-a3ce-4788-877e-80b7a792a528")
 	)
-	(label "ETH.X1-"
+	(label "FL.X1-"
 		(at 143.51 46.99 0)
 		(effects
 			(font
@@ -2113,7 +2113,7 @@
 		)
 		(uuid "77367c8d-5562-440d-aa0a-e44e30ea61e7")
 	)
-	(label "ETH.X4-"
+	(label "FL.X4-"
 		(at 143.51 69.85 0)
 		(effects
 			(font
@@ -2123,7 +2123,7 @@
 		)
 		(uuid "8096ca64-2ca3-47b4-92de-252b7fb3a9b8")
 	)
-	(label "ETH.D2-"
+	(label "FL.D2-"
 		(at 74.93 54.61 0)
 		(effects
 			(font
@@ -2133,7 +2133,7 @@
 		)
 		(uuid "8b3426f6-9ae5-4b1d-8993-2ae732bcde54")
 	)
-	(label "ETH.D1+"
+	(label "FL.D1+"
 		(at 74.93 41.91 0)
 		(effects
 			(font
@@ -2143,7 +2143,7 @@
 		)
 		(uuid "a3edf840-2792-4ad9-8d3c-6af32938b3fc")
 	)
-	(label "ETH.D4-"
+	(label "FL.D4-"
 		(at 74.93 69.85 0)
 		(effects
 			(font
@@ -2153,7 +2153,7 @@
 		)
 		(uuid "bbf47ed3-a423-4350-96d8-6a208fd5d779")
 	)
-	(label "ETH.X3+"
+	(label "FL.X3+"
 		(at 143.51 57.15 0)
 		(effects
 			(font
@@ -2163,7 +2163,7 @@
 		)
 		(uuid "c3100207-1dce-44c9-9e97-eeb80f52e287")
 	)
-	(label "ETH.D3+"
+	(label "FL.D3+"
 		(at 74.93 57.15 0)
 		(effects
 			(font
@@ -2173,7 +2173,7 @@
 		)
 		(uuid "e6f88a88-cc0b-43f5-9ccc-e99734cf9744")
 	)
-	(label "ETH{CBE}"
+	(label "FL{CBE}"
 		(at 156.21 41.91 0)
 		(effects
 			(font
@@ -2183,7 +2183,7 @@
 		)
 		(uuid "ee89b1e5-b423-4870-94ff-7796acadbcb7")
 	)
-	(label "ETH.X2-"
+	(label "FL.X2-"
 		(at 143.51 54.61 0)
 		(effects
 			(font
@@ -2193,7 +2193,7 @@
 		)
 		(uuid "f97c7864-8b4b-4875-83a2-2bb9118fbe7d")
 	)
-	(hierarchical_label "ETH{GBE}"
+	(hierarchical_label "FL{GBE}"
 		(shape input)
 		(at 46.99 48.26 180)
 		(effects
@@ -2226,7 +2226,7 @@
 		)
 		(uuid "b108a1b9-82b8-450e-a9fe-32049d73ecc5")
 	)
-	(hierarchical_label "ETH{CBE}"
+	(hierarchical_label "FL{CBE}"
 		(shape output)
 		(at 166.37 41.91 0)
 		(effects

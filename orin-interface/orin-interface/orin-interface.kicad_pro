@@ -561,6 +561,114 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ACU.D1+": [
+        "ETH_100R"
+      ],
+      "/ACU.D1-": [
+        "ETH_100R"
+      ],
+      "/ACU.D2+": [
+        "ETH_100R"
+      ],
+      "/ACU.D2-": [
+        "ETH_100R"
+      ],
+      "/ACU.D3+": [
+        "ETH_100R"
+      ],
+      "/ACU.D3-": [
+        "ETH_100R"
+      ],
+      "/ACU.D4+": [
+        "ETH_100R"
+      ],
+      "/ACU.D4-": [
+        "ETH_100R"
+      ],
+      "/ACU.X1+": [
+        "ETH_100R"
+      ],
+      "/ACU.X1-": [
+        "ETH_100R"
+      ],
+      "/ACU.X2+": [
+        "ETH_100R"
+      ],
+      "/ACU.X2-": [
+        "ETH_100R"
+      ],
+      "/ACU.X3+": [
+        "ETH_100R"
+      ],
+      "/ACU.X3-": [
+        "ETH_100R"
+      ],
+      "/ACU.X4+": [
+        "ETH_100R"
+      ],
+      "/ACU.X4-": [
+        "ETH_100R"
+      ],
+      "/ACU{CBE}": [
+        "ETH_100R"
+      ],
+      "/ACU{GBE}": [
+        "ETH_100R"
+      ],
+      "/CAMD.D1+": [
+        "ETH_100R"
+      ],
+      "/CAMD.D1-": [
+        "ETH_100R"
+      ],
+      "/CAMD.D2+": [
+        "ETH_100R"
+      ],
+      "/CAMD.D2-": [
+        "ETH_100R"
+      ],
+      "/CAMD.D3+": [
+        "ETH_100R"
+      ],
+      "/CAMD.D3-": [
+        "ETH_100R"
+      ],
+      "/CAMD.D4+": [
+        "ETH_100R"
+      ],
+      "/CAMD.D4-": [
+        "ETH_100R"
+      ],
+      "/CAMD.X1+": [
+        "ETH_100R"
+      ],
+      "/CAMD.X1-": [
+        "ETH_100R"
+      ],
+      "/CAMD.X2+": [
+        "ETH_100R"
+      ],
+      "/CAMD.X2-": [
+        "ETH_100R"
+      ],
+      "/CAMD.X3+": [
+        "ETH_100R"
+      ],
+      "/CAMD.X3-": [
+        "ETH_100R"
+      ],
+      "/CAMD.X4+": [
+        "ETH_100R"
+      ],
+      "/CAMD.X4-": [
+        "ETH_100R"
+      ],
+      "/CAMD{CBE}": [
+        "ETH_100R"
+      ],
+      "/CAMD{GBE}": [
+        "ETH_100R"
+      ],
       "/ETH.D1+": [
         "ETH_100R"
       ],
@@ -667,6 +775,114 @@
         "ETH_100R"
       ],
       "/ETH{GBE}": [
+        "ETH_100R"
+      ],
+      "/FL.D1+": [
+        "ETH_100R"
+      ],
+      "/FL.D1-": [
+        "ETH_100R"
+      ],
+      "/FL.D2+": [
+        "ETH_100R"
+      ],
+      "/FL.D2-": [
+        "ETH_100R"
+      ],
+      "/FL.D3+": [
+        "ETH_100R"
+      ],
+      "/FL.D3-": [
+        "ETH_100R"
+      ],
+      "/FL.D4+": [
+        "ETH_100R"
+      ],
+      "/FL.D4-": [
+        "ETH_100R"
+      ],
+      "/FL.X1+": [
+        "ETH_100R"
+      ],
+      "/FL.X1-": [
+        "ETH_100R"
+      ],
+      "/FL.X2+": [
+        "ETH_100R"
+      ],
+      "/FL.X2-": [
+        "ETH_100R"
+      ],
+      "/FL.X3+": [
+        "ETH_100R"
+      ],
+      "/FL.X3-": [
+        "ETH_100R"
+      ],
+      "/FL.X4+": [
+        "ETH_100R"
+      ],
+      "/FL.X4-": [
+        "ETH_100R"
+      ],
+      "/FL{CBE}": [
+        "ETH_100R"
+      ],
+      "/FL{GBE}": [
+        "ETH_100R"
+      ],
+      "/FR.D1+": [
+        "ETH_100R"
+      ],
+      "/FR.D1-": [
+        "ETH_100R"
+      ],
+      "/FR.D2+": [
+        "ETH_100R"
+      ],
+      "/FR.D2-": [
+        "ETH_100R"
+      ],
+      "/FR.D3+": [
+        "ETH_100R"
+      ],
+      "/FR.D3-": [
+        "ETH_100R"
+      ],
+      "/FR.D4+": [
+        "ETH_100R"
+      ],
+      "/FR.D4-": [
+        "ETH_100R"
+      ],
+      "/FR.X1+": [
+        "ETH_100R"
+      ],
+      "/FR.X1-": [
+        "ETH_100R"
+      ],
+      "/FR.X2+": [
+        "ETH_100R"
+      ],
+      "/FR.X2-": [
+        "ETH_100R"
+      ],
+      "/FR.X3+": [
+        "ETH_100R"
+      ],
+      "/FR.X3-": [
+        "ETH_100R"
+      ],
+      "/FR.X4+": [
+        "ETH_100R"
+      ],
+      "/FR.X4-": [
+        "ETH_100R"
+      ],
+      "/FR{CBE}": [
+        "ETH_100R"
+      ],
+      "/FR{GBE}": [
         "ETH_100R"
       ],
       "/M_ACOUSTICS/ETH.X1+": [
@@ -865,7 +1081,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Gerber/Interface/",
       "specctra_dsn": "",
       "vrml": ""
     },
