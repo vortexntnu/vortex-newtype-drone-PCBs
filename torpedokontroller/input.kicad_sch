@@ -15050,7 +15050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 			(at 241.3 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15716,7 +15716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k7"
+		(property "Value" "4k7"
 			(at 65.024 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18722,7 +18722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 			(at 227.33 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -30983,7 +30983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 			(at 227.33 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -34632,7 +34632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Capasitors:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 			(at 241.3 74.93 0)
 			(hide yes)
 			(show_name no)
